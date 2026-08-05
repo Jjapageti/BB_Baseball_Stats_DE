@@ -39,3 +39,15 @@ v6 주요 변경
 - tests/
 
 화면에 새로 추가된 문구는 독일어입니다.
+BB Baseball Stats – Spielerprofil Layout-Fix v6.1
+
+1. Kopiere den Inhalt dieses Ordners in das Projektverzeichnis.
+2. Überschreibe:
+   - js/player.js
+   - css/theme.css
+3. Server neu starten und im Browser Strg+F5 drücken.
+
+Änderungen:
+- Der Hinweis zu Liga-/Saison-/Karrierezeilen steht jetzt unter der Statistiktabelle.
+- Der Hinweis läuft nicht mehr unter dem Radarprofil über die Spaltengrenze.
+- Lange Vergleichstexte im Radarbereich dürfen sauber umbrechen.
