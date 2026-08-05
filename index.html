@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Batting- und Pitching-Statistiken der ausgewählten Liga">
+  <title>BB Baseball Stats · Spielerstatistiken</title>
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader"></header>
+  <main class="page-shell" id="app">
+    <div class="page-heading league-page-heading">
+      <div>
+        <h1>Spielerstatistiken</h1>
+        <p id="seasonText">Baseball 2026</p>
+      </div>
+      <div id="leagueSwitcher"></div>
+    </div>
+
+    <div id="dataStatus"></div>
+    <section class="toolbar">
+      <div class="control">
+        <label>Datensatz</label>
+        <div class="toggle-group">
+          <button type="button" data-dataset="batting">Batting</button>
+          <button type="button" data-dataset="pitching">Pitching</button>
+        </div>
+      </div>
+      <div class="control">
+        <label for="teamFilter">Mannschaft</label>
+        <select id="teamFilter"><option value="all">Alle Mannschaften</option></select>
+      </div>
+      <div class="control">
+        <label for="minValue" id="minLabel">Mindest-PA</label>
+        <input id="minValue" type="number" min="0" step="1">
+      </div>
+      <div class="control">
+        <label>Qualifikation</label>
+        <label class="check-control"><input type="checkbox" id="qualifiedOnly" checked> Nur qualifizierte Spieler</label>
+      </div>
+      <div class="control search">
+        <label for="searchInput">Suche</label>
+        <input id="searchInput" type="search" placeholder="Spieler oder Mannschaft">
+      </div>
+      <div class="records-status" id="recordCount"></div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>Alle Statistiken</h2>
+        <span class="card-note" id="metricNotes"></span>
+      </div>
+      <div id="tableRoot"><div class="loading">Daten werden geladen …</div></div>
+    </section>
+  </main>
+  <footer class="site-footer" id="siteFooter"></footer>
+  <script type="module" src="js/records.js"></script>
+</body>
+</html>

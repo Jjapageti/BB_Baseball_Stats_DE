@@ -1,0 +1,61 @@
+BSM LANDESLIGA MERGE REPORT
+==============================================================================
+Erstellt        : 2026-08-04T13:16:49.709841+00:00
+Saison          : 2026
+Zusammengeführt : Landesliga Baseball
+Quellgruppen    : LLBBDivA=6208, LLBBDivB=6209
+Mannschaften    : 10
+Eindeutige Spiele: 65
+Gespielte Spiele: 44
+Batter          : 217
+Pitcher         : 63
+
+[GRUPPENERKENNUNG]
+- LLBBDivA (6208): teams=10 endpoint_matches=45
+- LLBBDivB (6209): teams=10 endpoint_matches=45
+
+[MANNSCHAFTEN]
+- entry=46101 | BEC | Challengers | primary=[6208, 6209] | secondary=[6209]
+- entry=46095 | MEG | Eagles | primary=[6208] | secondary=[6209]
+- entry=46103 | FLA | Flamingos 2 | primary=[6208, 6209] | secondary=[6209]
+- entry=46102 | POT2 | Porcupines 2 | primary=[6208, 6209] | secondary=[6209]
+- entry=46098 | BWP2 | Roadrunners 2 | primary=[6208] | secondary=[6209]
+- entry=46094 | BER | Roosters | primary=[6208] | secondary=[6209]
+- entry=46097 | BEA | Skylarks 3 | primary=[6208] | secondary=[6209]
+- entry=46096 | SLI | Sliders | primary=[6208] | secondary=[6209]
+- entry=46099 | BES2 | Sluggers 2 | primary=[6208, 6209] | secondary=[6209]
+- entry=46100 | BEW2 | Wizards 2 | primary=[6208, 6209] | secondary=[6209]
+
+[TEAM-STATISTIKEN]
+[OK] batting  entry=46101 team=Challengers rows=20
+[OK] pitching entry=46101 team=Challengers rows=7
+[OK] batting  entry=46095 team=Eagles rows=21
+[OK] pitching entry=46095 team=Eagles rows=5
+[OK] batting  entry=46103 team=Flamingos 2 rows=20
+[OK] pitching entry=46103 team=Flamingos 2 rows=5
+[OK] batting  entry=46102 team=Porcupines 2 rows=23
+[OK] pitching entry=46102 team=Porcupines 2 rows=6
+[OK] batting  entry=46098 team=Roadrunners 2 rows=21
+[OK] pitching entry=46098 team=Roadrunners 2 rows=5
+[OK] batting  entry=46094 team=Roosters rows=16
+[OK] pitching entry=46094 team=Roosters rows=4
+[OK] batting  entry=46097 team=Skylarks 3 rows=19
+[OK] pitching entry=46097 team=Skylarks 3 rows=6
+[OK] batting  entry=46096 team=Sliders rows=17
+[OK] pitching entry=46096 team=Sliders rows=4
+[OK] batting  entry=46099 team=Sluggers 2 rows=24
+[OK] pitching entry=46099 team=Sluggers 2 rows=8
+[OK] batting  entry=46100 team=Wizards 2 rows=36
+[OK] pitching entry=46100 team=Wizards 2 rows=13
+
+[AUSGABE]
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\teams.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\matches.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\standings.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\batting.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\pitching.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\combined.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\fetch_report.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_league_data\landesliga_2026\fetch_report.txt
+
+combined.json kann direkt von der Website eingelesen werden.

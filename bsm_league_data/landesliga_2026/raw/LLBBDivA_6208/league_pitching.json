@@ -1,0 +1,327 @@
+{
+  "league": {
+    "type": "League",
+    "id": 6208,
+    "name": "Landesliga Baseball",
+    "acronym": "LLBBDivA",
+    "sport": "baseball_male",
+    "human_sport": "Baseball",
+    "human_sport_short": "BB",
+    "sort": 0,
+    "season": 2026,
+    "age_group": "Erwachsene",
+    "human_age_group": "Erwachsene",
+    "human_age_group_short": "ERW",
+    "game_class": {
+      "type": "GameClass",
+      "id": 6207,
+      "name": "Landesliga Baseball",
+      "acronym": "LLBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "human_sport_short": "BB",
+      "sort": 0,
+      "season": 2026,
+      "age_group": "Erwachsene",
+      "human_age_group": "Erwachsene",
+      "human_age_group_short": "ERW"
+    }
+  },
+  "data": [
+    {
+      "league_entry": {
+        "id": 46095,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45835,
+          "team": {
+            "id": 23929,
+            "name": "Eagles",
+            "short_name": "MEG",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 603,
+                "name": "Mahlow Eagles",
+                "acronym": "MEG",
+                "short_name": "Mahlow Eagles",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 10,
+        "complete_games": 1,
+        "innings_pitched": "58.1",
+        "batters_faced": 327,
+        "at_bats": 262,
+        "runs": 86,
+        "earned_runs": 53,
+        "hits": 98,
+        "doubles": 16,
+        "triples": 2,
+        "homeruns": 3,
+        "strikeouts": 39,
+        "base_on_balls_allowed": 47,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 8,
+        "wild_pitches": 10,
+        "interferences": 0,
+        "balks": 2,
+        "wins": 5,
+        "losses": 5,
+        "saves": 0,
+        "earned_runs_average": "8.18",
+        "walks_and_hits_per_innings_pitched": "2.49"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46098,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45998,
+          "team": {
+            "id": 24092,
+            "name": "Roadrunners 2",
+            "short_name": "BWP2",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 502,
+                "name": "Roadrunners",
+                "acronym": "BWP",
+                "short_name": "Berlin Ausbau Roadrunners",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 9,
+        "complete_games": 7,
+        "innings_pitched": "46.2",
+        "batters_faced": 245,
+        "at_bats": 201,
+        "runs": 51,
+        "earned_runs": 38,
+        "hits": 65,
+        "doubles": 9,
+        "triples": 2,
+        "homeruns": 3,
+        "strikeouts": 50,
+        "base_on_balls_allowed": 33,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 7,
+        "wild_pitches": 16,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 8,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "7.33",
+        "walks_and_hits_per_innings_pitched": "2.10"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46094,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45766,
+          "team": {
+            "id": 23860,
+            "name": "Roosters",
+            "short_name": "BER",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 491,
+                "name": "Ravens / Roosters",
+                "acronym": "BER",
+                "short_name": "NSF Berlin Ravens / Roosters",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 6,
+        "complete_games": 0,
+        "innings_pitched": "35.1",
+        "batters_faced": 231,
+        "at_bats": 176,
+        "runs": 74,
+        "earned_runs": 42,
+        "hits": 65,
+        "doubles": 10,
+        "triples": 5,
+        "homeruns": 5,
+        "strikeouts": 36,
+        "base_on_balls_allowed": 45,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 8,
+        "wild_pitches": 21,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 1,
+        "losses": 5,
+        "saves": 1,
+        "earned_runs_average": "10.70",
+        "walks_and_hits_per_innings_pitched": "3.11"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46097,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45924,
+          "team": {
+            "id": 24018,
+            "name": "Skylarks 3",
+            "short_name": "BEA",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 485,
+                "name": "Skylarks",
+                "acronym": "BEA",
+                "short_name": "Berlin Skylarks",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "complete_games": 0,
+        "innings_pitched": "24.2",
+        "batters_faced": 179,
+        "at_bats": 154,
+        "runs": 77,
+        "earned_runs": 41,
+        "hits": 60,
+        "doubles": 7,
+        "triples": 0,
+        "homeruns": 4,
+        "strikeouts": 21,
+        "base_on_balls_allowed": 20,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 2,
+        "wild_pitches": 14,
+        "interferences": 0,
+        "balks": 3,
+        "wins": 1,
+        "losses": 4,
+        "saves": 0,
+        "earned_runs_average": "14.96",
+        "walks_and_hits_per_innings_pitched": "3.24"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46096,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45857,
+          "team": {
+            "id": 23951,
+            "name": "Sliders",
+            "short_name": "SLI",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 495,
+                "name": "Sliders",
+                "acronym": "SLI",
+                "short_name": "Berlin Sliders",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 9,
+        "complete_games": 3,
+        "innings_pitched": "48.2",
+        "batters_faced": 266,
+        "at_bats": 216,
+        "runs": 76,
+        "earned_runs": 50,
+        "hits": 76,
+        "doubles": 7,
+        "triples": 4,
+        "homeruns": 2,
+        "strikeouts": 43,
+        "base_on_balls_allowed": 36,
+        "intentional_base_on_balls": 6,
+        "hit_by_pitches": 9,
+        "wild_pitches": 8,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 6,
+        "losses": 3,
+        "saves": 0,
+        "earned_runs_average": "9.25",
+        "walks_and_hits_per_innings_pitched": "2.30"
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 39,
+        "complete_games": 11,
+        "innings_pitched": "213.2",
+        "batters_faced": 1248,
+        "at_bats": 1009,
+        "runs": 364,
+        "earned_runs": 224,
+        "hits": 364,
+        "doubles": 49,
+        "triples": 13,
+        "homeruns": 17,
+        "strikeouts": 189,
+        "base_on_balls_allowed": 181,
+        "intentional_base_on_balls": 6,
+        "hit_by_pitches": 34,
+        "wild_pitches": 69,
+        "interferences": 0,
+        "balks": 8,
+        "wins": 21,
+        "losses": 18,
+        "saves": 1,
+        "earned_runs_average": "9.44",
+        "walks_and_hits_per_innings_pitched": "2.55"
+      }
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "generated_at": "2026-08-04T12:37:43.522655+00:00",
+  "league": {
+    "id": 6205,
+    "name": "Verbandsliga Baseball",
+    "acronym": "VLBB",
+    "season": 2026,
+    "merged": false,
+    "source_groups": [
+      {
+        "id": 6205,
+        "acronym": "VLBB",
+        "name": "Verbandsliga Baseball"
+      }
+    ],
+    "merge_rules": {
+      "teams": "league_entry.id",
+      "matches": "match.id",
+      "players": "league_entry.id + person.id",
+      "standings": "played matches"
+    }
+  },
+  "counts": {
+    "teams": 5,
+    "matches": 30,
+    "played_matches": 19,
+    "batters": 116,
+    "pitchers": 35
+  },
+  "teams": [
+    {
+      "id": 46088,
+      "name": "Porcupines",
+      "acronym": "POT",
+      "club": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        }
+      ],
+      "sources": [
+        "VLBB:league_batting",
+        "VLBB:league_pitching",
+        "VLBB:group_table",
+        "VLBB:group_matches"
+      ],
+      "group_ids": [
+        6205
+      ],
+      "group_acronyms": [
+        "VLBB"
+      ],
+      "primary_group_ids": [
+        6205
+      ],
+      "secondary_group_ids": []
+    },
+    {
+      "id": 46086,
+      "name": "Skylarks 2",
+      "acronym": "BEA",
+      "club": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        }
+      ],
+      "sources": [
+        "VLBB:league_batting",
+        "VLBB:league_pitching",
+        "VLBB:group_table",
+        "VLBB:group_matches"
+      ],
+      "group_ids": [
+        6205
+      ],
+      "group_acronyms": [
+        "VLBB"
+      ],
+      "primary_group_ids": [
+        6205
+      ],
+      "secondary_group_ids": []
+    },
+    {
+      "id": 46084,
+      "name": "Sluggers",
+      "acronym": "BES",
+      "club": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        }
+      ],
+      "sources": [
+        "VLBB:league_batting",
+        "VLBB:league_pitching",
+        "VLBB:group_table",
+        "VLBB:group_matches"
+      ],
+      "group_ids": [
+        6205
+      ],
+      "group_acronyms": [
+        "VLBB"
+      ],
+      "primary_group_ids": [
+        6205
+      ],
+      "secondary_group_ids": []
+    },
+    {
+      "id": 46087,
+      "name": "Wallbreakers",
+      "acronym": "LWA",
+      "club": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 249,
+          "name": "Wallbreakers",
+          "acronym": "LWA",
+          "short_name": "Leipzig Wallbreakers",
+          "logo_url": null
+        }
+      ],
+      "sources": [
+        "VLBB:league_batting",
+        "VLBB:league_pitching",
+        "VLBB:group_table",
+        "VLBB:group_matches"
+      ],
+      "group_ids": [
+        6205
+      ],
+      "group_acronyms": [
+        "VLBB"
+      ],
+      "primary_group_ids": [
+        6205
+      ],
+      "secondary_group_ids": []
+    },
+    {
+      "id": 46085,
+      "name": "Wizards",
+      "acronym": "BEW",
+      "club": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        }
+      ],
+      "sources": [
+        "VLBB:league_batting",
+        "VLBB:league_pitching",
+        "VLBB:group_table",
+        "VLBB:group_matches"
+      ],
+      "group_ids": [
+        6205
+      ],
+      "group_acronyms": [
+        "VLBB"
+      ],
+      "primary_group_ids": [
+        6205
+      ],
+      "secondary_group_ids": []
+    }
+  ],
+  "team_fetches": [
+    {
+      "league_entry_id": 46088,
+      "team": "Porcupines",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46088/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 19,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46088,
+      "team": "Porcupines",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46088/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 7,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46086,
+      "team": "Skylarks 2",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46086/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 24,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46086,
+      "team": "Skylarks 2",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46086/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 8,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46084,
+      "team": "Sluggers",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46084/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 20,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46084,
+      "team": "Sluggers",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46084/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 5,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46087,
+      "team": "Wallbreakers",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46087/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 30,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46087,
+      "team": "Wallbreakers",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46087/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 8,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46085,
+      "team": "Wizards",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46085/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 23,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46085,
+      "team": "Wizards",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46085/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 7,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    }
+  ],
+  "discovery_failures": [],
+  "output_files": {
+    "teams": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\teams.json",
+    "matches": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\matches.json",
+    "standings": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\standings.json",
+    "batting": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\batting.json",
+    "pitching": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\pitching.json",
+    "combined": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\combined.json",
+    "fetch_report_json": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\fetch_report.json",
+    "fetch_report_text": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\verbandsliga_2026\\fetch_report.txt"
+  }
+}

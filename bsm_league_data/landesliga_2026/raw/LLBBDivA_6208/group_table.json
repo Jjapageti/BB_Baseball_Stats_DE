@@ -1,0 +1,157 @@
+{
+  "league_id": 6208,
+  "league_name": "Landesliga Baseball",
+  "season": 2026,
+  "rows": [
+    {
+      "rank": "1.",
+      "not_competing": "",
+      "team_name": "Roadrunners 2",
+      "short_team_name": "BWP2",
+      "match_count": 9,
+      "wins_count": 8,
+      "losses_count": 1,
+      "quota": ".889",
+      "games_behind": "0",
+      "streak": "L1",
+      "league_entry": {
+        "id": 46098,
+        "team": {
+          "id": 24092,
+          "name": "Roadrunners 2",
+          "short_name": "BWP2",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 502,
+              "name": "Roadrunners",
+              "acronym": "BWP",
+              "short_name": "Berlin Ausbau Roadrunners",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": "2.",
+      "not_competing": "",
+      "team_name": "Sliders",
+      "short_team_name": "SLI",
+      "match_count": 10,
+      "wins_count": 7,
+      "losses_count": 3,
+      "quota": ".700",
+      "games_behind": "1.5",
+      "streak": "W1",
+      "league_entry": {
+        "id": 46096,
+        "team": {
+          "id": 23951,
+          "name": "Sliders",
+          "short_name": "SLI",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 495,
+              "name": "Sliders",
+              "acronym": "SLI",
+              "short_name": "Berlin Sliders",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": "3.",
+      "not_competing": "",
+      "team_name": "Eagles",
+      "short_team_name": "MEG",
+      "match_count": 10,
+      "wins_count": 5,
+      "losses_count": 5,
+      "quota": ".500",
+      "games_behind": "3.5",
+      "streak": "L1",
+      "league_entry": {
+        "id": 46095,
+        "team": {
+          "id": 23929,
+          "name": "Eagles",
+          "short_name": "MEG",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 603,
+              "name": "Mahlow Eagles",
+              "acronym": "MEG",
+              "short_name": "Mahlow Eagles",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": "4.",
+      "not_competing": "",
+      "team_name": "Roosters",
+      "short_team_name": "BER",
+      "match_count": 6,
+      "wins_count": 1,
+      "losses_count": 5,
+      "quota": ".167",
+      "games_behind": "5.5",
+      "streak": "L4",
+      "league_entry": {
+        "id": 46094,
+        "team": {
+          "id": 23860,
+          "name": "Roosters",
+          "short_name": "BER",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 491,
+              "name": "Ravens / Roosters",
+              "acronym": "BER",
+              "short_name": "NSF Berlin Ravens / Roosters",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": "5.",
+      "not_competing": "",
+      "team_name": "Skylarks 3",
+      "short_team_name": "BEA",
+      "match_count": 6,
+      "wins_count": 1,
+      "losses_count": 5,
+      "quota": ".167",
+      "games_behind": "5.5",
+      "streak": "W1",
+      "league_entry": {
+        "id": 46097,
+        "team": {
+          "id": 24018,
+          "name": "Skylarks 3",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "generated_at": "2026-08-04T13:16:49.709841+00:00",
+  "league": {
+    "id": "landesliga-2026",
+    "name": "Landesliga Baseball",
+    "acronym": "LLBB",
+    "season": 2026,
+    "merged": true,
+    "source_groups": [
+      {
+        "id": 6208,
+        "acronym": "LLBBDivA",
+        "name": "Landesliga Baseball"
+      },
+      {
+        "id": 6209,
+        "acronym": "LLBBDivB",
+        "name": "Landesliga Baseball"
+      }
+    ],
+    "merge_rules": {
+      "teams": "league_entry.id",
+      "matches": "match.id",
+      "players": "league_entry.id + person.id",
+      "standings": "unique played matches"
+    }
+  },
+  "counts": {
+    "teams": 10,
+    "matches": 65,
+    "played_matches": 44,
+    "batters": 217,
+    "pitchers": 63
+  },
+  "groups": [
+    {
+      "id": 6208,
+      "acronym": "LLBBDivA",
+      "teams": 10,
+      "matches": 45,
+      "failures": []
+    },
+    {
+      "id": 6209,
+      "acronym": "LLBBDivB",
+      "teams": 10,
+      "matches": 45,
+      "failures": []
+    }
+  ],
+  "teams": [
+    {
+      "id": 46101,
+      "name": "Challengers",
+      "acronym": "BEC",
+      "club": {
+        "type": "Club",
+        "id": 486,
+        "name": "SCC Challengers",
+        "acronym": "BEC",
+        "short_name": "SCC e.V.",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:group_matches",
+        "LLBBDivB:league_batting",
+        "LLBBDivB:league_pitching",
+        "LLBBDivB:group_table",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208,
+        6209
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46095,
+      "name": "Eagles",
+      "acronym": "MEG",
+      "club": {
+        "type": "Club",
+        "id": 603,
+        "name": "Mahlow Eagles",
+        "acronym": "MEG",
+        "short_name": "Mahlow Eagles",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:league_batting",
+        "LLBBDivA:league_pitching",
+        "LLBBDivA:group_table",
+        "LLBBDivA:group_matches",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46103,
+      "name": "Flamingos 2",
+      "acronym": "FLA",
+      "club": {
+        "type": "Club",
+        "id": 604,
+        "name": "Flamingos",
+        "acronym": "FLA",
+        "short_name": "Berlin Flamingos",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:group_matches",
+        "LLBBDivB:league_batting",
+        "LLBBDivB:league_pitching",
+        "LLBBDivB:group_table",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208,
+        6209
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46102,
+      "name": "Porcupines 2",
+      "acronym": "POT2",
+      "club": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        }
+      ],
+      "sources": [
+        "LLBBDivA:group_matches",
+        "LLBBDivB:league_batting",
+        "LLBBDivB:league_pitching",
+        "LLBBDivB:group_table",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208,
+        6209
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46098,
+      "name": "Roadrunners 2",
+      "acronym": "BWP2",
+      "club": {
+        "type": "Club",
+        "id": 502,
+        "name": "Roadrunners",
+        "acronym": "BWP",
+        "short_name": "Berlin Ausbau Roadrunners",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:league_batting",
+        "LLBBDivA:league_pitching",
+        "LLBBDivA:group_table",
+        "LLBBDivA:group_matches",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46094,
+      "name": "Roosters",
+      "acronym": "BER",
+      "club": {
+        "type": "Club",
+        "id": 491,
+        "name": "Ravens / Roosters",
+        "acronym": "BER",
+        "short_name": "NSF Berlin Ravens / Roosters",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:league_batting",
+        "LLBBDivA:league_pitching",
+        "LLBBDivA:group_table",
+        "LLBBDivA:group_matches",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46097,
+      "name": "Skylarks 3",
+      "acronym": "BEA",
+      "club": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:league_batting",
+        "LLBBDivA:league_pitching",
+        "LLBBDivA:group_table",
+        "LLBBDivA:group_matches",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46096,
+      "name": "Sliders",
+      "acronym": "SLI",
+      "club": {
+        "type": "Club",
+        "id": 495,
+        "name": "Sliders",
+        "acronym": "SLI",
+        "short_name": "Berlin Sliders",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:league_batting",
+        "LLBBDivA:league_pitching",
+        "LLBBDivA:group_table",
+        "LLBBDivA:group_matches",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46099,
+      "name": "Sluggers 2",
+      "acronym": "BES2",
+      "club": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:group_matches",
+        "LLBBDivB:league_batting",
+        "LLBBDivB:league_pitching",
+        "LLBBDivB:group_table",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208,
+        6209
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    },
+    {
+      "id": 46100,
+      "name": "Wizards 2",
+      "acronym": "BEW2",
+      "club": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "clubs": [
+        {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        }
+      ],
+      "sources": [
+        "LLBBDivA:group_matches",
+        "LLBBDivB:league_batting",
+        "LLBBDivB:league_pitching",
+        "LLBBDivB:group_table",
+        "LLBBDivB:group_matches"
+      ],
+      "group_ids": [
+        6208,
+        6209
+      ],
+      "group_acronyms": [
+        "LLBBDivA",
+        "LLBBDivB"
+      ],
+      "primary_group_ids": [
+        6208,
+        6209
+      ],
+      "secondary_group_ids": [
+        6209
+      ]
+    }
+  ],
+  "team_fetches": [
+    {
+      "league_entry_id": 46101,
+      "team": "Challengers",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46101/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 20,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46101,
+      "team": "Challengers",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46101/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 7,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46095,
+      "team": "Eagles",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46095/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 21,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46095,
+      "team": "Eagles",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46095/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 5,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46103,
+      "team": "Flamingos 2",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46103/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 20,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46103,
+      "team": "Flamingos 2",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46103/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 5,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46102,
+      "team": "Porcupines 2",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46102/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 23,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46102,
+      "team": "Porcupines 2",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46102/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 6,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46098,
+      "team": "Roadrunners 2",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46098/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 21,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46098,
+      "team": "Roadrunners 2",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46098/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 5,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46094,
+      "team": "Roosters",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46094/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 16,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46094,
+      "team": "Roosters",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46094/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 4,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46097,
+      "team": "Skylarks 3",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46097/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 19,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46097,
+      "team": "Skylarks 3",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46097/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 6,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46096,
+      "team": "Sliders",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46096/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 17,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46096,
+      "team": "Sliders",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46096/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 4,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46099,
+      "team": "Sluggers 2",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46099/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 24,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46099,
+      "team": "Sluggers 2",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46099/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 8,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46100,
+      "team": "Wizards 2",
+      "dataset": "batting",
+      "url": "https://bsm.baseball-softball.de/league_entries/46100/statistics/batting.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 36,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    },
+    {
+      "league_entry_id": 46100,
+      "team": "Wizards 2",
+      "dataset": "pitching",
+      "url": "https://bsm.baseball-softball.de/league_entries/46100/statistics/pitching.json",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "rows": 13,
+      "top_level_keys": [
+        "data",
+        "league_entry",
+        "summaries"
+      ]
+    }
+  ],
+  "output_files": {
+    "teams": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\teams.json",
+    "matches": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\matches.json",
+    "standings": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\standings.json",
+    "batting": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\batting.json",
+    "pitching": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\pitching.json",
+    "combined": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\combined.json",
+    "fetch_report_json": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\fetch_report.json",
+    "fetch_report_text": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\bsm_league_data\\landesliga_2026\\fetch_report.txt"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-08-04T13:16:49.709841+00:00",
+  "league": {
+    "id": "landesliga-2026",
+    "name": "Landesliga Baseball",
+    "acronym": "LLBB",
+    "season": 2026,
+    "merged": true,
+    "source_groups": [
+      {
+        "id": 6208,
+        "acronym": "LLBBDivA",
+        "name": "Landesliga Baseball"
+      },
+      {
+        "id": 6209,
+        "acronym": "LLBBDivB",
+        "name": "Landesliga Baseball"
+      }
+    ],
+    "merge_rules": {
+      "teams": "league_entry.id",
+      "matches": "match.id",
+      "players": "league_entry.id + person.id",
+      "standings": "unique played matches"
+    }
+  },
+  "note": "Inoffizielle Gesamttabelle aus deduplizierten abgeschlossenen Spielen von DivA und DivB.",
+  "standings": [
+    {
+      "league_entry_id": 46098,
+      "team": "Roadrunners 2",
+      "acronym": "BWP2",
+      "games": 9,
+      "wins": 8,
+      "losses": 1,
+      "ties": 0,
+      "runs_for": 131,
+      "runs_against": 51,
+      "run_diff": 80,
+      "win_pct": 0.889,
+      "rank": 1
+    },
+    {
+      "league_entry_id": 46099,
+      "team": "Sluggers 2",
+      "acronym": "BES2",
+      "games": 9,
+      "wins": 7,
+      "losses": 2,
+      "ties": 0,
+      "runs_for": 109,
+      "runs_against": 61,
+      "run_diff": 48,
+      "win_pct": 0.778,
+      "rank": 2
+    },
+    {
+      "league_entry_id": 46096,
+      "team": "Sliders",
+      "acronym": "SLI",
+      "games": 10,
+      "wins": 7,
+      "losses": 3,
+      "ties": 0,
+      "runs_for": 79,
+      "runs_against": 76,
+      "run_diff": 3,
+      "win_pct": 0.7,
+      "rank": 3
+    },
+    {
+      "league_entry_id": 46103,
+      "team": "Flamingos 2",
+      "acronym": "FLA",
+      "games": 10,
+      "wins": 6,
+      "losses": 4,
+      "ties": 0,
+      "runs_for": 114,
+      "runs_against": 64,
+      "run_diff": 50,
+      "win_pct": 0.6,
+      "rank": 4
+    },
+    {
+      "league_entry_id": 46101,
+      "team": "Challengers",
+      "acronym": "BEC",
+      "games": 10,
+      "wins": 6,
+      "losses": 4,
+      "ties": 0,
+      "runs_for": 110,
+      "runs_against": 81,
+      "run_diff": 29,
+      "win_pct": 0.6,
+      "rank": 5
+    },
+    {
+      "league_entry_id": 46095,
+      "team": "Eagles",
+      "acronym": "MEG",
+      "games": 10,
+      "wins": 5,
+      "losses": 5,
+      "ties": 0,
+      "runs_for": 70,
+      "runs_against": 86,
+      "run_diff": -16,
+      "win_pct": 0.5,
+      "rank": 6
+    },
+    {
+      "league_entry_id": 46100,
+      "team": "Wizards 2",
+      "acronym": "BEW2",
+      "games": 10,
+      "wins": 4,
+      "losses": 6,
+      "ties": 0,
+      "runs_for": 83,
+      "runs_against": 91,
+      "run_diff": -8,
+      "win_pct": 0.4,
+      "rank": 7
+    },
+    {
+      "league_entry_id": 46094,
+      "team": "Roosters",
+      "acronym": "BER",
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "ties": 0,
+      "runs_for": 33,
+      "runs_against": 74,
+      "run_diff": -41,
+      "win_pct": 0.167,
+      "rank": 8
+    },
+    {
+      "league_entry_id": 46097,
+      "team": "Skylarks 3",
+      "acronym": "BEA",
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "ties": 0,
+      "runs_for": 23,
+      "runs_against": 79,
+      "run_diff": -56,
+      "win_pct": 0.167,
+      "rank": 9
+    },
+    {
+      "league_entry_id": 46102,
+      "team": "Porcupines 2",
+      "acronym": "POT2",
+      "games": 10,
+      "wins": 0,
+      "losses": 10,
+      "ties": 0,
+      "runs_for": 70,
+      "runs_against": 159,
+      "run_diff": -89,
+      "win_pct": 0.0,
+      "rank": 10
+    }
+  ]
+}

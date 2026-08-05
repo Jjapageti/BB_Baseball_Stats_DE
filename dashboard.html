@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Baseball-Statistiken für Berlin und Brandenburg">
+  <title>BB Baseball Stats · Übersicht</title>
+  <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader"></header>
+  <main class="page-shell" id="app">
+    <section class="hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <div class="hero-eyebrow">Berlin-Brandenburg Baseball</div>
+          <h1 id="leagueTitle">Baseball-Statistiken 2026</h1>
+          <p id="leagueDescription"></p>
+          <p class="card-note" id="generatedAt"></p>
+        </div>
+        <div class="hero-switch" id="leagueSwitcher"></div>
+      </div>
+    </section>
+
+    <div id="dataStatus"></div>
+    <section class="summary-grid" id="summaryCards"><div class="loading">Daten werden geladen …</div></section>
+
+    <section class="dashboard-grid">
+      <article class="card">
+        <div class="card-header"><h2>Gesamttabelle</h2><span class="tag">Abgeschlossene Spiele</span></div>
+        <div class="card-body flush" id="standings"></div>
+      </article>
+      <article class="card">
+        <div class="card-header"><h2>WAR TOP 10</h2><span class="tag accent">Schätzwert*</span></div>
+        <div class="card-body flush" id="warTop"></div>
+      </article>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="card">
+        <div class="card-header"><h2>Batting-Bestenlisten</h2><span class="card-note">mit Qualifikationsgrenze</span></div>
+        <div class="card-body leader-grid" id="hitterLeaders"></div>
+      </article>
+      <article class="card">
+        <div class="card-header"><h2>Pitching-Bestenlisten</h2><span class="card-note">mit Qualifikationsgrenze</span></div>
+        <div class="card-body leader-grid" id="pitcherLeaders"></div>
+      </article>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="card">
+        <div class="card-header"><h2>Letzte Ergebnisse</h2></div>
+        <div class="card-body match-list" id="recentMatches"></div>
+      </article>
+      <article class="card">
+        <div class="card-header"><h2>Kommende Spiele</h2></div>
+        <div class="card-body match-list" id="upcomingMatches"></div>
+      </article>
+    </section>
+  </main>
+
+  <dialog class="team-detail-dialog" id="teamDetailDialog" aria-labelledby="teamDetailTitle">
+    <div class="team-detail-shell">
+      <header class="team-detail-header">
+        <div class="team-detail-heading">
+          <div data-team-detail-identity></div>
+          <div>
+            <h2 id="teamDetailTitle" data-team-detail-title>Mannschaft</h2>
+            <p data-team-detail-subtitle></p>
+          </div>
+        </div>
+        <button type="button" class="dialog-close" data-team-detail-close aria-label="Mannschaftsstatistik schließen">×</button>
+      </header>
+      <div class="team-detail-toolbar">
+        <div class="record-tabs team-detail-tabs">
+          <button type="button" data-team-dataset="batting">Schlagstatistik</button>
+          <button type="button" data-team-dataset="pitching">Wurfstatistik</button>
+        </div>
+        <span class="meta-pill" data-team-detail-count></span>
+      </div>
+      <div class="team-detail-table" data-team-detail-table></div>
+      <footer class="team-detail-footer">
+        <span>Statistik der ausgewählten Mannschaft in dieser Liga und Saison.</span>
+        <button type="button" class="secondary-button" data-team-detail-close>Schließen</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>

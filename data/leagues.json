@@ -1,0 +1,30 @@
+{
+  "defaultLeague": "landesliga",
+  "storageKey": "bbStats.selectedLeague",
+  "leagues": [
+    {
+      "key": "landesliga",
+      "name": "Landesliga Baseball",
+      "season": 2026,
+      "acronym": "LLBB",
+      "badge": "DivA + DivB",
+      "description": "Zusammengeführte Statistik aus LLBBDivA und LLBBDivB. Doppelte Spiele und Mannschaften werden anhand der Match-ID und der League-Entry-ID entfernt.",
+      "dataCandidates": [
+        "./bsm_league_data/landesliga_2026/combined.json",
+        "./data/landesliga_2026.json"
+      ]
+    },
+    {
+      "key": "verbandsliga",
+      "name": "Verbandsliga Baseball",
+      "season": 2026,
+      "acronym": "VLBB",
+      "badge": "VLBB",
+      "description": "Gesamtstatistik der Verbandsliga Baseball 2026 auf Basis der League-Group 6205.",
+      "dataCandidates": [
+        "./bsm_league_data/verbandsliga_2026/combined.json",
+        "./data/verbandsliga_2026.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "league": {
+    "type": "League",
+    "id": 6209,
+    "name": "Landesliga Baseball",
+    "acronym": "LLBBDivB",
+    "sport": "baseball_male",
+    "human_sport": "Baseball",
+    "human_sport_short": "BB",
+    "sort": 0,
+    "season": 2026,
+    "age_group": "Erwachsene",
+    "human_age_group": "Erwachsene",
+    "human_age_group_short": "ERW",
+    "game_class": {
+      "type": "GameClass",
+      "id": 6207,
+      "name": "Landesliga Baseball",
+      "acronym": "LLBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "human_sport_short": "BB",
+      "sort": 0,
+      "season": 2026,
+      "age_group": "Erwachsene",
+      "human_age_group": "Erwachsene",
+      "human_age_group_short": "ERW"
+    }
+  },
+  "data": [
+    {
+      "league_entry": {
+        "id": 46101,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45938,
+          "team": {
+            "id": 24032,
+            "name": "Challengers",
+            "short_name": "BEC",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 486,
+                "name": "SCC Challengers",
+                "acronym": "BEC",
+                "short_name": "SCC e.V.",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 9,
+        "complete_games": 4,
+        "innings_pitched": "53.2",
+        "batters_faced": 314,
+        "at_bats": 242,
+        "runs": 81,
+        "earned_runs": 60,
+        "hits": 83,
+        "doubles": 17,
+        "triples": 3,
+        "homeruns": 3,
+        "strikeouts": 41,
+        "base_on_balls_allowed": 59,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 9,
+        "wild_pitches": 17,
+        "interferences": 0,
+        "balks": 4,
+        "wins": 5,
+        "losses": 4,
+        "saves": 0,
+        "earned_runs_average": "10.06",
+        "walks_and_hits_per_innings_pitched": "2.65"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46103,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 46033,
+          "team": {
+            "id": 24127,
+            "name": "Flamingos 2",
+            "short_name": "FLA",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 604,
+                "name": "Flamingos",
+                "acronym": "FLA",
+                "short_name": "Berlin Flamingos",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 9,
+        "complete_games": 5,
+        "innings_pitched": "45.0",
+        "batters_faced": 249,
+        "at_bats": 208,
+        "runs": 57,
+        "earned_runs": 38,
+        "hits": 70,
+        "doubles": 14,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 63,
+        "base_on_balls_allowed": 30,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 11,
+        "wild_pitches": 7,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 6,
+        "losses": 3,
+        "saves": 0,
+        "earned_runs_average": "7.60",
+        "walks_and_hits_per_innings_pitched": "2.22"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46102,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45946,
+          "team": {
+            "id": 24040,
+            "name": "Porcupines 2",
+            "short_name": "POT2",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 498,
+                "name": "Porcupines",
+                "acronym": "POT",
+                "short_name": "Potsdam Porcupines",
+                "logo_url": null
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 10,
+        "complete_games": 0,
+        "innings_pitched": "50.1",
+        "batters_faced": 372,
+        "at_bats": 299,
+        "runs": 159,
+        "earned_runs": 100,
+        "hits": 141,
+        "doubles": 23,
+        "triples": 4,
+        "homeruns": 5,
+        "strikeouts": 39,
+        "base_on_balls_allowed": 53,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 15,
+        "wild_pitches": 29,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 10,
+        "saves": 0,
+        "earned_runs_average": "17.88",
+        "walks_and_hits_per_innings_pitched": "3.85"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46099,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45831,
+          "team": {
+            "id": 23925,
+            "name": "Sluggers 2",
+            "short_name": "BES2",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 492,
+                "name": "Sluggers",
+                "acronym": "BES",
+                "short_name": "Berlin Sluggers",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 9,
+        "complete_games": 2,
+        "innings_pitched": "51.2",
+        "batters_faced": 278,
+        "at_bats": 221,
+        "runs": 61,
+        "earned_runs": 36,
+        "hits": 61,
+        "doubles": 10,
+        "triples": 3,
+        "homeruns": 0,
+        "strikeouts": 60,
+        "base_on_balls_allowed": 48,
+        "intentional_base_on_balls": 2,
+        "hit_by_pitches": 7,
+        "wild_pitches": 14,
+        "interferences": 0,
+        "balks": 2,
+        "wins": 7,
+        "losses": 2,
+        "saves": 1,
+        "earned_runs_average": "6.27",
+        "walks_and_hits_per_innings_pitched": "2.11"
+      }
+    },
+    {
+      "league_entry": {
+        "id": 46100,
+        "type": "LeagueEntry",
+        "game_class_entry": {
+          "id": 45915,
+          "team": {
+            "id": 24009,
+            "name": "Wizards 2",
+            "short_name": "BEW2",
+            "clubs": [
+              {
+                "type": "Club",
+                "id": 494,
+                "name": "Wizards",
+                "acronym": "BEW",
+                "short_name": "Berlin Wizards",
+                "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+              }
+            ],
+            "type": "Team"
+          },
+          "type": "GameClassEntry"
+        }
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 10,
+        "complete_games": 0,
+        "innings_pitched": "55.1",
+        "batters_faced": 320,
+        "at_bats": 249,
+        "runs": 91,
+        "earned_runs": 55,
+        "hits": 78,
+        "doubles": 11,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 41,
+        "base_on_balls_allowed": 38,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 29,
+        "wild_pitches": 26,
+        "interferences": 0,
+        "balks": 2,
+        "wins": 4,
+        "losses": 6,
+        "saves": 0,
+        "earned_runs_average": "8.95",
+        "walks_and_hits_per_innings_pitched": "2.10"
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 47,
+        "complete_games": 11,
+        "innings_pitched": "256.0",
+        "batters_faced": 1533,
+        "at_bats": 1219,
+        "runs": 449,
+        "earned_runs": 289,
+        "hits": 433,
+        "doubles": 75,
+        "triples": 12,
+        "homeruns": 8,
+        "strikeouts": 244,
+        "base_on_balls_allowed": 228,
+        "intentional_base_on_balls": 2,
+        "hit_by_pitches": 71,
+        "wild_pitches": 93,
+        "interferences": 0,
+        "balks": 9,
+        "wins": 22,
+        "losses": 25,
+        "saves": 1,
+        "earned_runs_average": "10.16",
+        "walks_and_hits_per_innings_pitched": "2.58"
+      }
+    }
+  ]
+}

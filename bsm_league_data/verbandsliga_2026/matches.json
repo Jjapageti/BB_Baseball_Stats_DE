@@ -1,0 +1,4373 @@
+{
+  "generated_at": "2026-08-04T12:37:43.522655+00:00",
+  "league": {
+    "id": 6205,
+    "name": "Verbandsliga Baseball",
+    "acronym": "VLBB",
+    "season": 2026,
+    "merged": false,
+    "source_groups": [
+      {
+        "id": 6205,
+        "acronym": "VLBB",
+        "name": "Verbandsliga Baseball"
+      }
+    ],
+    "merge_rules": {
+      "teams": "league_entry.id",
+      "matches": "match.id",
+      "players": "league_entry.id + person.id",
+      "standings": "played matches"
+    }
+  },
+  "matches": [
+    {
+      "id": 62665,
+      "match_id": "202603001",
+      "easyscore_id": null,
+      "time": "2026-07-11 14:00:00 +0200",
+      "state": "played",
+      "home_runs": 7,
+      "away_runs": 26,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62665/combined_scoresheets/Spiel-202603001.pdf",
+      "scoresheet_file_name": "Spiel-202603001.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-07-14T16:42:31.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 322,
+        "name": "Baseball / Softball",
+        "contact_name": null,
+        "address_addon": "Sportplatz am Neues Palais",
+        "street": "Lindenallee",
+        "postal_code": "14469",
+        "city": "Potsdam",
+        "club": {
+          "type": "Club",
+          "id": 498
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Porcupines",
+      "away_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Skylarks 2",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 3649,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-035835-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Spogat",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 8582,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014160-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roy",
+              "last_name": "Henson",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 3597,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-004571-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Detlef",
+              "last_name": "Buchleither",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62666,
+      "match_id": "202603002",
+      "easyscore_id": null,
+      "time": "2026-04-12 16:00:00 +0200",
+      "state": "played",
+      "home_runs": 15,
+      "away_runs": 7,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62666/combined_scoresheets/Spiel-202603002.pdf",
+      "scoresheet_file_name": "Spiel-202603002.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-04-15T07:06:08.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 321,
+        "name": "Baseball- und Softballfelder Sachtlebenstrasse ",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Sachtlebenstr. 36",
+        "postal_code": "14165",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 494
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wizards",
+      "away_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wallbreakers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 5823,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-053366-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Jaro",
+              "last_name": "van der Pas",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 4723,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-063405-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "José Cuauhtémoc",
+              "last_name": "Garcia Rodriguez",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 4739,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-029608-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Ute",
+              "last_name": "Reimann",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62667,
+      "match_id": "202603003",
+      "easyscore_id": null,
+      "time": "2026-04-18 15:30:00 +0200",
+      "state": "played",
+      "home_runs": 11,
+      "away_runs": 6,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62667/combined_scoresheets/Spiel-202603003.pdf",
+      "scoresheet_file_name": "Spiel-202603003.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-04-23T15:03:04.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 125,
+        "name": "Baseball",
+        "contact_name": null,
+        "address_addon": "Kölner Damm 50",
+        "street": "Kölner Damm 36",
+        "postal_code": "12353",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 492
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Sluggers",
+      "away_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wallbreakers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 1802,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014543-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Thomas",
+              "last_name": "Reimann",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7233,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080330-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Hornig",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 922,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-030832-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roman",
+              "last_name": "Rossberg",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62668,
+      "match_id": "202603004",
+      "easyscore_id": null,
+      "time": "2026-07-18 12:00:00 +0200",
+      "state": "played",
+      "home_runs": 21,
+      "away_runs": 6,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62668/combined_scoresheets/Spiel-202603004.pdf",
+      "scoresheet_file_name": "Spiel-202603004.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-07-22T19:22:26.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 324,
+        "name": "Gail-S.-Halvorsen-Park - Baseball",
+        "contact_name": null,
+        "address_addon": "Gail-S.-Halvorsen-Park - Feld 1",
+        "street": "Columbiadamm 111",
+        "postal_code": "10965",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 485
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Skylarks 2",
+      "away_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Porcupines",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 6155,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-034496-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Maxim",
+              "last_name": "Schweigert",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 5997,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-060539-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Julian",
+              "last_name": "Kaiser-Renker",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 8899,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014862-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Baptist",
+              "last_name": "Hirt",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62669,
+      "match_id": "202603005",
+      "easyscore_id": null,
+      "time": "2026-04-26 12:00:00 +0200",
+      "state": "played",
+      "home_runs": 3,
+      "away_runs": 16,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62669/combined_scoresheets/Spiel-202603005.pdf",
+      "scoresheet_file_name": "Spiel-202603005.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-04-29T09:27:33.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 106,
+        "name": "Gierke-Cigarren-Ballpark (Baseball)",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Dortmunder Straße 56/58",
+        "postal_code": "04357",
+        "city": "Leipzig",
+        "club": {
+          "type": "Club",
+          "id": 249
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wallbreakers",
+      "away_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wizards",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 8746,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-084391-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Stefan",
+              "last_name": "Behringer",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 4760,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-045971-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Dave",
+              "last_name": "Gorman",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 3528,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-045961-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Sandra",
+              "last_name": "Müller",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7561,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-089477-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Cora Johanna",
+              "last_name": "Große",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62670,
+      "match_id": "202603006",
+      "easyscore_id": null,
+      "time": "2026-04-26 16:30:00 +0200",
+      "state": "played",
+      "home_runs": 14,
+      "away_runs": 13,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62670/combined_scoresheets/Spiel-202603006.pdf",
+      "scoresheet_file_name": "Spiel-202603006.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-04-29T09:53:56.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 125,
+        "name": "Baseball",
+        "contact_name": null,
+        "address_addon": "Kölner Damm 50",
+        "street": "Kölner Damm 36",
+        "postal_code": "12353",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 492
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Sluggers",
+      "away_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Skylarks 2",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 5634,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-030832-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roman",
+              "last_name": "Rossberg",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7233,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080330-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Hornig",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 8850,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-096488-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Stanley",
+              "last_name": "Koehn-Haskins",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62671,
+      "match_id": "202603007",
+      "easyscore_id": null,
+      "time": "2026-05-03 13:00:00 +0200",
+      "state": "played",
+      "home_runs": 12,
+      "away_runs": 18,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62671/combined_scoresheets/Spiel-202603007.pdf",
+      "scoresheet_file_name": "Spiel-202603007.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-05-05T21:02:52.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 322,
+        "name": "Baseball / Softball",
+        "contact_name": null,
+        "address_addon": "Sportplatz am Neues Palais",
+        "street": "Lindenallee",
+        "postal_code": "14469",
+        "city": "Potsdam",
+        "club": {
+          "type": "Club",
+          "id": 498
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Porcupines",
+      "away_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Sluggers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 6614,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-060818-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Oskar",
+              "last_name": "Podszus",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 8586,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-062339-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Markus",
+              "last_name": "Mueller-Schikora",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 4300,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-067697-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Kristin",
+              "last_name": "Vogel",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62672,
+      "match_id": "202603008",
+      "easyscore_id": null,
+      "time": "2026-05-09 13:00:00 +0200",
+      "state": "played",
+      "home_runs": 9,
+      "away_runs": 12,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62672/combined_scoresheets/Spiel-202603008.pdf",
+      "scoresheet_file_name": "Spiel-202603008.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-05-11T16:28:08.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 106,
+        "name": "Gierke-Cigarren-Ballpark (Baseball)",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Dortmunder Straße 56/58",
+        "postal_code": "04357",
+        "city": "Leipzig",
+        "club": {
+          "type": "Club",
+          "id": 249
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wallbreakers",
+      "away_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wizards",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 5637,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-073111-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Stanley",
+              "last_name": "Braun",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 5454,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-072027-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Clemens",
+              "last_name": "Göhler",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 720,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-059126-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Clemens",
+              "last_name": "Mach",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62673,
+      "match_id": "202603009",
+      "easyscore_id": null,
+      "time": "2026-08-16 13:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 324,
+        "name": "Gail-S.-Halvorsen-Park - Baseball",
+        "contact_name": null,
+        "address_addon": "Gail-S.-Halvorsen-Park - Feld 1",
+        "street": "Columbiadamm 111",
+        "postal_code": "10965",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 485
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Skylarks 2",
+      "away_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Sluggers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 8582,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014160-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roy",
+              "last_name": "Henson",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 5997,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-060539-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Julian",
+              "last_name": "Kaiser-Renker",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 5979,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-070708-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Anna",
+              "last_name": "Leidinger",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62674,
+      "match_id": "202603010",
+      "easyscore_id": null,
+      "time": "2026-05-16 13:00:00 +0200",
+      "state": "played",
+      "home_runs": 8,
+      "away_runs": 12,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62674/combined_scoresheets/Spiel-202603010.pdf",
+      "scoresheet_file_name": "Spiel-202603010.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-05-17T12:30:13.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 106,
+        "name": "Gierke-Cigarren-Ballpark (Baseball)",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Dortmunder Straße 56/58",
+        "postal_code": "04357",
+        "city": "Leipzig",
+        "club": {
+          "type": "Club",
+          "id": 249
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wallbreakers",
+      "away_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Sluggers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 5637,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-073111-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Stanley",
+              "last_name": "Braun",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 5454,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-072027-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Clemens",
+              "last_name": "Göhler",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 942,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-050215-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Kristin",
+              "last_name": "Winkler",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62675,
+      "match_id": "202603011",
+      "easyscore_id": null,
+      "time": "2026-05-17 16:00:00 +0200",
+      "state": "played",
+      "home_runs": 13,
+      "away_runs": 3,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62675/combined_scoresheets/Spiel-202603011.pdf",
+      "scoresheet_file_name": "Spiel-202603011.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-05-19T12:47:47.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 321,
+        "name": "Baseball- und Softballfelder Sachtlebenstrasse ",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Sachtlebenstr. 36",
+        "postal_code": "14165",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 494
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wizards",
+      "away_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Porcupines",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 1802,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014543-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Thomas",
+              "last_name": "Reimann",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 4723,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-063405-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "José Cuauhtémoc",
+              "last_name": "Garcia Rodriguez",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 8553,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-056168-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Magdalena",
+              "last_name": "Schaper",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62676,
+      "match_id": "202603012",
+      "easyscore_id": null,
+      "time": "2026-05-02 13:00:00 +0200",
+      "state": "played",
+      "home_runs": 12,
+      "away_runs": 17,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62676/combined_scoresheets/Spiel-202603012.pdf",
+      "scoresheet_file_name": "Spiel-202603012.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-05-05T10:45:38.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 106,
+        "name": "Gierke-Cigarren-Ballpark (Baseball)",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Dortmunder Straße 56/58",
+        "postal_code": "04357",
+        "city": "Leipzig",
+        "club": {
+          "type": "Club",
+          "id": 249
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wallbreakers",
+      "away_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Skylarks 2",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 5637,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-073111-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Stanley",
+              "last_name": "Braun",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 4017,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-025989-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Daniel",
+              "last_name": "Nestke",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 3528,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-045961-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Sandra",
+              "last_name": "Müller",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62677,
+      "match_id": "202603013",
+      "easyscore_id": null,
+      "time": "2026-05-31 13:00:00 +0200",
+      "state": "manually_valued",
+      "home_runs": 9,
+      "away_runs": 0,
+      "human_state": "Wertung gem. BuSpO Art. 9.1.05",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62677/combined_scoresheets/Spiel-202603013.pdf",
+      "scoresheet_file_name": "Spiel-202603013.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-06-08T08:36:48.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 321,
+        "name": "Baseball- und Softballfelder Sachtlebenstrasse ",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Sachtlebenstr. 36",
+        "postal_code": "14165",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 494
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wizards",
+      "away_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Skylarks 2",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 7183,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080435-UMP-BB",
+            "person": {
+              "name_prefix": "Dr.",
+              "first_name": "Lars",
+              "last_name": "Kutzner",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 4723,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-063405-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "José Cuauhtémoc",
+              "last_name": "Garcia Rodriguez",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 5979,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-070708-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Anna",
+              "last_name": "Leidinger",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62678,
+      "match_id": "202603014",
+      "easyscore_id": null,
+      "time": "2026-05-30 14:00:00 +0200",
+      "state": "no_show",
+      "home_runs": 9,
+      "away_runs": 0,
+      "human_state": "Nichtantreten gem. BuSpO Art. 11.2.04",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 322,
+        "name": "Baseball / Softball",
+        "contact_name": null,
+        "address_addon": "Sportplatz am Neues Palais",
+        "street": "Lindenallee",
+        "postal_code": "14469",
+        "city": "Potsdam",
+        "club": {
+          "type": "Club",
+          "id": 498
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Porcupines",
+      "away_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wallbreakers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 8582,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014160-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roy",
+              "last_name": "Henson",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 3649,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-035835-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Spogat",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 3597,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-004571-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Detlef",
+              "last_name": "Buchleither",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62679,
+      "match_id": "202603015",
+      "easyscore_id": null,
+      "time": "2026-09-06 14:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 322,
+        "name": "Baseball / Softball",
+        "contact_name": null,
+        "address_addon": "Sportplatz am Neues Palais",
+        "street": "Lindenallee",
+        "postal_code": "14469",
+        "city": "Potsdam",
+        "club": {
+          "type": "Club",
+          "id": 498
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Porcupines",
+      "away_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wallbreakers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 3705,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-062463-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Nico",
+              "last_name": "Lissina",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 8584,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-054480-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Tibor",
+              "last_name": "Tyralla",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "scorer_assignments": [],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62680,
+      "match_id": "202603016",
+      "easyscore_id": null,
+      "time": "2026-06-07 15:30:00 +0200",
+      "state": "played",
+      "home_runs": 13,
+      "away_runs": 14,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62680/combined_scoresheets/Spiel-202603016.pdf",
+      "scoresheet_file_name": "Spiel-202603016.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-06-11T19:28:16.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 125,
+        "name": "Baseball",
+        "contact_name": null,
+        "address_addon": "Kölner Damm 50",
+        "street": "Kölner Damm 36",
+        "postal_code": "12353",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 492
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Sluggers",
+      "away_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wizards",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 5281,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-004571-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Detlef",
+              "last_name": "Buchleither",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 5729,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-084646-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Santos",
+              "last_name": "Pena",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 6558,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-083911-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Ejona",
+              "last_name": "Gashi",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62681,
+      "match_id": "202603017",
+      "easyscore_id": null,
+      "time": "2026-09-19 12:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62681/combined_scoresheets/Spiel-202603017.pdf",
+      "scoresheet_file_name": "Spiel-202603017.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-06-13T16:56:02.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 324,
+        "name": "Gail-S.-Halvorsen-Park - Baseball",
+        "contact_name": null,
+        "address_addon": "Gail-S.-Halvorsen-Park - Feld 1",
+        "street": "Columbiadamm 111",
+        "postal_code": "10965",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 485
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Skylarks 2",
+      "away_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wizards",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 8582,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014160-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roy",
+              "last_name": "Henson",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "scorer_assignments": [],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62682,
+      "match_id": "202603018",
+      "easyscore_id": null,
+      "time": "2026-06-13 13:00:00 +0200",
+      "state": "played",
+      "home_runs": 1,
+      "away_runs": 12,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62682/combined_scoresheets/Spiel-202603018.pdf",
+      "scoresheet_file_name": "Spiel-202603018.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-06-18T08:35:05.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 322,
+        "name": "Baseball / Softball",
+        "contact_name": null,
+        "address_addon": "Sportplatz am Neues Palais",
+        "street": "Lindenallee",
+        "postal_code": "14469",
+        "city": "Potsdam",
+        "club": {
+          "type": "Club",
+          "id": 498
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Porcupines",
+      "away_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Sluggers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 5281,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-004571-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Detlef",
+              "last_name": "Buchleither",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 8584,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-054480-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Tibor",
+              "last_name": "Tyralla",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 4301,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-033876-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Tom",
+              "last_name": "Schubert",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62683,
+      "match_id": "202603019",
+      "easyscore_id": null,
+      "time": "2026-06-21 13:00:00 +0200",
+      "state": "played",
+      "home_runs": 7,
+      "away_runs": 17,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62683/combined_scoresheets/Spiel-202603019.pdf",
+      "scoresheet_file_name": "Spiel-202603019.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-06-23T17:07:08.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 106,
+        "name": "Gierke-Cigarren-Ballpark (Baseball)",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Dortmunder Straße 56/58",
+        "postal_code": "04357",
+        "city": "Leipzig",
+        "club": {
+          "type": "Club",
+          "id": 249
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wallbreakers",
+      "away_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Sluggers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 4028,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-028898-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Nico",
+              "last_name": "Punke",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 5634,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-030832-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roman",
+              "last_name": "Rossberg",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 9005,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-089477-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Cora Johanna",
+              "last_name": "Große",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 3528,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-045961-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Sandra",
+              "last_name": "Müller",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62684,
+      "match_id": "202603020",
+      "easyscore_id": null,
+      "time": "2026-06-21 14:00:00 +0200",
+      "state": "played",
+      "home_runs": 9,
+      "away_runs": 18,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62684/combined_scoresheets/Spiel-202603020.pdf",
+      "scoresheet_file_name": "Spiel-202603020.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-06-24T19:43:22.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 322,
+        "name": "Baseball / Softball",
+        "contact_name": null,
+        "address_addon": "Sportplatz am Neues Palais",
+        "street": "Lindenallee",
+        "postal_code": "14469",
+        "city": "Potsdam",
+        "club": {
+          "type": "Club",
+          "id": 498
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Porcupines",
+      "away_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wizards",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 3645,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-006797-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Sven",
+              "last_name": "Dittmann",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 5281,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-004571-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Detlef",
+              "last_name": "Buchleither",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 498,
+        "name": "Porcupines",
+        "acronym": "POT",
+        "short_name": "Potsdam Porcupines",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 8163,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-047993-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Alyce",
+              "last_name": "Thiel",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 4042,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-056144-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Anneli",
+              "last_name": "Laß",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62685,
+      "match_id": "202603021",
+      "easyscore_id": null,
+      "time": "2026-06-28 08:30:00 +0200",
+      "state": "played",
+      "home_runs": 12,
+      "away_runs": 8,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62685/combined_scoresheets/Spiel-202603021.pdf",
+      "scoresheet_file_name": "Spiel-202603021.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-07-01T17:57:27.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 324,
+        "name": "Gail-S.-Halvorsen-Park - Baseball",
+        "contact_name": null,
+        "address_addon": "Gail-S.-Halvorsen-Park - Feld 1",
+        "street": "Columbiadamm 111",
+        "postal_code": "10965",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 485
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Skylarks 2",
+      "away_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wallbreakers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 4913,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-029042-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Robin",
+              "last_name": "Rachel",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7637,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-075411-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Jonas",
+              "last_name": "Tochatschek",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 8899,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014862-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Baptist",
+              "last_name": "Hirt",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62686,
+      "match_id": "202603022",
+      "easyscore_id": null,
+      "time": "2026-07-04 12:00:00 +0200",
+      "state": "played",
+      "home_runs": 19,
+      "away_runs": 9,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62686/combined_scoresheets/Spiel-202603022.pdf",
+      "scoresheet_file_name": "Spiel-202603022.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-07-23T11:24:00.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 125,
+        "name": "Baseball",
+        "contact_name": null,
+        "address_addon": "Kölner Damm 50",
+        "street": "Kölner Damm 36",
+        "postal_code": "12353",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 492
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Sluggers",
+      "away_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wizards",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 1802,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014543-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Thomas",
+              "last_name": "Reimann",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7183,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080435-UMP-BB",
+            "person": {
+              "name_prefix": "Dr.",
+              "first_name": "Lars",
+              "last_name": "Kutzner",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 4069,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-060496-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Julius",
+              "last_name": "Leglise",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62687,
+      "match_id": "202603023",
+      "easyscore_id": null,
+      "time": "2026-08-30 12:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 324,
+        "name": "Gail-S.-Halvorsen-Park - Baseball",
+        "contact_name": null,
+        "address_addon": "Gail-S.-Halvorsen-Park - Feld 1",
+        "street": "Columbiadamm 111",
+        "postal_code": "10965",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 485
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Skylarks 2",
+      "away_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Wallbreakers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 4913,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-029042-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Robin",
+              "last_name": "Rachel",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7637,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-075411-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Jonas",
+              "last_name": "Tochatschek",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 8553,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-056168-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Magdalena",
+              "last_name": "Schaper",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62688,
+      "match_id": "202603024",
+      "easyscore_id": null,
+      "time": "2026-08-23 15:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 321,
+        "name": "Baseball- und Softballfelder Sachtlebenstrasse ",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Sachtlebenstr. 36",
+        "postal_code": "14165",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 494
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wizards",
+      "away_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Porcupines",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 8282,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-083983-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Neo-Maxim",
+              "last_name": "Lemm ",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7183,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080435-UMP-BB",
+            "person": {
+              "name_prefix": "Dr.",
+              "first_name": "Lars",
+              "last_name": "Kutzner",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 5979,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-070708-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Anna",
+              "last_name": "Leidinger",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62689,
+      "match_id": "202603025",
+      "easyscore_id": null,
+      "time": "2026-08-23 15:30:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 125,
+        "name": "Baseball",
+        "contact_name": null,
+        "address_addon": "Kölner Damm 50",
+        "street": "Kölner Damm 36",
+        "postal_code": "12353",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 492
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Sluggers",
+      "away_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Skylarks 2",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 1802,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014543-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Thomas",
+              "last_name": "Reimann",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7233,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080330-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Hornig",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 922,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-030832-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Roman",
+              "last_name": "Rossberg",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62690,
+      "match_id": "202603026",
+      "easyscore_id": null,
+      "time": "2026-09-06 15:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 321,
+        "name": "Baseball- und Softballfelder Sachtlebenstrasse ",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Sachtlebenstr. 36",
+        "postal_code": "14165",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 494
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wizards",
+      "away_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Skylarks 2",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 7183,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080435-UMP-BB",
+            "person": {
+              "name_prefix": "Dr.",
+              "first_name": "Lars",
+              "last_name": "Kutzner",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 5979,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-070708-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Anna",
+              "last_name": "Leidinger",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62691,
+      "match_id": "202603027",
+      "easyscore_id": null,
+      "time": "2026-09-19 13:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 125,
+        "name": "Baseball",
+        "contact_name": null,
+        "address_addon": "Kölner Damm 50",
+        "street": "Kölner Damm 36",
+        "postal_code": "12353",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 492
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Sluggers",
+      "away_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Porcupines",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 1802,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014543-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Thomas",
+              "last_name": "Reimann",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7233,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080330-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Hornig",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 492,
+        "name": "Sluggers",
+        "acronym": "BES",
+        "short_name": "Berlin Sluggers",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+      },
+      "scorer_assignments": [],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62692,
+      "match_id": "202603028",
+      "easyscore_id": null,
+      "time": "2026-06-07 13:00:00 +0200",
+      "state": "played",
+      "home_runs": 15,
+      "away_runs": 11,
+      "human_state": "gespielt",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62692/combined_scoresheets/Spiel-202603028.pdf",
+      "scoresheet_file_name": "Spiel-202603028.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-06-09T21:10:52.000+02:00",
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 324,
+        "name": "Gail-S.-Halvorsen-Park - Baseball",
+        "contact_name": null,
+        "address_addon": "Gail-S.-Halvorsen-Park - Feld 1",
+        "street": "Columbiadamm 111",
+        "postal_code": "10965",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 485
+        }
+      },
+      "livestream_url": "",
+      "home_league_entry": {
+        "id": 46086,
+        "team": {
+          "id": 24017,
+          "name": "Skylarks 2",
+          "short_name": "BEA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 485,
+              "name": "Skylarks",
+              "acronym": "BEA",
+              "short_name": "Berlin Skylarks",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Skylarks 2",
+      "away_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Porcupines",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 4913,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-029042-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Robin",
+              "last_name": "Rachel",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7637,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-075411-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Jonas",
+              "last_name": "Tochatschek",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 485,
+        "name": "Skylarks",
+        "acronym": "BEA",
+        "short_name": "Berlin Skylarks",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 8899,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-014862-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Baptist",
+              "last_name": "Hirt",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": true,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62693,
+      "match_id": "202603029",
+      "easyscore_id": null,
+      "time": "2026-09-12 13:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 106,
+        "name": "Gierke-Cigarren-Ballpark (Baseball)",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Dortmunder Straße 56/58",
+        "postal_code": "04357",
+        "city": "Leipzig",
+        "club": {
+          "type": "Club",
+          "id": 249
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46087,
+        "team": {
+          "id": 24036,
+          "name": "Wallbreakers",
+          "short_name": "LWA",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 249,
+              "name": "Wallbreakers",
+              "acronym": "LWA",
+              "short_name": "Leipzig Wallbreakers",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wallbreakers",
+      "away_league_entry": {
+        "id": 46088,
+        "team": {
+          "id": 24038,
+          "name": "Porcupines",
+          "short_name": "POT",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 498,
+              "name": "Porcupines",
+              "acronym": "POT",
+              "short_name": "Potsdam Porcupines",
+              "logo_url": null
+            }
+          ]
+        }
+      },
+      "away_team_name": "Porcupines",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 4032,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-031806-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Gunnar",
+              "last_name": "Schäfer",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 3649,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-035835-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Spogat",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 249,
+        "name": "Wallbreakers",
+        "acronym": "LWA",
+        "short_name": "Leipzig Wallbreakers",
+        "logo_url": null
+      },
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 7561,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-089477-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Cora Johanna",
+              "last_name": "Große",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7559,
+            "level": "C",
+            "human_level": "C",
+            "number": "C-091466-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Stefanie",
+              "last_name": "Schirmacher",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    },
+    {
+      "id": 62694,
+      "match_id": "202603030",
+      "easyscore_id": null,
+      "time": "2026-09-13 16:00:00 +0200",
+      "state": "planned",
+      "home_runs": null,
+      "away_runs": null,
+      "human_state": "geplant",
+      "league": {
+        "type": "League",
+        "id": 6205,
+        "name": "Verbandsliga Baseball",
+        "acronym": "VLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0
+      },
+      "scoresheet_url": null,
+      "scoresheet_file_name": null,
+      "scoresheet_content_type": null,
+      "scoresheet_updated_at": null,
+      "extra_rating_league": null,
+      "extra_rating_league2": null,
+      "second_league": null,
+      "field": {
+        "type": "Field",
+        "id": 321,
+        "name": "Baseball- und Softballfelder Sachtlebenstrasse ",
+        "contact_name": null,
+        "address_addon": "",
+        "street": "Sachtlebenstr. 36",
+        "postal_code": "14165",
+        "city": "Berlin",
+        "club": {
+          "type": "Club",
+          "id": 494
+        }
+      },
+      "livestream_url": null,
+      "home_league_entry": {
+        "id": 46085,
+        "team": {
+          "id": 24008,
+          "name": "Wizards",
+          "short_name": "BEW",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 494,
+              "name": "Wizards",
+              "acronym": "BEW",
+              "short_name": "Berlin Wizards",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+            }
+          ]
+        }
+      },
+      "home_team_name": "Wizards",
+      "away_league_entry": {
+        "id": 46084,
+        "team": {
+          "id": 23924,
+          "name": "Sluggers",
+          "short_name": "BES",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 492,
+              "name": "Sluggers",
+              "acronym": "BES",
+              "short_name": "Berlin Sluggers",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+            }
+          ]
+        }
+      },
+      "away_team_name": "Sluggers",
+      "umpire_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "umpire_assignments": [
+        {
+          "license": {
+            "id": 7183,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080435-UMP-BB",
+            "person": {
+              "name_prefix": "Dr.",
+              "first_name": "Lars",
+              "last_name": "Kutzner",
+              "name_suffix": ""
+            }
+          }
+        },
+        {
+          "license": {
+            "id": 7233,
+            "level": "B",
+            "human_level": "B",
+            "number": "B-080330-UMP-BB",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Norbert",
+              "last_name": "Hornig",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
+      "scorer_selection": {
+        "type": "Club",
+        "id": 494,
+        "name": "Wizards",
+        "acronym": "BEW",
+        "short_name": "Berlin Wizards",
+        "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+      },
+      "scorer_assignments": [],
+      "statistics_published": false,
+      "source_group_ids": [
+        6205
+      ]
+    }
+  ]
+}

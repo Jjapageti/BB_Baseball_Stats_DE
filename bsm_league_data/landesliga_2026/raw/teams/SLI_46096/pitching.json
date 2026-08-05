@@ -1,0 +1,247 @@
+{
+  "league_entry": {
+    "id": 46096,
+    "type": "LeagueEntry",
+    "game_class_entry": {
+      "id": 45857,
+      "team": {
+        "id": 23951,
+        "name": "Sliders",
+        "short_name": "SLI",
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 495,
+            "name": "Sliders",
+            "acronym": "SLI",
+            "short_name": "Berlin Sliders",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+          }
+        ],
+        "type": "Team"
+      },
+      "type": "GameClassEntry"
+    },
+    "league": {
+      "type": "League",
+      "id": 6208,
+      "name": "Landesliga Baseball",
+      "acronym": "LLBBDivA",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "human_sport_short": "BB",
+      "sort": 0,
+      "season": 2026,
+      "age_group": "Erwachsene",
+      "human_age_group": "Erwachsene",
+      "human_age_group_short": "ERW",
+      "game_class": {
+        "type": "GameClass",
+        "id": 6207,
+        "name": "Landesliga Baseball",
+        "acronym": "LLBB",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "human_sport_short": "BB",
+        "sort": 0,
+        "season": 2026,
+        "age_group": "Erwachsene",
+        "human_age_group": "Erwachsene",
+        "human_age_group_short": "ERW"
+      }
+    }
+  },
+  "data": [
+    {
+      "person": {
+        "type": "Person",
+        "id": 85716,
+        "name_prefix": "",
+        "first_name": "Fabian",
+        "last_name": "Boldt",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.0",
+        "batters_faced": 17,
+        "at_bats": 13,
+        "runs": 12,
+        "earned_runs": 5,
+        "hits": 9,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 4,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 5,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "45.00",
+        "walks_and_hits_per_innings_pitched": "13.00"
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 4500,
+        "name_prefix": "",
+        "first_name": "Alexander",
+        "last_name": "Brüssow",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "games_started": 4,
+        "complete_games": 0,
+        "innings_pitched": "15.2",
+        "batters_faced": 76,
+        "at_bats": 61,
+        "runs": 17,
+        "earned_runs": 10,
+        "hits": 17,
+        "doubles": 2,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 14,
+        "base_on_balls_allowed": 12,
+        "intentional_base_on_balls": 2,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "5.74",
+        "walks_and_hits_per_innings_pitched": "1.85"
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 60539,
+        "name_prefix": "",
+        "first_name": "Julian",
+        "last_name": "Kaiser-Renker",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 8,
+        "games_started": 5,
+        "complete_games": 3,
+        "innings_pitched": "29.2",
+        "batters_faced": 154,
+        "at_bats": 130,
+        "runs": 39,
+        "earned_runs": 33,
+        "hits": 47,
+        "doubles": 4,
+        "triples": 3,
+        "homeruns": 2,
+        "strikeouts": 27,
+        "base_on_balls_allowed": 16,
+        "intentional_base_on_balls": 3,
+        "hit_by_pitches": 5,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "10.01",
+        "walks_and_hits_per_innings_pitched": "2.12"
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 34496,
+        "name_prefix": "",
+        "first_name": "Maxim",
+        "last_name": "Schweigert",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "2.1",
+        "batters_faced": 19,
+        "at_bats": 12,
+        "runs": 8,
+        "earned_runs": 2,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 4,
+        "intentional_base_on_balls": 1,
+        "hit_by_pitches": 3,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "7.71",
+        "walks_and_hits_per_innings_pitched": "3.00"
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 9,
+        "games_started": 9,
+        "complete_games": 3,
+        "innings_pitched": "48.2",
+        "batters_faced": 266,
+        "at_bats": 216,
+        "runs": 76,
+        "earned_runs": 50,
+        "hits": 76,
+        "doubles": 7,
+        "triples": 4,
+        "homeruns": 2,
+        "strikeouts": 43,
+        "base_on_balls_allowed": 36,
+        "intentional_base_on_balls": 6,
+        "hit_by_pitches": 9,
+        "wild_pitches": 8,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 6,
+        "losses": 3,
+        "saves": 0,
+        "earned_runs_average": "9.25",
+        "walks_and_hits_per_innings_pitched": "2.30"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4920 @@
+{
+  "generated_at": "2026-08-04T13:16:49.709841+00:00",
+  "league": {
+    "id": "landesliga-2026",
+    "name": "Landesliga Baseball",
+    "acronym": "LLBB",
+    "season": 2026,
+    "merged": true,
+    "source_groups": [
+      {
+        "id": 6208,
+        "acronym": "LLBBDivA",
+        "name": "Landesliga Baseball"
+      },
+      {
+        "id": 6209,
+        "acronym": "LLBBDivB",
+        "name": "Landesliga Baseball"
+      }
+    ],
+    "merge_rules": {
+      "teams": "league_entry.id",
+      "matches": "match.id",
+      "players": "league_entry.id + person.id",
+      "standings": "unique played matches"
+    }
+  },
+  "players": [
+    {
+      "person": {
+        "type": "Person",
+        "id": 94323,
+        "name_prefix": "",
+        "first_name": "Jose Aturo",
+        "last_name": "Aguilar Jimenez",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "3.2",
+        "batters_faced": 22,
+        "at_bats": 15,
+        "runs": 6,
+        "earned_runs": 4,
+        "hits": 8,
+        "doubles": 4,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 5,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "9.82",
+        "walks_and_hits_per_innings_pitched": "3.55"
+      },
+      "league_entry": {
+        "id": 46101,
+        "name": "Challengers",
+        "acronym": "BEC",
+        "club": {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 486,
+            "name": "SCC Challengers",
+            "acronym": "BEC",
+            "short_name": "SCC e.V.",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 61448,
+        "name_prefix": "",
+        "first_name": "Carlotta",
+        "last_name": "Bahls",
+        "name_suffix": "",
+        "gender": "female",
+        "human_gender": "weiblich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "4.0",
+        "batters_faced": 25,
+        "at_bats": 23,
+        "runs": 7,
+        "earned_runs": 6,
+        "hits": 12,
+        "doubles": 2,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 2,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "13.50",
+        "walks_and_hits_per_innings_pitched": "3.50"
+      },
+      "league_entry": {
+        "id": 46101,
+        "name": "Challengers",
+        "acronym": "BEC",
+        "club": {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 486,
+            "name": "SCC Challengers",
+            "acronym": "BEC",
+            "short_name": "SCC e.V.",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 81246,
+        "name_prefix": "",
+        "first_name": "Victor Gabriel",
+        "last_name": "Geronimo de los Santos",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 8,
+        "games_started": 5,
+        "complete_games": 4,
+        "innings_pitched": "35.1",
+        "batters_faced": 206,
+        "at_bats": 158,
+        "runs": 48,
+        "earned_runs": 35,
+        "hits": 50,
+        "doubles": 10,
+        "triples": 2,
+        "homeruns": 2,
+        "strikeouts": 26,
+        "base_on_balls_allowed": 38,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 8,
+        "wild_pitches": 8,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 3,
+        "losses": 3,
+        "saves": 0,
+        "earned_runs_average": "8.92",
+        "walks_and_hits_per_innings_pitched": "2.49"
+      },
+      "league_entry": {
+        "id": 46101,
+        "name": "Challengers",
+        "acronym": "BEC",
+        "club": {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 486,
+            "name": "SCC Challengers",
+            "acronym": "BEC",
+            "short_name": "SCC e.V.",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 69241,
+        "name_prefix": "",
+        "first_name": "Robert",
+        "last_name": "Kovacevic",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "4.0",
+        "batters_faced": 23,
+        "at_bats": 20,
+        "runs": 4,
+        "earned_runs": 0,
+        "hits": 6,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 5,
+        "base_on_balls_allowed": 3,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "2.25"
+      },
+      "league_entry": {
+        "id": 46101,
+        "name": "Challengers",
+        "acronym": "BEC",
+        "club": {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 486,
+            "name": "SCC Challengers",
+            "acronym": "BEC",
+            "short_name": "SCC e.V.",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 93487,
+        "name_prefix": "",
+        "first_name": "Jonas",
+        "last_name": "Lobrecht",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "0.0",
+        "batters_faced": 5,
+        "at_bats": 1,
+        "runs": 4,
+        "earned_runs": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 4,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "0.00"
+      },
+      "league_entry": {
+        "id": 46101,
+        "name": "Challengers",
+        "acronym": "BEC",
+        "club": {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 486,
+            "name": "SCC Challengers",
+            "acronym": "BEC",
+            "short_name": "SCC e.V.",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 73813,
+        "name_prefix": "",
+        "first_name": "David",
+        "last_name": "Sieblist",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "1.1",
+        "batters_faced": 11,
+        "at_bats": 8,
+        "runs": 6,
+        "earned_runs": 6,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 2,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "40.50",
+        "walks_and_hits_per_innings_pitched": "5.25"
+      },
+      "league_entry": {
+        "id": 46101,
+        "name": "Challengers",
+        "acronym": "BEC",
+        "club": {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 486,
+            "name": "SCC Challengers",
+            "acronym": "BEC",
+            "short_name": "SCC e.V.",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 85971,
+        "name_prefix": "",
+        "first_name": "Alexander",
+        "last_name": "Szemeitat",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "5.1",
+        "batters_faced": 22,
+        "at_bats": 17,
+        "runs": 6,
+        "earned_runs": 5,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 7,
+        "base_on_balls_allowed": 5,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 2,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "8.44",
+        "walks_and_hits_per_innings_pitched": "1.13"
+      },
+      "league_entry": {
+        "id": 46101,
+        "name": "Challengers",
+        "acronym": "BEC",
+        "club": {
+          "type": "Club",
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V.",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 486,
+            "name": "SCC Challengers",
+            "acronym": "BEC",
+            "short_name": "SCC e.V.",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/486/thumb/challengers_Logo_NEW.jpg?1587225071"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 71909,
+        "name_prefix": "",
+        "first_name": "Juan",
+        "last_name": "Bongé",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 8,
+        "games_started": 2,
+        "complete_games": 0,
+        "innings_pitched": "17.0",
+        "batters_faced": 99,
+        "at_bats": 82,
+        "runs": 25,
+        "earned_runs": 19,
+        "hits": 30,
+        "doubles": 4,
+        "triples": 1,
+        "homeruns": 1,
+        "strikeouts": 16,
+        "base_on_balls_allowed": 11,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 3,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "10.06",
+        "walks_and_hits_per_innings_pitched": "2.41"
+      },
+      "league_entry": {
+        "id": 46095,
+        "name": "Eagles",
+        "acronym": "MEG",
+        "club": {
+          "type": "Club",
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 603,
+            "name": "Mahlow Eagles",
+            "acronym": "MEG",
+            "short_name": "Mahlow Eagles",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 78466,
+        "name_prefix": "",
+        "first_name": "Sinan",
+        "last_name": "Kuru",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 2,
+        "complete_games": 0,
+        "innings_pitched": "9.1",
+        "batters_faced": 56,
+        "at_bats": 39,
+        "runs": 21,
+        "earned_runs": 16,
+        "hits": 13,
+        "doubles": 3,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 4,
+        "base_on_balls_allowed": 13,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 2,
+        "wild_pitches": 4,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "15.43",
+        "walks_and_hits_per_innings_pitched": "2.79"
+      },
+      "league_entry": {
+        "id": 46095,
+        "name": "Eagles",
+        "acronym": "MEG",
+        "club": {
+          "type": "Club",
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 603,
+            "name": "Mahlow Eagles",
+            "acronym": "MEG",
+            "short_name": "Mahlow Eagles",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 80540,
+        "name_prefix": "",
+        "first_name": "Ben",
+        "last_name": "Moryson",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "4.0",
+        "batters_faced": 18,
+        "at_bats": 18,
+        "runs": 2,
+        "earned_runs": 2,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 0,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "4.50",
+        "walks_and_hits_per_innings_pitched": "1.25"
+      },
+      "league_entry": {
+        "id": 46095,
+        "name": "Eagles",
+        "acronym": "MEG",
+        "club": {
+          "type": "Club",
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 603,
+            "name": "Mahlow Eagles",
+            "acronym": "MEG",
+            "short_name": "Mahlow Eagles",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 60947,
+        "name_prefix": "",
+        "first_name": "Marvin",
+        "last_name": "Pfeiffer",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 7,
+        "games_started": 4,
+        "complete_games": 0,
+        "innings_pitched": "21.2",
+        "batters_faced": 123,
+        "at_bats": 99,
+        "runs": 34,
+        "earned_runs": 15,
+        "hits": 43,
+        "doubles": 9,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 15,
+        "base_on_balls_allowed": 18,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 2,
+        "wild_pitches": 5,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "6.23",
+        "walks_and_hits_per_innings_pitched": "2.82"
+      },
+      "league_entry": {
+        "id": 46095,
+        "name": "Eagles",
+        "acronym": "MEG",
+        "club": {
+          "type": "Club",
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 603,
+            "name": "Mahlow Eagles",
+            "acronym": "MEG",
+            "short_name": "Mahlow Eagles",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 71250,
+        "name_prefix": "",
+        "first_name": "Jonah",
+        "last_name": "Radzymski",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 1,
+        "complete_games": 1,
+        "innings_pitched": "6.1",
+        "batters_faced": 31,
+        "at_bats": 24,
+        "runs": 4,
+        "earned_runs": 1,
+        "hits": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 3,
+        "base_on_balls_allowed": 5,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "1.42",
+        "walks_and_hits_per_innings_pitched": "1.89"
+      },
+      "league_entry": {
+        "id": 46095,
+        "name": "Eagles",
+        "acronym": "MEG",
+        "club": {
+          "type": "Club",
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 603,
+            "name": "Mahlow Eagles",
+            "acronym": "MEG",
+            "short_name": "Mahlow Eagles",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/603/thumb/eagles-mainlogo.png?1587225082"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 65362,
+        "name_prefix": "",
+        "first_name": "Miguel Altair",
+        "last_name": "Angeles Meyhöfer",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.1",
+        "batters_faced": 6,
+        "at_bats": 5,
+        "runs": 0,
+        "earned_runs": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "0.75"
+      },
+      "league_entry": {
+        "id": 46103,
+        "name": "Flamingos 2",
+        "acronym": "FLA",
+        "club": {
+          "type": "Club",
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 604,
+            "name": "Flamingos",
+            "acronym": "FLA",
+            "short_name": "Berlin Flamingos",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 67470,
+        "name_prefix": "",
+        "first_name": "Moritz",
+        "last_name": "Kucera",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "3.0",
+        "batters_faced": 15,
+        "at_bats": 13,
+        "runs": 3,
+        "earned_runs": 3,
+        "hits": 4,
+        "doubles": 2,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 8,
+        "base_on_balls_allowed": 2,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "9.00",
+        "walks_and_hits_per_innings_pitched": "2.00"
+      },
+      "league_entry": {
+        "id": 46103,
+        "name": "Flamingos 2",
+        "acronym": "FLA",
+        "club": {
+          "type": "Club",
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 604,
+            "name": "Flamingos",
+            "acronym": "FLA",
+            "short_name": "Berlin Flamingos",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 83983,
+        "name_prefix": "",
+        "first_name": "Neo-Maxim",
+        "last_name": "Lemm ",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "games_started": 4,
+        "complete_games": 2,
+        "innings_pitched": "19.2",
+        "batters_faced": 112,
+        "at_bats": 93,
+        "runs": 26,
+        "earned_runs": 15,
+        "hits": 31,
+        "doubles": 7,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 31,
+        "base_on_balls_allowed": 11,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 8,
+        "wild_pitches": 4,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "6.86",
+        "walks_and_hits_per_innings_pitched": "2.14"
+      },
+      "league_entry": {
+        "id": 46103,
+        "name": "Flamingos 2",
+        "acronym": "FLA",
+        "club": {
+          "type": "Club",
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 604,
+            "name": "Flamingos",
+            "acronym": "FLA",
+            "short_name": "Berlin Flamingos",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 30351,
+        "name_prefix": "",
+        "first_name": "Kolja",
+        "last_name": "Rocek",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "games_started": 4,
+        "complete_games": 3,
+        "innings_pitched": "20.0",
+        "batters_faced": 108,
+        "at_bats": 93,
+        "runs": 25,
+        "earned_runs": 17,
+        "hits": 34,
+        "doubles": 4,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 19,
+        "base_on_balls_allowed": 13,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 2,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 3,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "7.65",
+        "walks_and_hits_per_innings_pitched": "2.35"
+      },
+      "league_entry": {
+        "id": 46103,
+        "name": "Flamingos 2",
+        "acronym": "FLA",
+        "club": {
+          "type": "Club",
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 604,
+            "name": "Flamingos",
+            "acronym": "FLA",
+            "short_name": "Berlin Flamingos",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 37778,
+        "name_prefix": "",
+        "first_name": "Philip",
+        "last_name": "Thomas",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.0",
+        "batters_faced": 8,
+        "at_bats": 4,
+        "runs": 3,
+        "earned_runs": 3,
+        "hits": 1,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 3,
+        "base_on_balls_allowed": 3,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "27.00",
+        "walks_and_hits_per_innings_pitched": "4.00"
+      },
+      "league_entry": {
+        "id": 46103,
+        "name": "Flamingos 2",
+        "acronym": "FLA",
+        "club": {
+          "type": "Club",
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 604,
+            "name": "Flamingos",
+            "acronym": "FLA",
+            "short_name": "Berlin Flamingos",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 86754,
+        "name_prefix": "",
+        "first_name": "Joshua",
+        "last_name": "Berger",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 7,
+        "games_started": 2,
+        "complete_games": 0,
+        "innings_pitched": "13.2",
+        "batters_faced": 86,
+        "at_bats": 67,
+        "runs": 33,
+        "earned_runs": 22,
+        "hits": 26,
+        "doubles": 5,
+        "triples": 2,
+        "homeruns": 1,
+        "strikeouts": 13,
+        "base_on_balls_allowed": 14,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 3,
+        "wild_pitches": 12,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "14.49",
+        "walks_and_hits_per_innings_pitched": "2.93"
+      },
+      "league_entry": {
+        "id": 46102,
+        "name": "Porcupines 2",
+        "acronym": "POT2",
+        "club": {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 498,
+            "name": "Porcupines",
+            "acronym": "POT",
+            "short_name": "Potsdam Porcupines",
+            "logo_url": null
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 70427,
+        "name_prefix": "",
+        "first_name": "Matthias",
+        "last_name": "Gerbitz",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 9,
+        "games_started": 3,
+        "complete_games": 0,
+        "innings_pitched": "21.2",
+        "batters_faced": 170,
+        "at_bats": 147,
+        "runs": 71,
+        "earned_runs": 45,
+        "hits": 78,
+        "doubles": 13,
+        "triples": 1,
+        "homeruns": 4,
+        "strikeouts": 15,
+        "base_on_balls_allowed": 13,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 8,
+        "wild_pitches": 8,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 5,
+        "saves": 0,
+        "earned_runs_average": "18.69",
+        "walks_and_hits_per_innings_pitched": "4.20"
+      },
+      "league_entry": {
+        "id": 46102,
+        "name": "Porcupines 2",
+        "acronym": "POT2",
+        "club": {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 498,
+            "name": "Porcupines",
+            "acronym": "POT",
+            "short_name": "Potsdam Porcupines",
+            "logo_url": null
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 49107,
+        "name_prefix": "",
+        "first_name": "Bastian",
+        "last_name": "Hauf",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "0.1",
+        "batters_faced": 10,
+        "at_bats": 4,
+        "runs": 8,
+        "earned_runs": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 6,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "18.00"
+      },
+      "league_entry": {
+        "id": 46102,
+        "name": "Porcupines 2",
+        "acronym": "POT2",
+        "club": {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 498,
+            "name": "Porcupines",
+            "acronym": "POT",
+            "short_name": "Potsdam Porcupines",
+            "logo_url": null
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 82257,
+        "name_prefix": "",
+        "first_name": "John-Michael",
+        "last_name": "Kibrick",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 3,
+        "complete_games": 0,
+        "innings_pitched": "7.0",
+        "batters_faced": 53,
+        "at_bats": 37,
+        "runs": 25,
+        "earned_runs": 17,
+        "hits": 14,
+        "doubles": 2,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 13,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 3,
+        "wild_pitches": 5,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "21.86",
+        "walks_and_hits_per_innings_pitched": "3.86"
+      },
+      "league_entry": {
+        "id": 46102,
+        "name": "Porcupines 2",
+        "acronym": "POT2",
+        "club": {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 498,
+            "name": "Porcupines",
+            "acronym": "POT",
+            "short_name": "Potsdam Porcupines",
+            "logo_url": null
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 69997,
+        "name_prefix": "",
+        "first_name": "Tobias",
+        "last_name": "Wiegmann",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "5.0",
+        "batters_faced": 31,
+        "at_bats": 29,
+        "runs": 12,
+        "earned_runs": 9,
+        "hits": 14,
+        "doubles": 3,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 5,
+        "base_on_balls_allowed": 2,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "16.20",
+        "walks_and_hits_per_innings_pitched": "3.20"
+      },
+      "league_entry": {
+        "id": 46102,
+        "name": "Porcupines 2",
+        "acronym": "POT2",
+        "club": {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 498,
+            "name": "Porcupines",
+            "acronym": "POT",
+            "short_name": "Potsdam Porcupines",
+            "logo_url": null
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 86757,
+        "name_prefix": "",
+        "first_name": "Richard",
+        "last_name": "Wieland",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "2.2",
+        "batters_faced": 22,
+        "at_bats": 15,
+        "runs": 10,
+        "earned_runs": 7,
+        "hits": 9,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 3,
+        "base_on_balls_allowed": 5,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "23.63",
+        "walks_and_hits_per_innings_pitched": "5.25"
+      },
+      "league_entry": {
+        "id": 46102,
+        "name": "Porcupines 2",
+        "acronym": "POT2",
+        "club": {
+          "type": "Club",
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines",
+          "logo_url": null
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 498,
+            "name": "Porcupines",
+            "acronym": "POT",
+            "short_name": "Potsdam Porcupines",
+            "logo_url": null
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 72191,
+        "name_prefix": "",
+        "first_name": "Moritz ",
+        "last_name": "Heinzelmann",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 1,
+        "innings_pitched": "3.0",
+        "batters_faced": 11,
+        "at_bats": 9,
+        "runs": 0,
+        "earned_runs": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "0.33"
+      },
+      "league_entry": {
+        "id": 46098,
+        "name": "Roadrunners 2",
+        "acronym": "BWP2",
+        "club": {
+          "type": "Club",
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 502,
+            "name": "Roadrunners",
+            "acronym": "BWP",
+            "short_name": "Berlin Ausbau Roadrunners",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 88048,
+        "name_prefix": "",
+        "first_name": "Owen Michael",
+        "last_name": "Jones",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "2.1",
+        "batters_faced": 22,
+        "at_bats": 13,
+        "runs": 13,
+        "earned_runs": 11,
+        "hits": 8,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 8,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 3,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "42.43",
+        "walks_and_hits_per_innings_pitched": "6.86"
+      },
+      "league_entry": {
+        "id": 46098,
+        "name": "Roadrunners 2",
+        "acronym": "BWP2",
+        "club": {
+          "type": "Club",
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 502,
+            "name": "Roadrunners",
+            "acronym": "BWP",
+            "short_name": "Berlin Ausbau Roadrunners",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 61899,
+        "name_prefix": "",
+        "first_name": "Jean",
+        "last_name": "Reichert",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 1,
+        "complete_games": 1,
+        "innings_pitched": "5.1",
+        "batters_faced": 31,
+        "at_bats": 24,
+        "runs": 5,
+        "earned_runs": 5,
+        "hits": 9,
+        "doubles": 2,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 7,
+        "base_on_balls_allowed": 6,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 3,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "8.44",
+        "walks_and_hits_per_innings_pitched": "2.81"
+      },
+      "league_entry": {
+        "id": 46098,
+        "name": "Roadrunners 2",
+        "acronym": "BWP2",
+        "club": {
+          "type": "Club",
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 502,
+            "name": "Roadrunners",
+            "acronym": "BWP",
+            "short_name": "Berlin Ausbau Roadrunners",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 33460,
+        "name_prefix": "",
+        "first_name": "Grigori",
+        "last_name": "Scholz",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 2,
+        "complete_games": 2,
+        "innings_pitched": "13.0",
+        "batters_faced": 68,
+        "at_bats": 53,
+        "runs": 11,
+        "earned_runs": 6,
+        "hits": 17,
+        "doubles": 5,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 7,
+        "base_on_balls_allowed": 9,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 4,
+        "wild_pitches": 3,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 2,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "4.15",
+        "walks_and_hits_per_innings_pitched": "2.00"
+      },
+      "league_entry": {
+        "id": 46098,
+        "name": "Roadrunners 2",
+        "acronym": "BWP2",
+        "club": {
+          "type": "Club",
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 502,
+            "name": "Roadrunners",
+            "acronym": "BWP",
+            "short_name": "Berlin Ausbau Roadrunners",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 61908,
+        "name_prefix": "",
+        "first_name": "Keanu",
+        "last_name": "Seidel",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 4,
+        "games_started": 4,
+        "complete_games": 3,
+        "innings_pitched": "23.0",
+        "batters_faced": 113,
+        "at_bats": 102,
+        "runs": 22,
+        "earned_runs": 16,
+        "hits": 31,
+        "doubles": 2,
+        "triples": 2,
+        "homeruns": 2,
+        "strikeouts": 34,
+        "base_on_balls_allowed": 9,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 7,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 4,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "6.26",
+        "walks_and_hits_per_innings_pitched": "1.74"
+      },
+      "league_entry": {
+        "id": 46098,
+        "name": "Roadrunners 2",
+        "acronym": "BWP2",
+        "club": {
+          "type": "Club",
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 502,
+            "name": "Roadrunners",
+            "acronym": "BWP",
+            "short_name": "Berlin Ausbau Roadrunners",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/502/thumb/path35.png?1587225073"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 12613,
+        "name_prefix": "",
+        "first_name": "Patrick",
+        "last_name": "Haericke",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 4,
+        "games_started": 2,
+        "complete_games": 0,
+        "innings_pitched": "10.0",
+        "batters_faced": 59,
+        "at_bats": 51,
+        "runs": 19,
+        "earned_runs": 10,
+        "hits": 19,
+        "doubles": 2,
+        "triples": 1,
+        "homeruns": 2,
+        "strikeouts": 8,
+        "base_on_balls_allowed": 7,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 3,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "9.00",
+        "walks_and_hits_per_innings_pitched": "2.60"
+      },
+      "league_entry": {
+        "id": 46094,
+        "name": "Roosters",
+        "acronym": "BER",
+        "club": {
+          "type": "Club",
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 491,
+            "name": "Ravens / Roosters",
+            "acronym": "BER",
+            "short_name": "NSF Berlin Ravens / Roosters",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 63544,
+        "name_prefix": "",
+        "first_name": "Christopher",
+        "last_name": "Hodik ",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "2.1",
+        "batters_faced": 21,
+        "at_bats": 15,
+        "runs": 10,
+        "earned_runs": 6,
+        "hits": 10,
+        "doubles": 3,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 5,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "23.14",
+        "walks_and_hits_per_innings_pitched": "6.43"
+      },
+      "league_entry": {
+        "id": 46094,
+        "name": "Roosters",
+        "acronym": "BER",
+        "club": {
+          "type": "Club",
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 491,
+            "name": "Ravens / Roosters",
+            "acronym": "BER",
+            "short_name": "NSF Berlin Ravens / Roosters",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 80561,
+        "name_prefix": "",
+        "first_name": "Luke",
+        "last_name": "Regorz",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "games_started": 4,
+        "complete_games": 0,
+        "innings_pitched": "11.1",
+        "batters_faced": 72,
+        "at_bats": 51,
+        "runs": 22,
+        "earned_runs": 11,
+        "hits": 14,
+        "doubles": 3,
+        "triples": 1,
+        "homeruns": 1,
+        "strikeouts": 10,
+        "base_on_balls_allowed": 19,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 9,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 1,
+        "losses": 4,
+        "saves": 0,
+        "earned_runs_average": "8.74",
+        "walks_and_hits_per_innings_pitched": "2.91"
+      },
+      "league_entry": {
+        "id": 46094,
+        "name": "Roosters",
+        "acronym": "BER",
+        "club": {
+          "type": "Club",
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 491,
+            "name": "Ravens / Roosters",
+            "acronym": "BER",
+            "short_name": "NSF Berlin Ravens / Roosters",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 60079,
+        "name_prefix": "",
+        "first_name": "Hannes",
+        "last_name": "Röh",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 6,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "11.2",
+        "batters_faced": 79,
+        "at_bats": 59,
+        "runs": 23,
+        "earned_runs": 15,
+        "hits": 22,
+        "doubles": 2,
+        "triples": 3,
+        "homeruns": 2,
+        "strikeouts": 17,
+        "base_on_balls_allowed": 14,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 6,
+        "wild_pitches": 8,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 1,
+        "earned_runs_average": "11.57",
+        "walks_and_hits_per_innings_pitched": "3.09"
+      },
+      "league_entry": {
+        "id": 46094,
+        "name": "Roosters",
+        "acronym": "BER",
+        "club": {
+          "type": "Club",
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 491,
+            "name": "Ravens / Roosters",
+            "acronym": "BER",
+            "short_name": "NSF Berlin Ravens / Roosters",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 85898,
+        "name_prefix": "",
+        "first_name": "Juan Sebastian",
+        "last_name": "Barreto",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "0.1",
+        "batters_faced": 7,
+        "at_bats": 2,
+        "runs": 6,
+        "earned_runs": 5,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 3,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "135.00",
+        "walks_and_hits_per_innings_pitched": "15.00"
+      },
+      "league_entry": {
+        "id": 46097,
+        "name": "Skylarks 3",
+        "acronym": "BEA",
+        "club": {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 485,
+            "name": "Skylarks",
+            "acronym": "BEA",
+            "short_name": "Berlin Skylarks",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 90537,
+        "name_prefix": "",
+        "first_name": "Justin",
+        "last_name": "Beard",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.1",
+        "batters_faced": 14,
+        "at_bats": 13,
+        "runs": 9,
+        "earned_runs": 3,
+        "hits": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "20.25",
+        "walks_and_hits_per_innings_pitched": "6.00"
+      },
+      "league_entry": {
+        "id": 46097,
+        "name": "Skylarks 3",
+        "acronym": "BEA",
+        "club": {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 485,
+            "name": "Skylarks",
+            "acronym": "BEA",
+            "short_name": "Berlin Skylarks",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 91045,
+        "name_prefix": "",
+        "first_name": "Rebecca Emily ",
+        "last_name": "Cottrell",
+        "name_suffix": "",
+        "gender": "female",
+        "human_gender": "weiblich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 2,
+        "complete_games": 0,
+        "innings_pitched": "4.2",
+        "batters_faced": 29,
+        "at_bats": 24,
+        "runs": 8,
+        "earned_runs": 8,
+        "hits": 8,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 3,
+        "base_on_balls_allowed": 5,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 3,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "15.43",
+        "walks_and_hits_per_innings_pitched": "2.79"
+      },
+      "league_entry": {
+        "id": 46097,
+        "name": "Skylarks 3",
+        "acronym": "BEA",
+        "club": {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 485,
+            "name": "Skylarks",
+            "acronym": "BEA",
+            "short_name": "Berlin Skylarks",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 84972,
+        "name_prefix": "",
+        "first_name": "Thomas",
+        "last_name": "Hintze",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "5.1",
+        "batters_faced": 52,
+        "at_bats": 43,
+        "runs": 30,
+        "earned_runs": 12,
+        "hits": 20,
+        "doubles": 3,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 11,
+        "base_on_balls_allowed": 7,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 4,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "20.25",
+        "walks_and_hits_per_innings_pitched": "5.06"
+      },
+      "league_entry": {
+        "id": 46097,
+        "name": "Skylarks 3",
+        "acronym": "BEA",
+        "club": {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 485,
+            "name": "Skylarks",
+            "acronym": "BEA",
+            "short_name": "Berlin Skylarks",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 90365,
+        "name_prefix": "",
+        "first_name": "Nathaniel",
+        "last_name": "Laurin",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "11.1",
+        "batters_faced": 60,
+        "at_bats": 57,
+        "runs": 15,
+        "earned_runs": 8,
+        "hits": 17,
+        "doubles": 4,
+        "triples": 0,
+        "homeruns": 1,
+        "strikeouts": 5,
+        "base_on_balls_allowed": 2,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "6.35",
+        "walks_and_hits_per_innings_pitched": "1.68"
+      },
+      "league_entry": {
+        "id": 46097,
+        "name": "Skylarks 3",
+        "acronym": "BEA",
+        "club": {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 485,
+            "name": "Skylarks",
+            "acronym": "BEA",
+            "short_name": "Berlin Skylarks",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 95459,
+        "name_prefix": "",
+        "first_name": "Gabriel Louis",
+        "last_name": "Maslen",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "1.2",
+        "batters_faced": 17,
+        "at_bats": 15,
+        "runs": 9,
+        "earned_runs": 5,
+        "hits": 6,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 2,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 3,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "27.00",
+        "walks_and_hits_per_innings_pitched": "4.80"
+      },
+      "league_entry": {
+        "id": 46097,
+        "name": "Skylarks 3",
+        "acronym": "BEA",
+        "club": {
+          "type": "Club",
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 485,
+            "name": "Skylarks",
+            "acronym": "BEA",
+            "short_name": "Berlin Skylarks",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 85716,
+        "name_prefix": "",
+        "first_name": "Fabian",
+        "last_name": "Boldt",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.0",
+        "batters_faced": 17,
+        "at_bats": 13,
+        "runs": 12,
+        "earned_runs": 5,
+        "hits": 9,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 4,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 5,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "45.00",
+        "walks_and_hits_per_innings_pitched": "13.00"
+      },
+      "league_entry": {
+        "id": 46096,
+        "name": "Sliders",
+        "acronym": "SLI",
+        "club": {
+          "type": "Club",
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 495,
+            "name": "Sliders",
+            "acronym": "SLI",
+            "short_name": "Berlin Sliders",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 4500,
+        "name_prefix": "",
+        "first_name": "Alexander",
+        "last_name": "Brüssow",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "games_started": 4,
+        "complete_games": 0,
+        "innings_pitched": "15.2",
+        "batters_faced": 76,
+        "at_bats": 61,
+        "runs": 17,
+        "earned_runs": 10,
+        "hits": 17,
+        "doubles": 2,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 14,
+        "base_on_balls_allowed": 12,
+        "intentional_base_on_balls": 2,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 2,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "5.74",
+        "walks_and_hits_per_innings_pitched": "1.85"
+      },
+      "league_entry": {
+        "id": 46096,
+        "name": "Sliders",
+        "acronym": "SLI",
+        "club": {
+          "type": "Club",
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 495,
+            "name": "Sliders",
+            "acronym": "SLI",
+            "short_name": "Berlin Sliders",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 60539,
+        "name_prefix": "",
+        "first_name": "Julian",
+        "last_name": "Kaiser-Renker",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 8,
+        "games_started": 5,
+        "complete_games": 3,
+        "innings_pitched": "29.2",
+        "batters_faced": 154,
+        "at_bats": 130,
+        "runs": 39,
+        "earned_runs": 33,
+        "hits": 47,
+        "doubles": 4,
+        "triples": 3,
+        "homeruns": 2,
+        "strikeouts": 27,
+        "base_on_balls_allowed": 16,
+        "intentional_base_on_balls": 3,
+        "hit_by_pitches": 5,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 4,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "10.01",
+        "walks_and_hits_per_innings_pitched": "2.12"
+      },
+      "league_entry": {
+        "id": 46096,
+        "name": "Sliders",
+        "acronym": "SLI",
+        "club": {
+          "type": "Club",
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 495,
+            "name": "Sliders",
+            "acronym": "SLI",
+            "short_name": "Berlin Sliders",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 34496,
+        "name_prefix": "",
+        "first_name": "Maxim",
+        "last_name": "Schweigert",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "2.1",
+        "batters_faced": 19,
+        "at_bats": 12,
+        "runs": 8,
+        "earned_runs": 2,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 4,
+        "intentional_base_on_balls": 1,
+        "hit_by_pitches": 3,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "7.71",
+        "walks_and_hits_per_innings_pitched": "3.00"
+      },
+      "league_entry": {
+        "id": 46096,
+        "name": "Sliders",
+        "acronym": "SLI",
+        "club": {
+          "type": "Club",
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 495,
+            "name": "Sliders",
+            "acronym": "SLI",
+            "short_name": "Berlin Sliders",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/495/thumb/Logo-Berlin-Sliders.png?1636040006"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 80081,
+        "name_prefix": "",
+        "first_name": "Seokhyun",
+        "last_name": "Choi",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "3.0",
+        "batters_faced": 16,
+        "at_bats": 15,
+        "runs": 3,
+        "earned_runs": 0,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "1.67"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 61760,
+        "name_prefix": "",
+        "first_name": "Maurice Jordan",
+        "last_name": "Dietrich",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "0.1",
+        "batters_faced": 8,
+        "at_bats": 2,
+        "runs": 5,
+        "earned_runs": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 6,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "108.00",
+        "walks_and_hits_per_innings_pitched": "21.00"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 65745,
+        "name_prefix": "",
+        "first_name": "Yassin",
+        "last_name": "Ismaiel",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 2,
+        "complete_games": 0,
+        "innings_pitched": "5.1",
+        "batters_faced": 36,
+        "at_bats": 25,
+        "runs": 12,
+        "earned_runs": 7,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 9,
+        "base_on_balls_allowed": 11,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 5,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "11.81",
+        "walks_and_hits_per_innings_pitched": "3.00"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 67468,
+        "name_prefix": "",
+        "first_name": "Tim",
+        "last_name": "Junker",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "3.2",
+        "batters_faced": 23,
+        "at_bats": 17,
+        "runs": 7,
+        "earned_runs": 3,
+        "hits": 9,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 3,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 2,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "7.36",
+        "walks_and_hits_per_innings_pitched": "3.27"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 69791,
+        "name_prefix": "",
+        "first_name": "Maximilian",
+        "last_name": "Krause",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 8,
+        "games_started": 1,
+        "complete_games": 1,
+        "innings_pitched": "19.0",
+        "batters_faced": 93,
+        "at_bats": 77,
+        "runs": 16,
+        "earned_runs": 7,
+        "hits": 18,
+        "doubles": 4,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 31,
+        "base_on_balls_allowed": 13,
+        "intentional_base_on_balls": 2,
+        "hit_by_pitches": 3,
+        "wild_pitches": 5,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 3,
+        "losses": 2,
+        "saves": 1,
+        "earned_runs_average": "3.32",
+        "walks_and_hits_per_innings_pitched": "1.63"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 60834,
+        "name_prefix": "",
+        "first_name": "Mags",
+        "last_name": "Meschke",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "2.0",
+        "batters_faced": 13,
+        "at_bats": 11,
+        "runs": 2,
+        "earned_runs": 2,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "9.00",
+        "walks_and_hits_per_innings_pitched": "3.00"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 81117,
+        "name_prefix": "",
+        "first_name": "Niek",
+        "last_name": "Schulz",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "2.1",
+        "batters_faced": 18,
+        "at_bats": 10,
+        "runs": 7,
+        "earned_runs": 7,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 8,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "27.00",
+        "walks_and_hits_per_innings_pitched": "4.29"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 70073,
+        "name_prefix": "",
+        "first_name": "Dominik",
+        "last_name": "Wasielewski",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 4,
+        "games_started": 4,
+        "complete_games": 1,
+        "innings_pitched": "16.0",
+        "batters_faced": 71,
+        "at_bats": 64,
+        "runs": 9,
+        "earned_runs": 6,
+        "hits": 17,
+        "doubles": 5,
+        "triples": 2,
+        "homeruns": 0,
+        "strikeouts": 15,
+        "base_on_balls_allowed": 5,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 2,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "3.38",
+        "walks_and_hits_per_innings_pitched": "1.38"
+      },
+      "league_entry": {
+        "id": 46099,
+        "name": "Sluggers 2",
+        "acronym": "BES2",
+        "club": {
+          "type": "Club",
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 492,
+            "name": "Sluggers",
+            "acronym": "BES",
+            "short_name": "Berlin Sluggers",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/492/thumb/SluggersLogo2011Fin_dklrot_kl.png?1587225072"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 82459,
+        "name_prefix": "",
+        "first_name": "Kevin",
+        "last_name": "Bäthge",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 5,
+        "games_started": 3,
+        "complete_games": 0,
+        "innings_pitched": "16.2",
+        "batters_faced": 75,
+        "at_bats": 66,
+        "runs": 16,
+        "earned_runs": 12,
+        "hits": 20,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 8,
+        "base_on_balls_allowed": 4,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 5,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 1,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "6.48",
+        "walks_and_hits_per_innings_pitched": "1.44"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 73795,
+        "name_prefix": "",
+        "first_name": "Jamie",
+        "last_name": "Bongé",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "0.2",
+        "batters_faced": 10,
+        "at_bats": 9,
+        "runs": 7,
+        "earned_runs": 3,
+        "hits": 5,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 8,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "40.50",
+        "walks_and_hits_per_innings_pitched": "9.00"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 65875,
+        "name_prefix": "",
+        "first_name": "Joseph",
+        "last_name": "Hoedt",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.1",
+        "batters_faced": 10,
+        "at_bats": 6,
+        "runs": 6,
+        "earned_runs": 6,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 3,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "40.50",
+        "walks_and_hits_per_innings_pitched": "3.75"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 82494,
+        "name_prefix": "",
+        "first_name": "Paul",
+        "last_name": "Holz",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 3,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.0",
+        "batters_faced": 13,
+        "at_bats": 10,
+        "runs": 5,
+        "earned_runs": 5,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 3,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 3,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "45.00",
+        "walks_and_hits_per_innings_pitched": "6.00"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 80937,
+        "name_prefix": "",
+        "first_name": "Ben Jonathan",
+        "last_name": "Kampf",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.0",
+        "batters_faced": 12,
+        "at_bats": 5,
+        "runs": 5,
+        "earned_runs": 3,
+        "hits": 2,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 1,
+        "base_on_balls_allowed": 2,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 5,
+        "wild_pitches": 4,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "27.00",
+        "walks_and_hits_per_innings_pitched": "4.00"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 17255,
+        "name_prefix": "",
+        "first_name": "Yuima Oliver",
+        "last_name": "Kaneko",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 2,
+        "complete_games": 0,
+        "innings_pitched": "11.0",
+        "batters_faced": 58,
+        "at_bats": 44,
+        "runs": 12,
+        "earned_runs": 1,
+        "hits": 9,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 7,
+        "base_on_balls_allowed": 8,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 5,
+        "wild_pitches": 6,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 1,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "0.82",
+        "walks_and_hits_per_innings_pitched": "1.55"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 90118,
+        "name_prefix": "",
+        "first_name": "Chien-Tseng",
+        "last_name": "Kuo",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 4,
+        "games_started": 3,
+        "complete_games": 0,
+        "innings_pitched": "10.0",
+        "batters_faced": 68,
+        "at_bats": 50,
+        "runs": 24,
+        "earned_runs": 16,
+        "hits": 22,
+        "doubles": 7,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 4,
+        "base_on_balls_allowed": 11,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 6,
+        "wild_pitches": 2,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 2,
+        "saves": 0,
+        "earned_runs_average": "14.40",
+        "walks_and_hits_per_innings_pitched": "3.30"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 84769,
+        "name_prefix": "",
+        "first_name": "Linus",
+        "last_name": "Meesch",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "3.1",
+        "batters_faced": 19,
+        "at_bats": 16,
+        "runs": 4,
+        "earned_runs": 1,
+        "hits": 3,
+        "doubles": 0,
+        "triples": 1,
+        "homeruns": 0,
+        "strikeouts": 7,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 2,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "2.70",
+        "walks_and_hits_per_innings_pitched": "1.20"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 79643,
+        "name_prefix": "",
+        "first_name": "Ayden Leonard",
+        "last_name": "Purrington",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 1,
+        "complete_games": 0,
+        "innings_pitched": "4.2",
+        "batters_faced": 23,
+        "at_bats": 21,
+        "runs": 6,
+        "earned_runs": 3,
+        "hits": 7,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 3,
+        "base_on_balls_allowed": 0,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 1,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 2,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "5.79",
+        "walks_and_hits_per_innings_pitched": "1.50"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 55346,
+        "name_prefix": "",
+        "first_name": "Calvin",
+        "last_name": "Radtke",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.2",
+        "batters_faced": 13,
+        "at_bats": 9,
+        "runs": 2,
+        "earned_runs": 1,
+        "hits": 4,
+        "doubles": 1,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 0,
+        "base_on_balls_allowed": 3,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 1,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "5.40",
+        "walks_and_hits_per_innings_pitched": "4.20"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 62250,
+        "name_prefix": "",
+        "first_name": "Liam",
+        "last_name": "Sullivan",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.0",
+        "batters_faced": 9,
+        "at_bats": 4,
+        "runs": 4,
+        "earned_runs": 4,
+        "hits": 1,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 2,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 3,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 1,
+        "wins": 0,
+        "losses": 1,
+        "saves": 0,
+        "earned_runs_average": "36.00",
+        "walks_and_hits_per_innings_pitched": "2.00"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 83614,
+        "name_prefix": "",
+        "first_name": "George Simon ",
+        "last_name": "Takis",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 1,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "1.0",
+        "batters_faced": 3,
+        "at_bats": 3,
+        "runs": 0,
+        "earned_runs": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 3,
+        "base_on_balls_allowed": 0,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "0.00"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    },
+    {
+      "person": {
+        "type": "Person",
+        "id": 75142,
+        "name_prefix": "",
+        "first_name": "Anton",
+        "last_name": "Wagner",
+        "name_suffix": "",
+        "gender": "male",
+        "human_gender": "männlich"
+      },
+      "type": "PitchingStatistics",
+      "values": {
+        "type": "PitchingStatisticValues",
+        "games": 2,
+        "games_started": 0,
+        "complete_games": 0,
+        "innings_pitched": "2.0",
+        "batters_faced": 7,
+        "at_bats": 6,
+        "runs": 0,
+        "earned_runs": 0,
+        "hits": 0,
+        "doubles": 0,
+        "triples": 0,
+        "homeruns": 0,
+        "strikeouts": 3,
+        "base_on_balls_allowed": 1,
+        "intentional_base_on_balls": 0,
+        "hit_by_pitches": 0,
+        "wild_pitches": 0,
+        "interferences": 0,
+        "balks": 0,
+        "wins": 0,
+        "losses": 0,
+        "saves": 0,
+        "earned_runs_average": "0.00",
+        "walks_and_hits_per_innings_pitched": "0.50"
+      },
+      "league_entry": {
+        "id": 46100,
+        "name": "Wizards 2",
+        "acronym": "BEW2",
+        "club": {
+          "type": "Club",
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards",
+          "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+        },
+        "clubs": [
+          {
+            "type": "Club",
+            "id": 494,
+            "name": "Wizards",
+            "acronym": "BEW",
+            "short_name": "Berlin Wizards",
+            "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
+          }
+        ],
+        "group_ids": [
+          6208,
+          6209
+        ],
+        "group_acronyms": [
+          "LLBBDivA",
+          "LLBBDivB"
+        ],
+        "primary_group_ids": [
+          6208,
+          6209
+        ],
+        "secondary_group_ids": [
+          6209
+        ]
+      }
+    }
+  ]
+}
