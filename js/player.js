@@ -80,6 +80,14 @@ function pitchingTable(rows, teamCatalog = []) {
   return `<div class="table-scroll"><table class="stats-table history-table"><thead><tr><th>Saison</th><th class="left">Liga</th><th class="left">Mannschaft</th><th>G</th><th>GS</th><th>IP</th><th>W</th><th>L</th><th>SV</th><th>H</th><th>R</th><th>ER</th><th>HR</th><th>BB</th><th>SO</th><th>ERA</th><th>WHIP</th><th>FIP*</th><th>WAR*</th></tr></thead><tbody>${rows.map((row) => `<tr class="${rowClass(row)}"><td>${escapeHtml(row.season)}</td><td class="left">${escapeHtml(row.leagueName)}</td><td class="left">${renderHistoryTeamIdentity(row, teamCatalog)}</td><td>${row.games}</td><td>${row.gamesStarted}</td><td>${row.ipDisplay ?? formatInnings(row.ip)}</td><td>${row.wins}</td><td>${row.losses}</td><td>${row.saves}</td><td>${row.hits}</td><td>${row.runs}</td><td>${row.er}</td><td>${row.hr}</td><td>${row.bb}</td><td>${row.so}</td><td>${formatNumber(row.era, 2)}</td><td>${formatNumber(row.whip, 2)}</td><td>${formatNumber(row.fip, 2)}</td><td>${formatNumber(row.war, 2)}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
+
+export function renderHistoryPanel(tableHtml, kind) {
+  const note = kind === 'batting'
+    ? 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. WAR* ist ein Schätzwert.'
+    : 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. FIP und WAR* sind Schätzwerte.';
+  return `<div class="player-history-pane">${tableHtml}<div class="player-history-note">${note}</div></div>`;
+}
+
 function leagueCount(rows, selection) {
   const selectedRows = selection === 'career'
     ? rows
@@ -199,7 +207,7 @@ async function main() {
       <div class="profile-topline"><a class="back-link" href="${leagueUrl('player.html', selectedData)}">← Zur Spielersuche</a><div id="leagueSwitcher"></div></div>
       <section class="card player-hero">${renderPlayerHeroMark(base, teamCatalog)}<div class="player-title"><h1>${escapeHtml(base.name)}</h1><div class="player-team-list">${renderPlayerTeamList(playerRows, teamCatalog)}</div><p class="player-years">${years.at(-1)}–${years[0]}</p></div><div class="player-total-war"><span>Karriere-WAR*</span><strong>${formatNumber((battingCareer?.war ?? 0) + (pitchingCareer?.war ?? 0), 2)}</strong></div></section>
       <section class="season-filter-section" id="seasonFilterRoot"></section>
-      <section class="card career-card"><div class="card-header"><div class="record-tabs">${batting.length ? '<button class="active" type="button" data-tab="batting">Schlagstatistik</button>' : ''}${pitching.length ? '<button type="button" data-tab="pitching">Wurfstatistik</button>' : ''}</div><span class="meta-pill" id="selectionLabel">Gesamtübersicht</span></div><div class="player-history-layout"><div class="radar-panel" id="radarRoot"></div><div id="historyRoot"></div></div><div class="card-body"><p class="card-note" id="playerNote"></p></div></section>`;
+      <section class="card career-card"><div class="card-header"><div class="record-tabs">${batting.length ? '<button class="active" type="button" data-tab="batting">Schlagstatistik</button>' : ''}${pitching.length ? '<button type="button" data-tab="pitching">Wurfstatistik</button>' : ''}</div><span class="meta-pill" id="selectionLabel">Gesamtübersicht</span></div><div class="player-history-layout"><div class="radar-panel" id="radarRoot"></div><div id="historyRoot"></div></div></section>`;
     renderLeagueSelector('leagueSwitcher', selectedData, { compact: true });
 
     const renderView = () => {
@@ -222,10 +230,10 @@ async function main() {
         },
       });
       renderProfile(document.getElementById('radarRoot'), kind, total, pool, selectedSeason);
-      document.getElementById('historyRoot').innerHTML = kind === 'batting' ? battingTable(visibleRows, teamCatalog) : pitchingTable(visibleRows, teamCatalog);
-      document.getElementById('playerNote').textContent = kind === 'batting'
-        ? 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. WAR* ist ein Schätzwert.'
-        : 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. FIP und WAR* sind Schätzwerte.';
+      const historyTable = kind === 'batting'
+        ? battingTable(visibleRows, teamCatalog)
+        : pitchingTable(visibleRows, teamCatalog);
+      document.getElementById('historyRoot').innerHTML = renderHistoryPanel(historyTable, kind);
     };
 
     document.querySelectorAll('[data-tab]').forEach((button) => button.addEventListener('click', () => {
