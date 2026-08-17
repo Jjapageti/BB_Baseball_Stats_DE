@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T12:37:43.522655+00:00",
+  "generated_at": "2026-08-17T19:47:51.184528+00:00",
   "league": {
     "id": 6205,
     "name": "Verbandsliga Baseball",
@@ -23,7 +23,7 @@
   "counts": {
     "teams": 5,
     "matches": 30,
-    "played_matches": 19,
+    "played_matches": 20,
     "batters": 116,
     "pitchers": 35
   },
@@ -685,7 +685,7 @@
       "scoresheet_url": "https://bsm.baseball-softball.de/matches/62668/combined_scoresheets/Spiel-202603004.pdf",
       "scoresheet_file_name": "Spiel-202603004.pdf",
       "scoresheet_content_type": "application/pdf",
-      "scoresheet_updated_at": "2026-07-22T19:22:26.000+02:00",
+      "scoresheet_updated_at": "2026-08-09T11:39:43.000+02:00",
       "extra_rating_league": null,
       "extra_rating_league2": null,
       "second_league": null,
@@ -1412,10 +1412,10 @@
       "match_id": "202603009",
       "easyscore_id": null,
       "time": "2026-08-16 13:00:00 +0200",
-      "state": "planned",
-      "home_runs": null,
-      "away_runs": null,
-      "human_state": "geplant",
+      "state": "played",
+      "home_runs": 11,
+      "away_runs": 5,
+      "human_state": "gespielt",
       "league": {
         "type": "League",
         "id": 6205,
@@ -1426,10 +1426,10 @@
         "human_sport_short": "BB",
         "sort": 0
       },
-      "scoresheet_url": null,
-      "scoresheet_file_name": null,
-      "scoresheet_content_type": null,
-      "scoresheet_updated_at": null,
+      "scoresheet_url": "https://bsm.baseball-softball.de/matches/62673/combined_scoresheets/Spiel-202603009.pdf",
+      "scoresheet_file_name": "Spiel-202603009.pdf",
+      "scoresheet_content_type": "application/pdf",
+      "scoresheet_updated_at": "2026-08-16T17:28:15.000+02:00",
       "extra_rating_league": null,
       "extra_rating_league2": null,
       "second_league": null,
@@ -4567,7 +4567,22 @@
         "short_name": "Berlin Wizards",
         "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
       },
-      "scorer_assignments": [],
+      "scorer_assignments": [
+        {
+          "license": {
+            "id": 5979,
+            "level": "A",
+            "human_level": "A",
+            "number": "A-070708-SCO",
+            "person": {
+              "name_prefix": "",
+              "first_name": "Anna",
+              "last_name": "Leidinger",
+              "name_suffix": ""
+            }
+          }
+        }
+      ],
       "statistics_published": false,
       "source_group_ids": [
         6205
@@ -4575,20 +4590,6 @@
     }
   ],
   "standings": [
-    {
-      "league_entry_id": 46084,
-      "team": "Sluggers",
-      "acronym": "BES",
-      "games": 8,
-      "wins": 7,
-      "losses": 1,
-      "ties": 0,
-      "runs_for": 116,
-      "runs_against": 70,
-      "run_diff": 46,
-      "win_pct": 0.875,
-      "rank": 1
-    },
     {
       "league_entry_id": 46085,
       "team": "Wizards",
@@ -4601,20 +4602,34 @@
       "runs_against": 63,
       "run_diff": 43,
       "win_pct": 0.875,
+      "rank": 1
+    },
+    {
+      "league_entry_id": 46084,
+      "team": "Sluggers",
+      "acronym": "BES",
+      "games": 9,
+      "wins": 7,
+      "losses": 2,
+      "ties": 0,
+      "runs_for": 121,
+      "runs_against": 81,
+      "run_diff": 40,
+      "win_pct": 0.778,
       "rank": 2
     },
     {
       "league_entry_id": 46086,
       "team": "Skylarks 2",
       "acronym": "BEA",
-      "games": 7,
-      "wins": 5,
+      "games": 8,
+      "wins": 6,
       "losses": 2,
       "ties": 0,
-      "runs_for": 104,
-      "runs_against": 67,
-      "run_diff": 37,
-      "win_pct": 0.714,
+      "runs_for": 115,
+      "runs_against": 72,
+      "run_diff": 43,
+      "win_pct": 0.75,
       "rank": 3
     },
     {

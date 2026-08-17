@@ -128,12 +128,12 @@
       "not_competing": "",
       "team_name": "Porcupines 2",
       "short_team_name": "POT2",
-      "match_count": 10,
+      "match_count": 11,
       "wins_count": 0,
-      "losses_count": 10,
+      "losses_count": 11,
       "quota": ".000",
-      "games_behind": "7.5",
-      "streak": "L10",
+      "games_behind": "8",
+      "streak": "L11",
       "league_entry": {
         "id": 46102,
         "team": {

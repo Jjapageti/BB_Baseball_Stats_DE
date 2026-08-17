@@ -96,44 +96,14 @@
     {
       "rank": "4.",
       "not_competing": "",
-      "team_name": "Roosters",
-      "short_team_name": "BER",
-      "match_count": 6,
-      "wins_count": 1,
-      "losses_count": 5,
-      "quota": ".167",
-      "games_behind": "5.5",
-      "streak": "L4",
-      "league_entry": {
-        "id": 46094,
-        "team": {
-          "id": 23860,
-          "name": "Roosters",
-          "short_name": "BER",
-          "clubs": [
-            {
-              "type": "Club",
-              "id": 491,
-              "name": "Ravens / Roosters",
-              "acronym": "BER",
-              "short_name": "NSF Berlin Ravens / Roosters",
-              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "rank": "5.",
-      "not_competing": "",
       "team_name": "Skylarks 3",
       "short_team_name": "BEA",
-      "match_count": 6,
-      "wins_count": 1,
+      "match_count": 7,
+      "wins_count": 2,
       "losses_count": 5,
-      "quota": ".167",
-      "games_behind": "5.5",
-      "streak": "W1",
+      "quota": ".286",
+      "games_behind": "5",
+      "streak": "W2",
       "league_entry": {
         "id": 46097,
         "team": {
@@ -148,6 +118,36 @@
               "acronym": "BEA",
               "short_name": "Berlin Skylarks",
               "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": "5.",
+      "not_competing": "",
+      "team_name": "Roosters",
+      "short_team_name": "BER",
+      "match_count": 8,
+      "wins_count": 2,
+      "losses_count": 6,
+      "quota": ".250",
+      "games_behind": "5.5",
+      "streak": "W1",
+      "league_entry": {
+        "id": 46094,
+        "team": {
+          "id": 23860,
+          "name": "Roosters",
+          "short_name": "BER",
+          "clubs": [
+            {
+              "type": "Club",
+              "id": 491,
+              "name": "Ravens / Roosters",
+              "acronym": "BER",
+              "short_name": "NSF Berlin Ravens / Roosters",
+              "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/491/thumb/logo-baseballworld-website.png?1587225072"
             }
           ]
         }

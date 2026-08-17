@@ -1,11 +1,11 @@
 BSM VERBANDSLIGA DATA FETCH REPORT
 ============================================================================
-Erstellt        : 2026-08-04T12:37:43.522655+00:00
+Erstellt        : 2026-08-17T19:47:51.184528+00:00
 Liga            : Verbandsliga Baseball (VLBB, ID 6205)
 Saison          : 2026
 Mannschaften    : 5
 Spiele          : 30
-Gespielte Spiele: 19
+Gespielte Spiele: 20
 Batter          : 116
 Pitcher         : 35
 

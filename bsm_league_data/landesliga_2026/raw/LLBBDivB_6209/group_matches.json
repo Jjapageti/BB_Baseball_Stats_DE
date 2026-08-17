@@ -4596,10 +4596,10 @@
     "match_id": "202604I12",
     "easyscore_id": null,
     "time": "2026-08-16 13:00:00 +0200",
-    "state": "planned",
-    "home_runs": null,
-    "away_runs": null,
-    "human_state": "geplant",
+    "state": "played",
+    "home_runs": 11,
+    "away_runs": 9,
+    "human_state": "gespielt",
     "league": {
       "type": "League",
       "id": 6208,
@@ -4610,10 +4610,10 @@
       "human_sport_short": "BB",
       "sort": 0
     },
-    "scoresheet_url": null,
-    "scoresheet_file_name": null,
-    "scoresheet_content_type": null,
-    "scoresheet_updated_at": null,
+    "scoresheet_url": "https://bsm.baseball-softball.de/matches/62820/combined_scoresheets/Spiel-202604i12.pdf",
+    "scoresheet_file_name": "Spiel-202604i12.pdf",
+    "scoresheet_content_type": "application/pdf",
+    "scoresheet_updated_at": "2026-08-16T23:42:10.000+02:00",
     "extra_rating_league": null,
     "extra_rating_league2": null,
     "second_league": {
@@ -5449,20 +5449,6 @@
     "umpire_assignments": [
       {
         "license": {
-          "id": 6619,
-          "level": "C",
-          "human_level": "C",
-          "number": "C-080280-UMP-BB",
-          "person": {
-            "name_prefix": "",
-            "first_name": "Saifali",
-            "last_name": "Mian",
-            "name_suffix": ""
-          }
-        }
-      },
-      {
-        "license": {
           "id": 7233,
           "level": "B",
           "human_level": "B",
@@ -5776,14 +5762,14 @@
     "scorer_assignments": [
       {
         "license": {
-          "id": 5979,
+          "id": 4739,
           "level": "A",
           "human_level": "A",
-          "number": "A-070708-SCO",
+          "number": "A-029608-SCO",
           "person": {
             "name_prefix": "",
-            "first_name": "Anna",
-            "last_name": "Leidinger",
+            "first_name": "Ute",
+            "last_name": "Reimann",
             "name_suffix": ""
           }
         }
@@ -6457,7 +6443,22 @@
       "short_name": "Berlin Flamingos",
       "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
     },
-    "umpire_assignments": [],
+    "umpire_assignments": [
+      {
+        "license": {
+          "id": 4731,
+          "level": "C",
+          "human_level": "C",
+          "number": "C-060809-UMP-BB",
+          "person": {
+            "name_prefix": "",
+            "first_name": "Kevin",
+            "last_name": "Halle",
+            "name_suffix": ""
+          }
+        }
+      }
+    ],
     "scorer_selection": {
       "type": "Club",
       "id": 604,

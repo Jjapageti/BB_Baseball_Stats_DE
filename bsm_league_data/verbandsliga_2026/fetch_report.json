@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T12:37:43.522655+00:00",
+  "generated_at": "2026-08-17T19:47:51.184528+00:00",
   "league": {
     "id": 6205,
     "name": "Verbandsliga Baseball",
@@ -23,7 +23,7 @@
   "counts": {
     "teams": 5,
     "matches": 30,
-    "played_matches": 19,
+    "played_matches": 20,
     "batters": 116,
     "pitchers": 35
   },

@@ -1,12 +1,12 @@
 BSM LANDESLIGA MERGE REPORT
 ==============================================================================
-Erstellt        : 2026-08-04T13:16:49.709841+00:00
+Erstellt        : 2026-08-17T19:47:36.074523+00:00
 Saison          : 2026
 Zusammengeführt : Landesliga Baseball
 Quellgruppen    : LLBBDivA=6208, LLBBDivB=6209
 Mannschaften    : 10
 Eindeutige Spiele: 65
-Gespielte Spiele: 44
+Gespielte Spiele: 46
 Batter          : 217
 Pitcher         : 63
 

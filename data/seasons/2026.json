@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-05T09:38:53.111017+00:00",
+  "generated_at": "2026-08-17T19:48:11.218800+00:00",
   "season": 2026,
   "target_club": {
     "id": 492,
@@ -32,7 +32,7 @@
       "counts": {
         "teams": 5,
         "matches": 30,
-        "played_matches": 19,
+        "played_matches": 20,
         "batters": 116,
         "pitchers": 35
       },
@@ -694,7 +694,7 @@
           "scoresheet_url": "https://bsm.baseball-softball.de/matches/62668/combined_scoresheets/Spiel-202603004.pdf",
           "scoresheet_file_name": "Spiel-202603004.pdf",
           "scoresheet_content_type": "application/pdf",
-          "scoresheet_updated_at": "2026-07-22T19:22:26.000+02:00",
+          "scoresheet_updated_at": "2026-08-09T11:39:43.000+02:00",
           "extra_rating_league": null,
           "extra_rating_league2": null,
           "second_league": null,
@@ -1421,10 +1421,10 @@
           "match_id": "202603009",
           "easyscore_id": null,
           "time": "2026-08-16 13:00:00 +0200",
-          "state": "planned",
-          "home_runs": null,
-          "away_runs": null,
-          "human_state": "geplant",
+          "state": "played",
+          "home_runs": 11,
+          "away_runs": 5,
+          "human_state": "gespielt",
           "league": {
             "type": "League",
             "id": 6205,
@@ -1435,10 +1435,10 @@
             "human_sport_short": "BB",
             "sort": 0
           },
-          "scoresheet_url": null,
-          "scoresheet_file_name": null,
-          "scoresheet_content_type": null,
-          "scoresheet_updated_at": null,
+          "scoresheet_url": "https://bsm.baseball-softball.de/matches/62673/combined_scoresheets/Spiel-202603009.pdf",
+          "scoresheet_file_name": "Spiel-202603009.pdf",
+          "scoresheet_content_type": "application/pdf",
+          "scoresheet_updated_at": "2026-08-16T17:28:15.000+02:00",
           "extra_rating_league": null,
           "extra_rating_league2": null,
           "second_league": null,
@@ -4576,7 +4576,22 @@
             "short_name": "Berlin Wizards",
             "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/494/thumb/Wizards-Logo-200x200.png?1741764774"
           },
-          "scorer_assignments": [],
+          "scorer_assignments": [
+            {
+              "license": {
+                "id": 5979,
+                "level": "A",
+                "human_level": "A",
+                "number": "A-070708-SCO",
+                "person": {
+                  "name_prefix": "",
+                  "first_name": "Anna",
+                  "last_name": "Leidinger",
+                  "name_suffix": ""
+                }
+              }
+            }
+          ],
           "statistics_published": false,
           "source_group_ids": [
             6205
@@ -4584,20 +4599,6 @@
         }
       ],
       "standings": [
-        {
-          "league_entry_id": 46084,
-          "team": "Sluggers",
-          "acronym": "BES",
-          "games": 8,
-          "wins": 7,
-          "losses": 1,
-          "ties": 0,
-          "runs_for": 116,
-          "runs_against": 70,
-          "run_diff": 46,
-          "win_pct": 0.875,
-          "rank": 1
-        },
         {
           "league_entry_id": 46085,
           "team": "Wizards",
@@ -4610,20 +4611,34 @@
           "runs_against": 63,
           "run_diff": 43,
           "win_pct": 0.875,
+          "rank": 1
+        },
+        {
+          "league_entry_id": 46084,
+          "team": "Sluggers",
+          "acronym": "BES",
+          "games": 9,
+          "wins": 7,
+          "losses": 2,
+          "ties": 0,
+          "runs_for": 121,
+          "runs_against": 81,
+          "run_diff": 40,
+          "win_pct": 0.778,
           "rank": 2
         },
         {
           "league_entry_id": 46086,
           "team": "Skylarks 2",
           "acronym": "BEA",
-          "games": 7,
-          "wins": 5,
+          "games": 8,
+          "wins": 6,
           "losses": 2,
           "ties": 0,
-          "runs_for": 104,
-          "runs_against": 67,
-          "run_diff": 37,
-          "win_pct": 0.714,
+          "runs_for": 115,
+          "runs_against": 72,
+          "run_diff": 43,
+          "win_pct": 0.75,
           "rank": 3
         },
         {
@@ -16797,7 +16812,7 @@
       "counts": {
         "teams": 10,
         "matches": 65,
-        "played_matches": 45,
+        "played_matches": 47,
         "batters": 217,
         "pitchers": 63
       },
@@ -19699,7 +19714,22 @@
             "short_name": "Berlin Flamingos",
             "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/604/thumb/flalogo_big_freigestellt.png?1625524563"
           },
-          "umpire_assignments": [],
+          "umpire_assignments": [
+            {
+              "license": {
+                "id": 4731,
+                "level": "C",
+                "human_level": "C",
+                "number": "C-060809-UMP-BB",
+                "person": {
+                  "name_prefix": "",
+                  "first_name": "Kevin",
+                  "last_name": "Halle",
+                  "name_suffix": ""
+                }
+              }
+            }
+          ],
           "scorer_selection": {
             "type": "Club",
             "id": 604,
@@ -20410,7 +20440,22 @@
             "short_name": "Berlin Skylarks",
             "logo_url": "https://bsm.baseball-softball.de/system/clubs/logos/000/000/485/thumb/Skylarks_Logo-Rondell_200px.png?1608387861"
           },
-          "umpire_assignments": [],
+          "umpire_assignments": [
+            {
+              "license": {
+                "id": 8761,
+                "level": "C",
+                "human_level": "C",
+                "number": "C-085716-UMP-BB",
+                "person": {
+                  "name_prefix": "",
+                  "first_name": "Fabian",
+                  "last_name": "Boldt",
+                  "name_suffix": ""
+                }
+              }
+            }
+          ],
           "scorer_selection": {
             "type": "Club",
             "id": 485,
@@ -22557,10 +22602,10 @@
           "match_id": "202604A12",
           "easyscore_id": null,
           "time": "2026-08-08 12:00:00 +0200",
-          "state": "planned",
-          "home_runs": null,
-          "away_runs": null,
-          "human_state": "geplant",
+          "state": "played",
+          "home_runs": 10,
+          "away_runs": 4,
+          "human_state": "gespielt",
           "league": {
             "type": "League",
             "id": 6208,
@@ -22571,10 +22616,10 @@
             "human_sport_short": "BB",
             "sort": 0
           },
-          "scoresheet_url": null,
-          "scoresheet_file_name": null,
-          "scoresheet_content_type": null,
-          "scoresheet_updated_at": null,
+          "scoresheet_url": "https://bsm.baseball-softball.de/matches/62805/combined_scoresheets/Spiel-202604a12.pdf",
+          "scoresheet_file_name": "Spiel-202604a12.pdf",
+          "scoresheet_content_type": "application/pdf",
+          "scoresheet_updated_at": "2026-08-11T16:02:48.000+02:00",
           "extra_rating_league": null,
           "extra_rating_league2": null,
           "second_league": null,
@@ -22650,6 +22695,20 @@
                   "name_prefix": "",
                   "first_name": "Detlef",
                   "last_name": "Buchleither",
+                  "name_suffix": ""
+                }
+              }
+            },
+            {
+              "license": {
+                "id": 7911,
+                "level": "C",
+                "human_level": "C",
+                "number": "C-083574-UMP-BB",
+                "person": {
+                  "name_prefix": "",
+                  "first_name": "Emil",
+                  "last_name": "Ciesielski",
                   "name_suffix": ""
                 }
               }
@@ -22930,6 +22989,20 @@
           "umpire_assignments": [
             {
               "license": {
+                "id": 4731,
+                "level": "C",
+                "human_level": "C",
+                "number": "C-060809-UMP-BB",
+                "person": {
+                  "name_prefix": "",
+                  "first_name": "Kevin",
+                  "last_name": "Halle",
+                  "name_suffix": ""
+                }
+              }
+            },
+            {
+              "license": {
                 "id": 5281,
                 "level": "B",
                 "human_level": "B",
@@ -22938,20 +23011,6 @@
                   "name_prefix": "",
                   "first_name": "Detlef",
                   "last_name": "Buchleither",
-                  "name_suffix": ""
-                }
-              }
-            },
-            {
-              "license": {
-                "id": 6155,
-                "level": "B",
-                "human_level": "B",
-                "number": "B-034496-UMP-BB",
-                "person": {
-                  "name_prefix": "",
-                  "first_name": "Maxim",
-                  "last_name": "Schweigert",
                   "name_suffix": ""
                 }
               }
@@ -24791,10 +24850,10 @@
           "match_id": "202604I12",
           "easyscore_id": null,
           "time": "2026-08-16 13:00:00 +0200",
-          "state": "planned",
-          "home_runs": null,
-          "away_runs": null,
-          "human_state": "geplant",
+          "state": "played",
+          "home_runs": 11,
+          "away_runs": 9,
+          "human_state": "gespielt",
           "league": {
             "type": "League",
             "id": 6208,
@@ -24805,10 +24864,10 @@
             "human_sport_short": "BB",
             "sort": 0
           },
-          "scoresheet_url": null,
-          "scoresheet_file_name": null,
-          "scoresheet_content_type": null,
-          "scoresheet_updated_at": null,
+          "scoresheet_url": "https://bsm.baseball-softball.de/matches/62820/combined_scoresheets/Spiel-202604i12.pdf",
+          "scoresheet_file_name": "Spiel-202604i12.pdf",
+          "scoresheet_content_type": "application/pdf",
+          "scoresheet_updated_at": "2026-08-16T23:42:10.000+02:00",
           "extra_rating_league": null,
           "extra_rating_league2": null,
           "second_league": {
@@ -26288,20 +26347,6 @@
           "umpire_assignments": [
             {
               "license": {
-                "id": 6619,
-                "level": "C",
-                "human_level": "C",
-                "number": "C-080280-UMP-BB",
-                "person": {
-                  "name_prefix": "",
-                  "first_name": "Saifali",
-                  "last_name": "Mian",
-                  "name_suffix": ""
-                }
-              }
-            },
-            {
-              "license": {
                 "id": 7233,
                 "level": "B",
                 "human_level": "B",
@@ -26467,14 +26512,14 @@
           "scorer_assignments": [
             {
               "license": {
-                "id": 5979,
+                "id": 4739,
                 "level": "A",
                 "human_level": "A",
-                "number": "A-070708-SCO",
+                "number": "A-029608-SCO",
                 "person": {
                   "name_prefix": "",
-                  "first_name": "Anna",
-                  "last_name": "Leidinger",
+                  "first_name": "Ute",
+                  "last_name": "Reimann",
                   "name_suffix": ""
                 }
               }
@@ -26988,28 +27033,28 @@
           "league_entry_id": 46103,
           "team": "Flamingos 2",
           "acronym": "FLA",
-          "games": 9,
+          "games": 10,
           "wins": 6,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
           "runs_for": 114,
-          "runs_against": 57,
-          "run_diff": 57,
-          "win_pct": 0.667,
+          "runs_against": 64,
+          "run_diff": 50,
+          "win_pct": 0.6,
           "rank": 4
         },
         {
           "league_entry_id": 46101,
           "team": "Challengers",
           "acronym": "BEC",
-          "games": 9,
-          "wins": 5,
+          "games": 10,
+          "wins": 6,
           "losses": 4,
           "ties": 0,
-          "runs_for": 103,
+          "runs_for": 110,
           "runs_against": 81,
-          "run_diff": 22,
-          "win_pct": 0.556,
+          "run_diff": 29,
+          "win_pct": 0.6,
           "rank": 5
         },
         {
@@ -27041,44 +27086,44 @@
           "rank": 7
         },
         {
-          "league_entry_id": 46094,
-          "team": "Roosters",
-          "acronym": "BER",
-          "games": 6,
-          "wins": 1,
-          "losses": 5,
-          "ties": 0,
-          "runs_for": 33,
-          "runs_against": 74,
-          "run_diff": -41,
-          "win_pct": 0.167,
-          "rank": 8
-        },
-        {
           "league_entry_id": 46097,
           "team": "Skylarks 3",
           "acronym": "BEA",
-          "games": 6,
-          "wins": 1,
+          "games": 7,
+          "wins": 2,
           "losses": 5,
           "ties": 0,
-          "runs_for": 23,
-          "runs_against": 79,
-          "run_diff": -56,
-          "win_pct": 0.167,
+          "runs_for": 33,
+          "runs_against": 83,
+          "run_diff": -50,
+          "win_pct": 0.286,
+          "rank": 8
+        },
+        {
+          "league_entry_id": 46094,
+          "team": "Roosters",
+          "acronym": "BER",
+          "games": 8,
+          "wins": 2,
+          "losses": 6,
+          "ties": 0,
+          "runs_for": 48,
+          "runs_against": 93,
+          "run_diff": -45,
+          "win_pct": 0.25,
           "rank": 9
         },
         {
           "league_entry_id": 46102,
           "team": "Porcupines 2",
           "acronym": "POT2",
-          "games": 10,
+          "games": 11,
           "wins": 0,
-          "losses": 10,
+          "losses": 11,
           "ties": 0,
-          "runs_for": 70,
-          "runs_against": 159,
-          "run_diff": -89,
+          "runs_for": 79,
+          "runs_against": 170,
+          "run_diff": -91,
           "win_pct": 0.0,
           "rank": 10
         }
