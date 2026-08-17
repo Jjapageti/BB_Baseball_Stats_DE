@@ -1,0 +1,26 @@
+BSM SEASON 2024 ADULT BASEBALL FETCH REPORT
+==================================================================================
+Erstellt          : 2026-08-05T09:26:48.357391+00:00
+Saison            : 2024
+Zielverein        : Berlin Sluggers (Club-ID 492)
+Saisonspiele      : 5824
+Erkannte Ligen    : 3 Quellgruppen
+Gespeicherte Ligen: 2
+
+[AUSGEWÄHLTE QUELLGRUPPEN]
+- 2BLHN            id=5652   level=2-bundesliga    stage=regular    matches=132  Sluggers-Matches=12  name=2. Baseball-Bundesliga Nord
+- 2BLHNO           id=5661   level=2-bundesliga    stage=regular    matches=132  Sluggers-Matches=32  name=2. Baseball-Bundesliga Nord-Nordost
+- VLBB             id=5732   level=verbandsliga    stage=regular    matches=75   Sluggers-Matches=16  name=Verbandsliga Baseball
+
+[GESPEICHERTE LIGEN]
+- 2. Baseball-Bundesliga Nord | key=2-bundesliga-regular-2-baseball-bundesliga-nord | source=5652, 5661 | teams=12 matches=192 batters=295 pitchers=135
+- Verbandsliga Baseball | key=verbandsliga-regular-verbandsliga-baseball | source=5732 | teams=9 matches=75 batters=217 pitchers=66
+
+[AUSGABE]
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2024\season_2024.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2024\discovery.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2024\fetch_report.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2024\fetch_report.txt
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\data\seasons\2024.json
+
+season_2024.json enthält alle erkannten Erwachsenenligen der Berlin Sluggers.

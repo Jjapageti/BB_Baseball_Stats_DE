@@ -1,0 +1,76 @@
+BSM SEASON 2025 BSVBB FULL FETCH REPORT
+==================================================================================
+Erstellt          : 2026-08-14T12:42:05.142670+00:00
+Saison            : 2025
+Discovery-Ligen   : 26 Quellgruppen
+Gespeicherte Ligen: 25
+
+[AUSGEWÄHLTE QUELLGRUPPEN]
+- VLBB             id=5970   scope=local_bsvbb              level=verbandsliga       stage=regular    matches=56   name=Verbandsliga Baseball
+- VLSB             id=5984   scope=local_bsvbb              level=verbandsliga       stage=regular    matches=40   name=Verbandsliga Softball
+- VLBBPO           id=6057   scope=local_bsvbb              level=verbandsliga       stage=postseason matches=2    name=Verbandsliga Baseball
+- LLBBDivA         id=6054   scope=local_bsvbb              level=landesliga         stage=regular    matches=45   name=Landesliga Baseball
+- LLBBDivB         id=6055   scope=local_bsvbb              level=landesliga         stage=regular    matches=45   name=Landesliga Baseball
+- LLBBPO           id=6056   scope=local_bsvbb              level=landesliga         stage=postseason matches=3    name=Landesliga Baseball
+- JunBB            id=5974   scope=local_bsvbb              level=junioren           stage=regular    matches=24   name=Juniorenliga Baseball
+- JunSB            id=5986   scope=local_bsvbb              level=juniorinnen        stage=regular    matches=5    name=Junorinnenliga Softball
+- JugA             id=5976   scope=local_bsvbb              level=jugend             stage=regular    matches=56   name=Jugendaufbauliga Baseball
+- JugBB            id=5978   scope=local_bsvbb              level=jugend             stage=regular    matches=12   name=Jugendliga Baseball
+- SchBB            id=5980   scope=local_bsvbb              level=schueler           stage=regular    matches=30   name=Schülerliga Baseball
+- CoPi             id=5982   scope=local_bsvbb              level=coach-pitch        stage=regular    matches=12   name=Coach Pitch
+- 2BLHNO           id=5915   scope=overregional_candidate   level=2-bundesliga       stage=regular    matches=60   name=2. Baseball-Bundesliga Nordost
+- 2BLHPON          id=5920   scope=overregional_candidate   level=2-bundesliga       stage=postseason matches=18   name=2. Baseball-Bundesliga Nord Play-offs
+- BLDN             id=5909   scope=overregional_candidate   level=bundesliga         stage=regular    matches=112  name=Softball-Bundesliga Nord
+- BLDDP            id=5912   scope=overregional_candidate   level=deutschlandpokal   stage=postseason matches=24   name=Deutschlandpokal Softball
+- JUN_GR_A         id=6091   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Junioren Gruppe A
+- JUG_GR_B         id=6096   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Jugend BB Gruppe B
+- SCH_GR_B         id=6100   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Schüler Gruppe B
+- JUNSB GR A       id=6105   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Juniorinnen Gruppe A
+- JUGSB GR C       id=6114   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Jugend SB Gruppe C
+- JUN_PO           id=6093   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Junioren Play-offs
+- JUG_PO           id=6097   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Jugend BB Play-offs
+- SCH_PO           id=6101   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Schüler Play-offs
+- JUNSB PO         id=6107   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Juniorinnen Play-offs
+- JUGSB PO         id=6115   scope=overregional_candidate   level=dm                 stage=postseason matches=8    name=DM Jugend SB Play-offs
+
+[GESPEICHERTE LIGEN]
+- Verbandsliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball | source=5970 | teams=8 matches=56 batters=198 pitchers=69
+- Verbandsliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-verbandsliga-regular-verbandsliga-softball | source=5984 | teams=5 matches=40 batters=91 pitchers=28
+- Verbandsliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-verbandsliga-postseason-verbandsliga-baseball | source=6057 | teams=8 matches=2 batters=27 pitchers=5
+- Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball | source=6054, 6055 | teams=10 matches=65 batters=222 pitchers=77
+- Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-landesliga-postseason-landesliga-baseball | source=6056 | teams=10 matches=3 batters=0 pitchers=0
+- Juniorenliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball | source=5974 | teams=4 matches=24 batters=74 pitchers=32
+- Junorinnenliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-juniorinnen-regular-junorinnenliga-softball | source=5986 | teams=2 matches=5 batters=0 pitchers=0
+- Jugendaufbauliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugendaufbauliga-baseball | source=5976 | teams=8 matches=56 batters=0 pitchers=0
+- Jugendliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugendliga-baseball | source=5978 | teams=3 matches=12 batters=52 pitchers=15
+- Schülerliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-schueler-regular-schuelerliga-baseball | source=5980 | teams=6 matches=30 batters=25 pitchers=6
+- Coach Pitch | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-coach-pitch-regular-coach-pitch | source=5982 | teams=4 matches=12 batters=0 pitchers=0
+- 2. Baseball-Bundesliga Nordost | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-regular-2-baseball-bundesliga-nordost | source=5915 | teams=5 matches=60 batters=113 pitchers=45
+- 2. Baseball-Bundesliga Nord Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-play-offs | source=5920 | teams=9 matches=18 batters=109 pitchers=36
+    [FAIL] 2BLHPON group_table: HTTP 404: Not Found; body=''
+- Softball-Bundesliga Nord | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-bundesliga-regular-softball-bundesliga-nord | source=5909 | teams=8 matches=112 batters=159 pitchers=52
+- Deutschlandpokal Softball | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-deutschlandpokal-postseason-deutschlandpokal-softball | source=5912 | teams=13 matches=24 batters=148 pitchers=37
+    [FAIL] BLDDP group_table: HTTP 404: Not Found; body=''
+- DM Jugend BB Gruppe B | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-jugend-bb-gruppe-b | source=6096 | teams=4 matches=6 batters=51 pitchers=28
+- DM Jugend SB Gruppe C | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-dm-regular-dm-jugend-sb-gruppe-c | source=6114 | teams=4 matches=6 batters=0 pitchers=0
+- DM Junioren Gruppe A | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-junioren-gruppe-a | source=6091 | teams=4 matches=6 batters=50 pitchers=32
+- DM Juniorinnen Gruppe A | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-dm-regular-dm-juniorinnen-gruppe-a | source=6105 | teams=4 matches=6 batters=42 pitchers=11
+- DM Schüler Gruppe B | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-schueler-gruppe-b | source=6100 | teams=4 matches=6 batters=48 pitchers=23
+- DM Jugend BB Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-jugend-bb-play-offs | source=6097 | teams=7 matches=6 batters=79 pitchers=22
+- DM Jugend SB Play-offs | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-dm-postseason-dm-jugend-sb-play-offs | source=6115 | teams=12 matches=8 batters=0 pitchers=0
+    [FAIL] JUGSB PO group_table: HTTP 404: Not Found; body=''
+- DM Junioren Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-junioren-play-offs | source=6093 | teams=8 matches=6 batters=97 pitchers=24
+    [FAIL] JUN_PO group_table: HTTP 404: Not Found; body=''
+- DM Juniorinnen Play-offs | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-dm-postseason-dm-juniorinnen-play-offs | source=6107 | teams=8 matches=6 batters=58 pitchers=12
+    [FAIL] JUNSB PO group_table: HTTP 404: Not Found; body=''
+- DM Schüler Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-schueler-play-offs | source=6101 | teams=8 matches=6 batters=85 pitchers=21
+    [FAIL] SCH_PO group_table: HTTP 404: Not Found; body=''
+
+[AUSGABE]
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2025\season_2025.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2025\discovery.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2025\fetch_report.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2025\fetch_report.txt
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\data\seasons\2025.json
+
+season_2025.json enthält BSVBB lokale Ligen plus ausgewählte überregionale Ligen.

@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local/generated BSM raw data
+bsm_group_discovery/
+bsm_probe_output/
+bsm_league_data/
+
+tests/bsm_boxscore_debug/
+tests/bsm_boxscore_html_v3/
+tests/bsm_season_data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Generated season raw data
+bsm_season_data/*/raw/

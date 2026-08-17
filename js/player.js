@@ -5,6 +5,7 @@ import { comparisonAverage, comparisonTotals, filterHistoryForSelection, selecte
 import { batterRadar, pitcherRadar, renderRadar } from './radar.js';
 import { buildTeamCatalog, renderTeamIdentity, renderTeamMark, resolveTeam } from './team.js';
 import { initGlobalSearch } from './search.js';
+import { gameLogPanelHtml, historyLeagueHint, leagueFilterOptions, loadPlayerGameLogsForSelection, recordTabsHtml, resolveLeagueFilterKey } from './game-log.js?v=20260817-v8-events';
 import {
   escapeHtml, formatNumber, formatRate, leagueUrl, playerUrl,
   renderDataStatus, renderError, renderFooter, renderLeagueSelector, renderSiteHeader,
@@ -70,22 +71,29 @@ export function renderHistoryTeamIdentity(row, teamCatalog = []) {
   return renderTeamIdentity(row, teamCatalog, { size: 'xs', showAcronym: true, showName: true, className: 'history-team-identity' });
 }
 
+function renderHistoryLeague(row, role) {
+  if (row?.rowType !== 'league') return escapeHtml(row?.leagueName ?? '–');
+
+  const hint = encodeURIComponent(JSON.stringify(historyLeagueHint(row)));
+  return `<button
+    type="button"
+    class="history-league-link"
+    data-game-role="${escapeHtml(role)}"
+    data-season="${escapeHtml(row?.season ?? '')}"
+    data-league-hint="${escapeHtml(hint)}"
+    title="Spielprotokoll dieser Liga öffnen">
+    ${escapeHtml(row?.leagueName ?? '–')}
+  </button>`;
+}
+
 function battingTable(rows, teamCatalog = []) {
   if (!rows.length) return '<div class="empty-state">Keine Schlagstatistik für diesen Zeitraum vorhanden.</div>';
-  return `<div class="table-scroll"><table class="stats-table history-table"><thead><tr><th>Saison</th><th class="left">Liga</th><th class="left">Mannschaft</th><th>G</th><th>PA</th><th>AB</th><th>R</th><th>RBI</th><th>H</th><th>2B</th><th>3B</th><th>HR</th><th>BB</th><th>SO</th><th>AVG</th><th>OBP</th><th>SLG</th><th>OPS</th><th>WAR*</th></tr></thead><tbody>${rows.map((row) => `<tr class="${rowClass(row)}"><td>${escapeHtml(row.season)}</td><td class="left">${escapeHtml(row.leagueName)}</td><td class="left">${renderHistoryTeamIdentity(row, teamCatalog)}</td><td>${row.games}</td><td>${row.pa}</td><td>${row.ab}</td><td>${row.runs}</td><td>${row.rbi}</td><td>${row.hits}</td><td>${row.doubles}</td><td>${row.triples}</td><td>${row.hr}</td><td>${row.bb}</td><td>${row.so}</td><td>${formatRate(row.avg)}</td><td>${formatRate(row.obp)}</td><td>${formatRate(row.slg)}</td><td>${formatRate(row.ops)}</td><td>${formatNumber(row.war, 2)}</td></tr>`).join('')}</tbody></table></div>`;
+  return `<div class="table-scroll"><table class="stats-table history-table"><thead><tr><th>Saison</th><th class="left">Liga</th><th class="left">Mannschaft</th><th>G</th><th>PA</th><th>AB</th><th>R</th><th>RBI</th><th>H</th><th>2B</th><th>3B</th><th>HR</th><th>BB</th><th>SO</th><th>AVG</th><th>OBP</th><th>SLG</th><th>OPS</th><th>WAR*</th></tr></thead><tbody>${rows.map((row) => `<tr class="${rowClass(row)}"><td>${escapeHtml(row.season)}</td><td class="left">${renderHistoryLeague(row, 'batting')}</td><td class="left">${renderHistoryTeamIdentity(row, teamCatalog)}</td><td>${row.games}</td><td>${row.pa}</td><td>${row.ab}</td><td>${row.runs}</td><td>${row.rbi}</td><td>${row.hits}</td><td>${row.doubles}</td><td>${row.triples}</td><td>${row.hr}</td><td>${row.bb}</td><td>${row.so}</td><td>${formatRate(row.avg)}</td><td>${formatRate(row.obp)}</td><td>${formatRate(row.slg)}</td><td>${formatRate(row.ops)}</td><td>${formatNumber(row.war, 2)}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
 function pitchingTable(rows, teamCatalog = []) {
   if (!rows.length) return '<div class="empty-state">Keine Wurfstatistik für diesen Zeitraum vorhanden.</div>';
-  return `<div class="table-scroll"><table class="stats-table history-table"><thead><tr><th>Saison</th><th class="left">Liga</th><th class="left">Mannschaft</th><th>G</th><th>GS</th><th>IP</th><th>W</th><th>L</th><th>SV</th><th>H</th><th>R</th><th>ER</th><th>HR</th><th>BB</th><th>SO</th><th>ERA</th><th>WHIP</th><th>FIP*</th><th>WAR*</th></tr></thead><tbody>${rows.map((row) => `<tr class="${rowClass(row)}"><td>${escapeHtml(row.season)}</td><td class="left">${escapeHtml(row.leagueName)}</td><td class="left">${renderHistoryTeamIdentity(row, teamCatalog)}</td><td>${row.games}</td><td>${row.gamesStarted}</td><td>${row.ipDisplay ?? formatInnings(row.ip)}</td><td>${row.wins}</td><td>${row.losses}</td><td>${row.saves}</td><td>${row.hits}</td><td>${row.runs}</td><td>${row.er}</td><td>${row.hr}</td><td>${row.bb}</td><td>${row.so}</td><td>${formatNumber(row.era, 2)}</td><td>${formatNumber(row.whip, 2)}</td><td>${formatNumber(row.fip, 2)}</td><td>${formatNumber(row.war, 2)}</td></tr>`).join('')}</tbody></table></div>`;
-}
-
-
-export function renderHistoryPanel(tableHtml, kind) {
-  const note = kind === 'batting'
-    ? 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. WAR* ist ein Schätzwert.'
-    : 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. FIP und WAR* sind Schätzwerte.';
-  return `<div class="player-history-pane">${tableHtml}<div class="player-history-note">${note}</div></div>`;
+  return `<div class="table-scroll"><table class="stats-table history-table"><thead><tr><th>Saison</th><th class="left">Liga</th><th class="left">Mannschaft</th><th>G</th><th>GS</th><th>IP</th><th>W</th><th>L</th><th>SV</th><th>H</th><th>R</th><th>ER</th><th>HR</th><th>BB</th><th>SO</th><th>ERA</th><th>WHIP</th><th>FIP*</th><th>WAR*</th></tr></thead><tbody>${rows.map((row) => `<tr class="${rowClass(row)}"><td>${escapeHtml(row.season)}</td><td class="left">${renderHistoryLeague(row, 'pitching')}</td><td class="left">${renderHistoryTeamIdentity(row, teamCatalog)}</td><td>${row.games}</td><td>${row.gamesStarted}</td><td>${row.ipDisplay ?? formatInnings(row.ip)}</td><td>${row.wins}</td><td>${row.losses}</td><td>${row.saves}</td><td>${row.hits}</td><td>${row.runs}</td><td>${row.er}</td><td>${row.hr}</td><td>${row.bb}</td><td>${row.so}</td><td>${formatNumber(row.era, 2)}</td><td>${formatNumber(row.whip, 2)}</td><td>${formatNumber(row.fip, 2)}</td><td>${formatNumber(row.war, 2)}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
 function leagueCount(rows, selection) {
@@ -157,9 +165,8 @@ function renderProfile(container, kind, total, pool, selection) {
   container.innerHTML = `
     <div class="radar-heading"><strong>${title}</strong><span>${subtitle}</span></div>
     <div class="radar-chart-root"></div>
-    <div class="radar-comparison-note">${comparisonText}</div>
     <div class="profile-summary-grid">${metrics.map(([label, value]) => `<div><span>${label}</span><strong>${value}</strong></div>`).join('')}</div>`;
-  renderRadar(container.querySelector('.radar-chart-root'), axes, { comparisonAxes });
+  renderRadar(container.querySelector('.radar-chart-root'), axes, { comparisonAxes, comparisonText });
 }
 
 function updateSeasonInUrl(selection) {
@@ -170,6 +177,7 @@ function updateSeasonInUrl(selection) {
 }
 
 async function main() {
+  console.info('[player] Spielprotokoll UI v8-events loaded');
   const app = document.getElementById('app');
   try {
     const [selectedData, allLeagueData] = await Promise.all([loadData(), loadAllData()]);
@@ -202,16 +210,35 @@ async function main() {
     const requestedSeason = Number(params.get('season'));
     let selectedSeason = years.includes(requestedSeason) ? requestedSeason : 'career';
     let activeTab = batting.length ? 'batting' : 'pitching';
+    const gameLogStates = new Map();
+    const gameLogUi = {
+      role: batting.length ? 'batting' : 'pitching',
+      leagueKey: 'all',
+      pendingLeagueHint: null,
+    };
 
     app.innerHTML = `
       <div class="profile-topline"><a class="back-link" href="${leagueUrl('player.html', selectedData)}">← Zur Spielersuche</a><div id="leagueSwitcher"></div></div>
       <section class="card player-hero">${renderPlayerHeroMark(base, teamCatalog)}<div class="player-title"><h1>${escapeHtml(base.name)}</h1><div class="player-team-list">${renderPlayerTeamList(playerRows, teamCatalog)}</div><p class="player-years">${years.at(-1)}–${years[0]}</p></div><div class="player-total-war"><span>Karriere-WAR*</span><strong>${formatNumber((battingCareer?.war ?? 0) + (pitchingCareer?.war ?? 0), 2)}</strong></div></section>
       <section class="season-filter-section" id="seasonFilterRoot"></section>
-      <section class="card career-card"><div class="card-header"><div class="record-tabs">${batting.length ? '<button class="active" type="button" data-tab="batting">Schlagstatistik</button>' : ''}${pitching.length ? '<button type="button" data-tab="pitching">Wurfstatistik</button>' : ''}</div><span class="meta-pill" id="selectionLabel">Gesamtübersicht</span></div><div class="player-history-layout"><div class="radar-panel" id="radarRoot"></div><div id="historyRoot"></div></div></section>`;
+      <section class="card career-card">
+        <div class="card-header">
+          <div class="record-tabs" id="recordTabsRoot" data-game-log-ui="v7"></div>
+          <span class="meta-pill" id="selectionLabel">Gesamtübersicht</span>
+        </div>
+        <div id="statsViewRoot">
+          <div class="player-history-layout"><div class="radar-panel" id="radarRoot"></div><div id="historyRoot"></div></div>
+          <div class="card-body"><p class="card-note" id="playerNote"></p></div>
+        </div>
+        <div id="gameLogInlineRoot" hidden></div>
+      </section>`;
     renderLeagueSelector('leagueSwitcher', selectedData, { compact: true });
 
     const renderView = () => {
-      const kind = activeTab;
+      const isGameLog = activeTab === 'gamelog';
+      const gameLogKey = selectedSeason === 'career' ? 'career' : String(selectedSeason);
+      const gameLogState = gameLogStates.get(gameLogKey) ?? { status: 'idle' };
+      const kind = activeTab === 'pitching' ? 'pitching' : 'batting';
       const historyRows = kind === 'batting' ? battingHistory : pitchingHistory;
       const rawRows = kind === 'batting' ? batting : pitching;
       const allKindRows = kind === 'batting' ? allRows.batting : allRows.pitching;
@@ -219,27 +246,127 @@ async function main() {
       const pool = comparisonTotals(allKindRows, kind, selectedSeason);
       const visibleRows = filterHistoryForSelection(historyRows, selectedSeason);
 
-      document.querySelectorAll('[data-tab]').forEach((button) => button.classList.toggle('active', button.dataset.tab === activeTab));
-      document.getElementById('selectionLabel').textContent = selectedSeason === 'career' ? 'Gesamtübersicht' : `Saison ${selectedSeason}`;
+      const recordTabsRoot = document.getElementById('recordTabsRoot');
+      recordTabsRoot.innerHTML = recordTabsHtml({
+        hasBatting: batting.length > 0,
+        hasPitching: pitching.length > 0,
+        selection: selectedSeason,
+        activeTab,
+      });
+      recordTabsRoot.querySelectorAll('[data-tab]').forEach((button) => {
+        button.addEventListener('click', () => {
+          activeTab = button.dataset.tab;
+          if (activeTab === 'batting' || activeTab === 'pitching') {
+            gameLogUi.role = activeTab;
+          }
+          renderView();
+        });
+      });
+      document.getElementById('selectionLabel').textContent = isGameLog
+        ? (selectedSeason === 'career' ? 'Spielprotokoll · Gesamtübersicht' : `Spielprotokoll ${selectedSeason}`)
+        : (selectedSeason === 'career' ? 'Gesamtübersicht' : `Saison ${selectedSeason}`);
       renderSeasonFilters(document.getElementById('seasonFilterRoot'), {
         kind, historyRows, rawRows, seasons: years, selectedSeason,
         onSelect: (selection) => {
           selectedSeason = selection;
+          gameLogUi.leagueKey = 'all';
+          gameLogUi.pendingLeagueHint = null;
           updateSeasonInUrl(selection);
           renderView();
         },
       });
-      renderProfile(document.getElementById('radarRoot'), kind, total, pool, selectedSeason);
-      const historyTable = kind === 'batting'
-        ? battingTable(visibleRows, teamCatalog)
-        : pitchingTable(visibleRows, teamCatalog);
-      document.getElementById('historyRoot').innerHTML = renderHistoryPanel(historyTable, kind);
+
+      const statsViewRoot = document.getElementById('statsViewRoot');
+      const gameLogInlineRoot = document.getElementById('gameLogInlineRoot');
+      statsViewRoot.hidden = isGameLog;
+      gameLogInlineRoot.hidden = !isGameLog;
+
+      if (!isGameLog) {
+        renderProfile(document.getElementById('radarRoot'), kind, total, pool, selectedSeason);
+        const historyRoot = document.getElementById('historyRoot');
+        historyRoot.innerHTML = kind === 'batting'
+          ? battingTable(visibleRows, teamCatalog)
+          : pitchingTable(visibleRows, teamCatalog);
+
+        historyRoot.querySelectorAll('.history-league-link').forEach((button) => {
+          button.addEventListener('click', () => {
+            const targetSeason = Number(button.dataset.season);
+            if (Number.isInteger(targetSeason)) {
+              selectedSeason = targetSeason;
+              updateSeasonInUrl(targetSeason);
+            }
+
+            try {
+              gameLogUi.pendingLeagueHint = JSON.parse(
+                decodeURIComponent(button.dataset.leagueHint ?? ''),
+              );
+            } catch {
+              gameLogUi.pendingLeagueHint = null;
+            }
+
+            gameLogUi.role = button.dataset.gameRole === 'pitching' ? 'pitching' : 'batting';
+            gameLogUi.leagueKey = 'all';
+            activeTab = 'gamelog';
+            renderView();
+          });
+        });
+
+        document.getElementById('playerNote').textContent = kind === 'batting'
+          ? 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. WAR* ist ein Schätzwert.'
+          : 'Ligazeilen, Saison-Gesamtwerte und Karriere-Gesamtwert. FIP und WAR* sind Schätzwerte.';
+      } else if (gameLogState.status === 'ready') {
+        if (gameLogUi.pendingLeagueHint) {
+          gameLogUi.leagueKey = resolveLeagueFilterKey(
+            gameLogState.result.logs,
+            gameLogUi.pendingLeagueHint,
+          );
+          gameLogUi.pendingLeagueHint = null;
+        } else {
+          const validLeagueKeys = new Set(
+            leagueFilterOptions(gameLogState.result.logs).map((option) => option.key),
+          );
+          if (!validLeagueKeys.has(gameLogUi.leagueKey)) {
+            gameLogUi.leagueKey = 'all';
+          }
+        }
+
+        gameLogInlineRoot.innerHTML = gameLogPanelHtml(gameLogState.result, gameLogUi);
+
+        gameLogInlineRoot.querySelectorAll('[data-game-league]').forEach((button) => {
+          button.addEventListener('click', () => {
+            gameLogUi.leagueKey = button.dataset.gameLeague || 'all';
+            renderView();
+          });
+        });
+
+        gameLogInlineRoot.querySelectorAll('[data-game-role]').forEach((button) => {
+          button.addEventListener('click', () => {
+            gameLogUi.role = button.dataset.gameRole === 'pitching' ? 'pitching' : 'batting';
+            renderView();
+          });
+        });
+      } else if (gameLogState.status === 'error') {
+        const label = selectedSeason === 'career' ? 'die Gesamtübersicht' : String(selectedSeason);
+        gameLogInlineRoot.innerHTML = `<div class="empty-state game-log-empty">Spielprotokolle für ${label} konnten nicht geladen werden.</div>`;
+      } else {
+        gameLogInlineRoot.innerHTML = '<div class="empty-state game-log-empty">Spielprotokolle werden geladen…</div>';
+      }
+
+      if (isGameLog && gameLogState.status === 'idle') {
+        gameLogStates.set(gameLogKey, { status: 'loading' });
+        loadPlayerGameLogsForSelection(selectedSeason, id, years)
+          .then((result) => {
+            gameLogStates.set(gameLogKey, { status: 'ready', result });
+            renderView();
+          })
+          .catch((error) => {
+            console.warn('Spielprotokolle konnten nicht geladen werden.', error);
+            gameLogStates.set(gameLogKey, { status: 'error', error });
+            renderView();
+          });
+      }
     };
 
-    document.querySelectorAll('[data-tab]').forEach((button) => button.addEventListener('click', () => {
-      activeTab = button.dataset.tab;
-      renderView();
-    }));
     renderView();
   } catch (error) {
     renderError(app, error);

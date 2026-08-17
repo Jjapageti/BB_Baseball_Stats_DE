@@ -1,8 +1,1 @@
-Dashboard search, league-average radar and team detail v6
-
-- Spieler vs. Liga-Durchschnitt im Radarprofil
-- Globale Suche nach Mannschaft oder Spieler
-- Anklickbare Mannschaften in der Gesamttabelle
-- Schlag- und Wurfstatistik je Mannschaft, Liga und Saison
-- Deutsche UI-Texte
 2026-08-05-player-layout-fix-v6.1

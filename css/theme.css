@@ -353,18 +353,33 @@ button { cursor: pointer; }
 .player-total-war strong { font-size: 30px; color: var(--accent); }
 .player-content { display: grid; grid-template-columns: 380px minmax(0, 1fr); gap: 18px; }
 .radar-panel { min-height: 520px; min-width: 0; padding: 20px 24px; display: grid; place-items: center; align-content: center; overflow: hidden; }
-.radar-chart-root { width: 100%; display: grid; place-items: center; }
+.radar-chart-root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .radar-chart { display: block; width: min(100%, 500px); height: auto; overflow: visible; }
 .radar-ring { fill: none; stroke: #dfe4eb; stroke-width: 1; }
 .radar-spoke { stroke: #d0d7e0; stroke-width: 1; }
 .radar-value { fill: rgba(210, 38, 96, 0.22); stroke: var(--accent); stroke-width: 2.5; }
 .radar-center { fill: var(--accent); }
 .radar-label { fill: #566173; font-size: 12px; font-weight: 700; }
-.radar-legend { margin-top: -8px; color: var(--muted); font-size: 11px; text-align: center; }
+.radar-legend {
+  width: 100%;
+  margin: 0;
+  padding: 0 12px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 .radar-heading { width: 100%; margin-bottom: 4px; text-align: center; }
 .radar-heading strong { display: block; font-size: 18px; }
 .radar-heading span { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
-.profile-summary-grid { width: min(100%, 440px); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 18px; }
+.profile-summary-grid { width: min(100%, 440px); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 22px; }
 .profile-summary-grid > div { padding: 9px 8px; border: 1px solid var(--line); border-radius: 9px; background: #f8fafc; text-align: center; }
 .profile-summary-grid span { display: block; color: var(--muted); font-size: 10px; font-weight: 800; }
 .profile-summary-grid strong { display: block; margin-top: 3px; color: var(--ink); font-size: 15px; }
@@ -460,9 +475,23 @@ code { padding: 2px 5px; border-radius: 5px; background: #eef1f5; }
 .career-season-card.active span { color: var(--blue); }
 .career-season-card strong { font-size: 20px; }
 .career-season-card em { display: block; margin-top: 10px; color: var(--blue); font-size: 10px; font-style: normal; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; }
-.career-card { margin-top: 18px; }
-.player-history-layout { display: grid; grid-template-columns: minmax(410px, .38fr) minmax(0, 1fr); align-items: start; }
-.player-history-layout .radar-panel { border: 0; border-right: 1px solid var(--line); border-radius: 0; box-shadow: none; }
+.career-card {
+  margin-top: 18px;
+  container-type: inline-size;
+  container-name: player-history;
+}
+.player-history-layout { display: grid; grid-template-columns: minmax(340px, 390px) minmax(0, 1fr); align-items: start; }
+.player-history-layout .radar-panel {
+  min-height: 0;
+  padding: 18px 16px 20px;
+  align-content: start;
+  border: 0;
+  border-right: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+}
+.player-history-layout .radar-chart { width: min(100%, 360px); }
+.player-history-layout .profile-summary-grid { width: min(100%, 360px); }
 .player-history-layout #historyRoot { min-width: 0; align-self: stretch; }
 .player-history-pane { min-width: 0; height: 100%; display: flex; flex-direction: column; }
 .player-history-note { margin: 0; padding: 12px 16px; color: var(--muted); border-top: 1px solid var(--line); font-size: 11px; line-height: 1.5; white-space: normal; overflow-wrap: anywhere; }
@@ -470,22 +499,39 @@ code { padding: 2px 5px; border-radius: 5px; background: #eef1f5; }
 .history-table .career-total-row td { color: #fff; background: var(--navy-2); font-weight: 900; border-bottom-color: var(--navy-2); }
 .history-table .career-total-row .sticky-col { background: var(--navy-2); }
 
-@media (max-width: 1100px) {
-  .player-history-layout { grid-template-columns: minmax(360px, .42fr) minmax(0, 1fr); }
-}
-@media (max-width: 900px) {
+@container player-history (max-width: 900px) {
   .player-history-layout { grid-template-columns: 1fr; }
-  .player-history-layout .radar-panel { border-right: 0; border-bottom: 1px solid var(--line); }
-  .radar-panel { min-height: 480px; }
+  .player-history-layout #historyRoot {
+    order: 1;
+    width: 100%;
+    min-width: 0;
+  }
+  .player-history-layout .radar-panel {
+    order: 2;
+    min-height: 0;
+    padding: 18px 16px 20px;
+    border-right: 0;
+    border-top: 1px solid var(--line);
+  }
+  .player-history-layout .radar-chart { width: min(100%, 340px); }
+  .player-history-layout .profile-summary-grid { width: min(100%, 520px); }
+  .player-history-pane { width: 100%; }
 }
+
+@media (max-width: 760px) {
+  .player-history-layout .radar-panel { padding: 16px 12px 18px; }
+  .player-history-layout .radar-chart { width: min(100%, 320px); }
+  .player-history-layout .profile-summary-grid { width: min(100%, 420px); }
+}
+
 @media (max-width: 620px) {
   .selector-fields { grid-template-columns: 1fr; }
   .season-league-selector { width: 100%; }
   .profile-topline { align-items: flex-start; flex-direction: column; }
   .career-season-grid { display: flex; overflow-x: auto; padding: 3px 2px 10px; scroll-snap-type: x proximity; }
   .career-season-card { flex: 0 0 220px; scroll-snap-align: start; }
-  .radar-panel { min-height: 440px; padding: 18px 10px; }
-  .profile-summary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .player-history-layout .radar-chart { width: min(100%, 300px); }
+  .profile-summary-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 
 /* ---------- Mannschaftslogo in der Gesamttabelle ---------- */
@@ -725,21 +771,64 @@ code { padding: 2px 5px; border-radius: 5px; background: #eef1f5; }
   vector-effect: non-scaling-stroke;
 }
 .radar-value { vector-effect: non-scaling-stroke; }
+.radar-caption-block {
+  width: calc(100% - 24px);
+  max-width: 360px;
+  display: grid;
+  row-gap: 8px;
+  margin-top: 14px;
+  padding: 0 4px;
+  text-align: center;
+}
 .radar-series-legend {
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 10px 18px;
-  margin-top: -7px;
+  gap: 8px 20px;
+  margin: 0;
   color: #586476;
   font-size: 11px;
   font-weight: 700;
+  line-height: 1.5;
 }
-.radar-series-legend span { display: inline-flex; align-items: center; gap: 7px; }
-.radar-key { width: 24px; height: 0; display: inline-block; border-top: 3px solid; }
+.radar-series-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+.radar-key {
+  width: 24px;
+  height: 0;
+  display: inline-block;
+  flex: 0 0 24px;
+  border-top: 3px solid;
+}
 .radar-key--player { border-color: var(--accent); }
 .radar-key--comparison { border-color: var(--blue); border-top-width: 2px; border-top-style: dashed; }
-.radar-comparison-note { width: 100%; max-width: 100%; margin-top: 5px; padding: 0 8px; color: var(--muted); font-size: 10px; line-height: 1.45; text-align: center; white-space: normal; overflow-wrap: anywhere; box-sizing: border-box; }
+.radar-legend {
+  width: 100%;
+  margin: 0;
+  padding: 8px 8px 0;
+  color: var(--muted);
+  border-top: 1px solid #edf0f4;
+  font-size: 11px;
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.radar-comparison-note {
+  width: 100%;
+  margin: 0;
+  padding: 0 8px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.5;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 
 /* ---------- Anklickbare Mannschaft in der Gesamttabelle ---------- */
 .standing-team-button {
@@ -849,4 +938,376 @@ body.dialog-open { overflow: hidden; }
   .team-detail-footer { align-items: stretch; flex-direction: column; }
   .team-detail-footer .secondary-button { width: 100%; }
   .team-detail-table .table-scroll { max-height: calc(94vh - 255px); }
+}
+
+
+/* ---------- Spieler: Spielprotokoll 2025 ---------- */
+.game-log-card { margin-top: 18px; }
+.game-log-card[hidden] { display: none !important; }
+
+.game-log-header {
+  align-items: center;
+}
+.game-log-heading { min-width: 0; }
+.game-log-heading h2 { margin: 0; font-size: 16px; letter-spacing: -0.02em; }
+.game-log-heading p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.game-log-body { min-width: 0; }
+.game-log-scroll { max-height: min(62vh, 620px); }
+.game-log-table th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #f8f9fb;
+}
+.game-log-table td,
+.game-log-table th { white-space: nowrap; }
+.game-log-table .game-log-opponent { min-width: 180px; }
+.game-log-table .game-log-position { min-width: 120px; }
+.game-log-table .game-log-decision { font-weight: 800; }
+
+.game-log-empty { padding: 28px 18px; }
+.game-log-note {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+@media (max-width: 620px) {
+  .game-log-header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .game-log-table .game-log-opponent { min-width: 150px; }
+  .game-log-scroll { max-height: 70vh; }
+}
+
+
+/* ---------- Spieler: 2025-Spielprotokoll als Tab ---------- */
+.record-tabs [hidden] { display: none !important; }
+#statsViewRoot[hidden],
+#gameLogInlineRoot[hidden] { display: none !important; }
+
+#gameLogInlineRoot {
+  min-width: 0;
+  border-top: 1px solid var(--line);
+}
+.game-log-combined { min-width: 0; }
+.game-log-combined-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.game-log-combined-heading h2 {
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+.game-log-combined-heading p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.game-log-combined-table thead .game-log-group-row th {
+  border-bottom: 1px solid var(--line-strong);
+}
+.game-log-combined-table .game-log-group-label {
+  text-align: center;
+  color: var(--navy);
+  background: #eef4fb;
+  font-weight: 900;
+}
+.game-log-combined-table .game-log-muted { color: var(--muted); }
+.game-log-combined-table .game-log-decision { font-weight: 900; }
+
+@media (max-width: 620px) {
+  .game-log-combined-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+
+/* ---------- Spieler: kumulativer OPS-Verlauf 2025 ---------- */
+.ops-trend-panel {
+  margin: 14px 16px 16px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+.ops-trend-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 16px 10px;
+}
+.ops-trend-heading h2 {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+}
+.ops-trend-heading p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.45;
+}
+.ops-trend-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 300px);
+  align-items: stretch;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+.ops-chart-wrap {
+  min-width: 0;
+  padding: 14px 10px 6px;
+  border-right: 1px solid var(--line);
+}
+.ops-chart {
+  display: block;
+  width: 100%;
+  min-width: 480px;
+  height: auto;
+  overflow: visible;
+}
+.ops-chart-grid line {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+.ops-chart-grid text,
+.ops-chart-month {
+  fill: var(--muted);
+  font-size: 11px;
+}
+.ops-chart-line {
+  fill: none;
+  stroke: var(--blue);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.ops-chart-point circle {
+  fill: #fff;
+  stroke: var(--blue);
+  stroke-width: 3;
+}
+.ops-chart-point text {
+  fill: var(--navy);
+  font-size: 11px;
+  font-weight: 900;
+}
+.ops-month-table-wrap {
+  max-height: 292px;
+  overflow: auto;
+}
+.ops-month-table {
+  min-width: 100%;
+}
+.ops-month-table th,
+.ops-month-table td {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.ops-month-table th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #f8f9fb;
+}
+.ops-month-table .ops-value {
+  font-weight: 900;
+}
+.ops-month-table .ops-delta {
+  font-weight: 900;
+}
+.ops-month-table .ops-delta.is-up {
+  color: var(--blue);
+}
+.ops-month-table .ops-delta.is-down {
+  color: var(--red);
+}
+.ops-month-table .ops-delta.is-flat {
+  color: var(--muted);
+}
+.ops-trend-note {
+  margin: 0;
+  padding: 9px 16px 11px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 10px;
+  line-height: 1.45;
+}
+.ops-trend-empty {
+  margin-top: 0;
+  border-top: 1px solid var(--line);
+  padding: 24px 16px;
+}
+
+@media (max-width: 900px) {
+  .ops-trend-layout {
+    grid-template-columns: 1fr;
+  }
+  .ops-chart-wrap {
+    overflow-x: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .ops-month-table-wrap {
+    max-height: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .ops-trend-panel {
+    margin: 10px;
+  }
+  .ops-trend-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .ops-chart {
+    min-width: 560px;
+  }
+}
+
+
+/* ---------- Spieler: saisonübergreifende Spielprotokolle ---------- */
+.game-log-availability {
+  margin: 10px 16px 0;
+  padding: 9px 12px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: #f8f9fb;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+
+/* ---------- Spieler: Liga -> Spielprotokoll + Schlag/Wurf ---------- */
+.history-league-link {
+  padding: 0;
+  color: #183f76;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.history-league-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.history-league-link::after {
+  content: " ↗";
+  color: #9aa3b0;
+  font-size: 9px;
+  text-decoration: none;
+}
+
+.game-log-filter-bar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #fbfcfe;
+}
+.game-log-filter-block {
+  min-width: 0;
+  display: grid;
+  gap: 6px;
+}
+.game-log-filter-label {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.game-log-league-tabs,
+.game-log-role-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.game-log-league-tabs button,
+.game-log-role-tabs button {
+  min-height: 30px;
+  padding: 5px 10px;
+  color: #445167;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 11px;
+  font-weight: 800;
+}
+.game-log-league-tabs button span {
+  margin-left: 4px;
+  color: #8a95a6;
+  font-size: 9px;
+}
+.game-log-league-tabs button:hover,
+.game-log-role-tabs button:hover {
+  color: var(--blue);
+  border-color: #9bb9df;
+  background: #f5f9ff;
+}
+.game-log-league-tabs button.active,
+.game-log-role-tabs button.active {
+  color: #fff;
+  border-color: var(--navy);
+  background: var(--navy);
+}
+.game-log-league-tabs button.active span {
+  color: #c9d6e8;
+}
+.game-log-role-block {
+  flex: none;
+}
+.game-log-role-table {
+  min-width: 0;
+}
+.game-log-role-table .game-log-scroll {
+  border-top: 0;
+}
+
+@media (max-width: 760px) {
+  .game-log-filter-bar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .game-log-role-block {
+    width: 100%;
+  }
+}
+
+
+/* ---------- Spieler: erweiterte Boxscore-Ereignisse ---------- */
+.game-log-cumulative {
+  background: #f7f9fc;
+  font-weight: 800;
+}
+.game-log-role-table .game-log-table {
+  min-width: max-content;
 }

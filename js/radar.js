@@ -14,6 +14,7 @@ export function renderRadar(container, axes, {
   comparisonAxes = null,
   playerLabel = 'Spieler',
   comparisonLabel = 'Liga-Durchschnitt',
+  comparisonText = '',
 } = {}) {
   if (!axes?.length) {
     container.innerHTML = '';
@@ -58,11 +59,14 @@ export function renderRadar(container, axes, {
       <polygon points="${values}" class="radar-value"/>
       <circle cx="${centerX}" cy="${centerY}" r="3" class="radar-center"/>
     </svg>
-    <div class="radar-series-legend" aria-label="Legende">
-      <span><i class="radar-key radar-key--player"></i>${escapeHtml(playerLabel)}</span>
-      ${comparable ? `<span><i class="radar-key radar-key--comparison"></i>${escapeHtml(comparisonLabel)}</span>` : ''}
+    <div class="radar-caption-block">
+      <div class="radar-series-legend" aria-label="Legende">
+        <span><i class="radar-key radar-key--player"></i>${escapeHtml(playerLabel)}</span>
+        ${comparable ? `<span><i class="radar-key radar-key--comparison"></i>${escapeHtml(comparisonLabel)}</span>` : ''}
+      </div>
+      <div class="radar-legend">Perzentil innerhalb der Vergleichsgruppe · höher ist besser</div>
+      ${comparisonText ? `<div class="radar-comparison-note">${escapeHtml(comparisonText)}</div>` : ''}
     </div>
-    <div class="radar-legend">Perzentil innerhalb der Vergleichsgruppe · höher ist besser</div>
   `;
 }
 
