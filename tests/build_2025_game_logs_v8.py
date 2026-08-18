@@ -136,6 +136,11 @@ def _new_log(row: dict[str, Any], player_key: str) -> dict[str, Any]:
         "away_team": row.get("away_team"),
         "boxscore_team": row.get("boxscore_team"),
         "berlin_club_id": row.get("berlin_club_id"),
+        "boxscore_club_ids": sorted({
+            int(club_id)
+            for club_id in (row.get("boxscore_club_ids") or [])
+            if club_id is not None
+        }),
         "player_key": player_key,
         "person_id": row.get("person_id"),
         "canonical_name": row.get("canonical_name"),

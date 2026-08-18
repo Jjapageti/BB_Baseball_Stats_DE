@@ -57,20 +57,51 @@ BSVBB_CLUB_ACRONYMS = {
 
 # Explicit 2025 local BSVBB competition acronyms confirmed from the first report.
 # Anything else discovered through a BSVBB club is preserved as overregional/review.
-LOCAL_BSVBB_LEAGUE_ACRONYMS_2025 = {
-    "COPI",        # Coach Pitch
-    "JUGA",        # Jugendaufbauliga Baseball
-    "JUGBB",       # Jugendliga Baseball
-    "JUNBB",       # Juniorenliga Baseball
-    "JUNSB",       # Juniorinnenliga Softball
-    "LLBBDIVA",    # Landesliga Baseball Division A
-    "LLBBDIVB",    # Landesliga Baseball Division B
-    "LLBBPO",      # Landesliga postseason / PO
-    "SCHBB",       # Schülerliga Baseball
-    "VLBB",        # Verbandsliga Baseball
-    "VLBBPO",      # Verbandsliga postseason / PO
-    "VLSB",        # Verbandsliga Softball
+LOCAL_BSVBB_LEAGUE_ACRONYMS_BY_SEASON = {
+    2023: {
+        "BZLBB",       # Bezirksliga Baseball
+        "JUGABB",      # Jugendaufbauliga Baseball
+        "JUGBB",       # Jugendliga Baseball
+        "JUNBB",       # Juniorenliga Baseball
+        "JUNSB",       # Juniorinnenliga Softball
+        "KINDBB",      # Kinderliga Baseball
+        "LLBB",        # Landesliga Baseball
+        "SCHBB",       # Schuelerliga Baseball
+        "TOSSBB",      # Tossball Baseball
+        "VLBB",        # Verbandsliga Baseball
+        "VLSB",        # Verbandsliga Softball
+    },
+    2024: {
+        "JUGABB",      # Jugendaufbauliga Baseball
+        "JUGBB",       # Jugendliga Baseball
+        "JUNBB",       # Juniorenliga Baseball
+        "JUNSB",       # Juniorinnenliga Softball
+        "LLBB",        # Landesliga Baseball
+        "SCHBB",       # Schuelerliga Baseball
+        "TOSSBB",      # Tossball Baseball
+        "VLBB",        # Verbandsliga Baseball
+        "VLSB",        # Verbandsliga Softball
+    },
+    2025: {
+        "COPI",        # Coach Pitch
+        "JUGA",        # Jugendaufbauliga Baseball
+        "JUGBB",       # Jugendliga Baseball
+        "JUNBB",       # Juniorenliga Baseball
+        "JUNSB",       # Juniorinnenliga Softball
+        "LLBBDIVA",    # Landesliga Baseball Division A
+        "LLBBDIVB",    # Landesliga Baseball Division B
+        "LLBBPO",      # Landesliga postseason / PO
+        "SCHBB",       # Schuelerliga Baseball
+        "VLBB",        # Verbandsliga Baseball
+        "VLBBPO",      # Verbandsliga postseason / PO
+        "VLSB",        # Verbandsliga Softball
+    },
 }
+
+# Backward-compatible alias for older imports/tests.
+LOCAL_BSVBB_LEAGUE_ACRONYMS_2025 = (
+    LOCAL_BSVBB_LEAGUE_ACRONYMS_BY_SEASON[2025]
+)
 
 FetchJson = Callable[[str], Any]
 
@@ -157,14 +188,25 @@ def iter_match_leagues(match: dict[str, Any]) -> Iterable[tuple[str, dict[str, A
             yield source, league
 
 
-def classify_scope(league: dict[str, Any]) -> str:
+def classify_scope(
+    league: dict[str, Any],
+    season: int = DEFAULT_SEASON,
+) -> str:
     acronym = normalize_acronym(league.get("acronym"))
-    if acronym in LOCAL_BSVBB_LEAGUE_ACRONYMS_2025:
+    local_acronyms = LOCAL_BSVBB_LEAGUE_ACRONYMS_BY_SEASON.get(
+        int(season),
+        set(),
+    )
+    if acronym in local_acronyms:
         return "local_bsvbb"
     return "overregional_candidate"
 
 
-def build_candidate_leagues(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def build_candidate_leagues(
+    matches: list[dict[str, Any]],
+    *,
+    season: int = DEFAULT_SEASON,
+) -> list[dict[str, Any]]:
     """
     Discover a league when at least one exact BSVBB club appears in one of its matches.
 
@@ -221,7 +263,10 @@ def build_candidate_leagues(matches: list[dict[str, Any]]) -> list[dict[str, Any
                 "league_acronym": bucket.get("league_acronym"),
                 "sport": bucket.get("sport"),
                 "human_sport": bucket.get("human_sport"),
-                "scope": classify_scope(league_stub),
+                "scope": classify_scope(
+                    league_stub,
+                    season=season,
+                ),
                 "league_sources": sorted(bucket["league_sources"]),
                 "seed_match_count": len(bucket["seed_match_ids"]),
                 "total_match_count": len(all_match_ids_by_league.get(league_id, set())),
@@ -405,7 +450,7 @@ def make_report(
         f"  overregional_candidate: {len(overregional)}",
         f"Unique matches inside candidate leagues: {len(candidate_matches)}",
         "",
-        "--- Local BSVBB leagues (explicit 2025 classification) ---",
+        f"--- Local BSVBB leagues (explicit {season} classification) ---",
     ]
 
     def append_league(row: dict[str, Any]) -> None:
@@ -502,7 +547,10 @@ def main(argv: list[str] | None = None) -> int:
     print(f"      {len(matches)} matches loaded")
 
     print("[2/4] Discovering and deduplicating candidate leagues")
-    candidates = build_candidate_leagues(matches)
+    candidates = build_candidate_leagues(
+        matches,
+        season=args.season,
+    )
     save_json(out_dir / "candidate_leagues.json", candidates)
     candidate_ids = {int(row["league_id"]) for row in candidates}
     candidate_matches = select_candidate_matches(matches, candidate_ids)

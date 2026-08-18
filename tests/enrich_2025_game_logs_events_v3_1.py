@@ -77,6 +77,16 @@ def parse_event_entry(text: str) -> dict[str, Any]:
     if not raw:
         raise ValueError(f"missing player name in event entry: {text!r}")
 
+    # BSM occasionally publishes an impossible cumulative snapshot, e.g.
+    # "Name 3 (2)": three events in this game but cumulative total two.
+    # Preserve the game count and discard only the contradictory cumulative
+    # value so it cannot poison cumulative-chain resolution or validation.
+    if (
+        cumulative_total is not None
+        and cumulative_total < game_count
+    ):
+        cumulative_total = None
+
     return {
         "boxscore_name": raw,
         "game_count": game_count,

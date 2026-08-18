@@ -1311,3 +1311,149 @@ body.dialog-open { overflow: hidden; }
 .game-log-role-table .game-log-table {
   min-width: max-content;
 }
+
+
+
+/* ---------- Spieler: Pitching ERA/WHIP ---------- */
+
+.pitch-trend-panel {
+  position: relative;
+}
+
+.pitch-metric-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pitch-metric-toggle {
+  display: inline-flex;
+  flex: none;
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.pitch-metric-toggle label {
+  min-width: 58px;
+  padding: 7px 12px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.pitch-metric-toggle label + label {
+  border-left: 1px solid var(--line);
+}
+
+.pitch-metric-toggle label:hover {
+  background: var(--blue-soft);
+  color: var(--navy);
+}
+
+.pitch-metric-radio.pitch-metric-era:checked
+  ~ .ops-trend-heading
+  .pitch-metric-toggle
+  [data-pitch-metric="era"],
+.pitch-metric-radio.pitch-metric-whip:checked
+  ~ .ops-trend-heading
+  .pitch-metric-toggle
+  [data-pitch-metric="whip"] {
+  color: #fff;
+  background: var(--blue);
+}
+
+.pitch-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  background: #f8fafc;
+}
+
+.pitch-summary-item {
+  min-width: 0;
+  padding: 11px 12px;
+  text-align: center;
+}
+
+.pitch-summary-item + .pitch-summary-item {
+  border-left: 1px solid var(--line);
+}
+
+.pitch-summary-item span {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.pitch-summary-item strong {
+  display: block;
+  color: var(--navy);
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 1.15;
+}
+
+.pitch-chart-pane {
+  display: none;
+}
+
+.pitch-metric-radio.pitch-metric-era:checked
+  ~ .ops-trend-layout
+  .pitch-chart-era {
+  display: block;
+}
+
+.pitch-metric-radio.pitch-metric-whip:checked
+  ~ .ops-trend-layout
+  .pitch-chart-whip {
+  display: block;
+}
+
+.game-log-table .game-log-cumulative {
+  font-weight: 800;
+}
+
+@media (max-width: 900px) {
+  .pitch-summary-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pitch-summary-item:nth-child(4) {
+    border-left: 0;
+  }
+
+  .pitch-summary-item:nth-child(n+4) {
+    border-top: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 620px) {
+  .pitch-summary-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pitch-summary-item:nth-child(odd) {
+    border-left: 0;
+  }
+
+  .pitch-summary-item:nth-child(n+3) {
+    border-top: 1px solid var(--line);
+  }
+
+  .pitch-metric-toggle {
+    width: 100%;
+  }
+
+  .pitch-metric-toggle label {
+    flex: 1;
+  }
+}

@@ -252,28 +252,36 @@ def berlin_boxscore_club_id(
     berlin_club_ids: set[int],
     league_ids: set[int] | None = None,
 ) -> int | None:
-    """Resolve a Boxscore team alias to one Berlin club id when unique."""
-    if not berlin_club_ids:
-        return None
+    """Resolve a Boxscore team alias to one canonical season club id.
+
+    The parameter name ``berlin_club_ids`` is retained for backward
+    compatibility, but club resolution is intentionally no longer restricted
+    to Berlin clubs. Every club represented in the selected season JSON is
+    eligible for game-log matching.
+    """
+    _ = berlin_club_ids
 
     team_key = accentfold(team_name)
     league_ids = league_ids or set()
-    candidates: set[int] = set()
 
     if league_ids:
         group_map = index.get("team_alias_group_to_club_ids", {})
+        candidates: set[int] = set()
         had_group_mapping = False
+
         for group_id in league_ids:
             key = (team_key, group_id)
             if key in group_map:
                 had_group_mapping = True
                 candidates.update(group_map[key])
+
         if had_group_mapping:
-            candidates.intersection_update(berlin_club_ids)
             return next(iter(candidates)) if len(candidates) == 1 else None
 
-    candidates = set(index.get("team_alias_to_club_ids", {}).get(team_key, set()))
-    candidates.intersection_update(berlin_club_ids)
+    candidates = set(
+        index.get("team_alias_to_club_ids", {}).get(team_key, set())
+    )
+
     return next(iter(candidates)) if len(candidates) == 1 else None
 
 
@@ -801,6 +809,41 @@ def boxscore_occurrences(
     return result
 
 
+
+def canonical_boxscore_club_ids(
+    team_name: str,
+    index: dict[str, Any],
+    league_ids: set[int] | None = None,
+) -> set[int]:
+    """Resolve a Boxscore team to every canonical club represented by it.
+
+    A normal team normally has one club id.
+    A Spielgemeinschaft such as SG Skylarks/Wizards can legitimately
+    represent multiple clubs and must not be discarded for that reason.
+    """
+    team_key = accentfold(team_name)
+    league_ids = league_ids or set()
+
+    if league_ids:
+        group_map = index.get("team_alias_group_to_club_ids", {})
+        candidates: set[int] = set()
+        had_group_mapping = False
+
+        for group_id in league_ids:
+            key = (team_key, group_id)
+
+            if key in group_map:
+                had_group_mapping = True
+                candidates.update(group_map[key])
+
+        if had_group_mapping:
+            return candidates
+
+    return set(
+        index.get("team_alias_to_club_ids", {}).get(team_key, set())
+    )
+
+
 def build_match_report(
     *,
     season_data: dict[str, Any],
@@ -842,15 +885,25 @@ def build_match_report(
 
         for occurrence in boxscore_occurrences(boxscore):
             boxscore_player_occurrences_total += 1
-            berlin_club_id = berlin_boxscore_club_id(
+            boxscore_club_ids = canonical_boxscore_club_ids(
                 occurrence["team"],
                 index,
-                berlin_club_ids,
                 set(league_ids),
             )
-            if berlin_club_id is None:
+
+            # Only skip a team when it has no canonical club mapping at all.
+            # Multiple club ids are valid for a Spielgemeinschaft.
+            if not boxscore_club_ids:
                 non_berlin_skipped += 1
                 continue
+
+            # Keep the legacy singular field when the team really maps
+            # to exactly one club. Multi-club teams intentionally use None.
+            berlin_club_id = (
+                next(iter(boxscore_club_ids))
+                if len(boxscore_club_ids) == 1
+                else None
+            )
 
             matches_with_berlin_player_rows.add(match_id)
             matched = match_player(
@@ -877,6 +930,7 @@ def build_match_report(
                 "role": occurrence["role"],
                 "boxscore_team": occurrence["team"],
                 "berlin_club_id": berlin_club_id,
+                "boxscore_club_ids": sorted(boxscore_club_ids),
                 "raw_name": occurrence["raw_name"],
                 "position_sequence": (
                     parse_position_sequence(occurrence["raw_name"])
@@ -902,6 +956,7 @@ def build_match_report(
     identity_override_resolved = apply_same_person_overrides(report)
     cumulative_resolved = 0
     season_total_resolved = 0
+    season_rate_resolved = 0
     role_link_resolved = 0
     pitching_record_resolved = 0
 
@@ -910,6 +965,7 @@ def build_match_report(
     for _ in range(8):
         cumulative_now = resolve_ambiguous_by_cumulative_totals(report, index)
         season_total_now = resolve_configured_season_total_splits(report, index)
+        season_rate_now = resolve_ambiguous_by_batting_season_rates(report, index)
         role_now = resolve_ambiguous_by_role_linkage(report, index)
         pitching_record_now = resolve_configured_pitching_record_chains(
             report,
@@ -917,11 +973,13 @@ def build_match_report(
         )
         cumulative_resolved += cumulative_now
         season_total_resolved += season_total_now
+        season_rate_resolved += season_rate_now
         role_link_resolved += role_now
         pitching_record_resolved += pitching_record_now
         if (
             cumulative_now == 0
             and season_total_now == 0
+            and season_rate_now == 0
             and role_now == 0
             and pitching_record_now == 0
         ):
@@ -949,6 +1007,7 @@ def build_match_report(
         "resolved_by_identity_override": identity_override_resolved,
         "resolved_by_cumulative_totals": cumulative_resolved,
         "resolved_by_season_total_constraints": season_total_resolved,
+        "resolved_by_season_rate_anchor": season_rate_resolved,
         "resolved_by_role_linkage": role_link_resolved,
         "resolved_by_pitching_record_chain": pitching_record_resolved,
         "auto_rate_percent": round((auto / total * 100) if total else 0.0, 2),
@@ -2010,6 +2069,131 @@ def resolve_ambiguous_by_cumulative_totals(
             row["person_id"] = person_id
             row["canonical_name"] = person["canonical_name"]
             row["candidate_person_ids"] = [person_id]
+            changed += 1
+
+    return changed
+
+
+
+def _normalized_display_rate(value: Any) -> str | None:
+    raw = str(value or "").strip().replace(",", ".")
+    if not raw or raw in {"-", "?"}:
+        return None
+
+    try:
+        numeric = float(raw)
+    except (TypeError, ValueError):
+        return None
+
+    # BSM batting rates are displayed to three decimals.
+    return f"{numeric:.3f}"
+
+
+def _candidate_matches_batting_season_rates(
+    row: dict[str, Any],
+    person_id: int,
+    index: dict[str, Any],
+) -> bool:
+    """Return True only when this row's displayed AVG+OPS uniquely match
+    one canonical batting context for the same team/group.
+
+    These are cumulative BSM display values, so both AVG and OPS must be
+    present and both must agree with the canonical season values.
+    """
+    stats = row.get("stats") or {}
+
+    row_avg = _normalized_display_rate(stats.get("AVG"))
+    row_ops = _normalized_display_rate(stats.get("OPS"))
+
+    if row_avg is None or row_ops is None:
+        return False
+
+    league_ids = {
+        gid for gid in (row.get("league_ids") or [])
+        if isinstance(gid, int)
+    }
+    team_key = accentfold(str(row.get("boxscore_team") or ""))
+
+    matches = []
+
+    for context in index.get("contexts_by_person", {}).get(person_id, []):
+        if "batting" not in set(context.get("roles") or []):
+            continue
+
+        context_groups = {
+            gid for gid in (context.get("group_ids") or [])
+            if isinstance(gid, int)
+        }
+
+        if league_ids and not league_ids.intersection(context_groups):
+            continue
+
+        if team_key and team_key not in set(context.get("team_aliases") or []):
+            continue
+
+        values = (context.get("values_by_role") or {}).get("batting") or {}
+
+        official_avg = _normalized_display_rate(
+            values.get("batting_average")
+        )
+        official_ops = _normalized_display_rate(
+            values.get("on_base_plus_slugging")
+        )
+
+        if official_avg is None or official_ops is None:
+            continue
+
+        if row_avg == official_avg and row_ops == official_ops:
+            matches.append(context)
+
+    return len(matches) >= 1
+
+
+def resolve_ambiguous_by_batting_season_rates(
+    report: dict[str, Any],
+    index: dict[str, Any],
+) -> int:
+    """Resolve an ambiguous batting row only when displayed cumulative
+    AVG and OPS identify exactly one canonical candidate.
+
+    No player names or person IDs are hard-coded.
+    """
+    changed = 0
+
+    for row in report.get("rows") or []:
+        if row.get("status") != "ambiguous":
+            continue
+
+        if row.get("role") != "batting":
+            continue
+
+        candidate_ids = [
+            pid for pid in (row.get("candidate_person_ids") or [])
+            if isinstance(pid, int)
+        ]
+
+        if len(candidate_ids) < 2:
+            continue
+
+        matched_ids = [
+            pid
+            for pid in candidate_ids
+            if _candidate_matches_batting_season_rates(
+                row,
+                pid,
+                index,
+            )
+        ]
+
+        if len(matched_ids) != 1:
+            continue
+
+        if _set_auto_from_person(
+            row,
+            matched_ids[0],
+            method="season-final-avg+ops-anchor",
+            index=index,
+        ):
             changed += 1
 
     return changed

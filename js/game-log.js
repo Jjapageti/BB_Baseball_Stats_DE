@@ -464,6 +464,8 @@ function roleGameTable(logs, role, isCareer) {
   const seasonCell = (row) => isCareer ? `<td>${escapeHtml(seasonFromTime(row.time) ?? '–')}</td>` : '';
 
   if (role === 'pitching') {
+    const cumulativePitching = cumulativePitchingState(logs);
+
     const head = [
       seasonHead,
       '<th>Datum</th>',
@@ -478,6 +480,7 @@ function roleGameTable(logs, role, isCareer) {
       '<th>SO</th>',
       '<th>Entsch.</th>',
       '<th>ERA kum.</th>',
+      '<th>WHIP kum.</th>',
     ].join('');
 
     const body = logs.map((row) => {
@@ -496,6 +499,7 @@ function roleGameTable(logs, role, isCareer) {
         <td>${asNumber(stats.K)}</td>
         <td class="game-log-decision">${escapeHtml(decisionText(stats))}</td>
         <td class="game-log-cumulative">${escapeHtml(latestCumulativeSnapshot(stats, 'ERA'))}</td>
+        <td class="game-log-cumulative">${escapeHtml(formatPitchRate(cumulativePitching.get(row)?.whip))}</td>
       </tr>`;
     }).join('');
     return tableShell(head, body);
@@ -580,7 +584,15 @@ export function gameLogPanelHtml(result, {
             ))
             .join('')
         : monthlyOpsTrendHtml(filtered, selectedYear))
-    : '';
+    : (isCareer
+        ? [...new Set(filtered.map((row) => seasonFromTime(row.time)).filter(Boolean))]
+            .sort((a, b) => b - a)
+            .map((season) => monthlyPitchingTrendHtml(
+              filtered.filter((row) => seasonFromTime(row.time) === season),
+              season,
+            ))
+            .join('')
+        : monthlyPitchingTrendHtml(filtered, selectedYear));
 
   return `
     <div class="game-log-panel">
@@ -607,7 +619,7 @@ export function gameLogPanelHtml(result, {
       <div class="card-body game-log-note">
         ${role === 'batting'
           ? 'OPS-Verlauf und Schlagwerte beziehen sich auf die aktuell gewählte Liga.'
-          : 'Wurfwerte werden getrennt von den Schlagwerten dargestellt.'}
+          : 'ERA stammt aus den kumulativen BSM-Snapshots; WHIP wird aus H, BB und Outs berechnet.'}
       </div>
     </div>`;
 }
@@ -754,25 +766,13 @@ function opsChartSvg(series, season) {
     return `<text class="ops-chart-month" x="${x.toFixed(1)}" y="${height - 14}" text-anchor="middle">${escapeHtml(item.shortLabel)}</text>`;
   }).join('');
 
-  const pointsByMonth = new Map(valid.map((item) => [item.month, item]));
-  const segments = [];
-  let segment = [];
+  const linePoints = valid.map((point) =>
+    `${xFor(point.month).toFixed(1)},${yFor(point.ops).toFixed(1)}`
+  );
 
-  for (const item of visible) {
-    const point = pointsByMonth.get(item.month);
-    if (!point) {
-      if (segment.length) segments.push(segment);
-      segment = [];
-      continue;
-    }
-    segment.push(`${xFor(point.month).toFixed(1)},${yFor(point.ops).toFixed(1)}`);
-  }
-  if (segment.length) segments.push(segment);
-
-  const lines = segments.map((points) => {
-    if (points.length === 1) return '';
-    return `<polyline class="ops-chart-line" points="${points.join(' ')}"></polyline>`;
-  }).join('');
+  const lines = linePoints.length > 1
+    ? `<polyline class="ops-chart-line" points="${linePoints.join(' ')}"></polyline>`
+    : '';
 
   const circles = valid.map((item) => {
     const x = xFor(item.month);
@@ -848,6 +848,459 @@ export function monthlyOpsTrendHtml(logs, season) {
         </div>
       </div>
       <p class="ops-trend-note">Die Kurve zeigt kumulative BSM-OPS-Werte zum Monatsende, nicht den isolierten OPS des einzelnen Monats.</p>
+    </section>`;
+}
+
+
+
+function pitchingScopeKey(row) {
+  const season = seasonFromTime(row?.time) ?? '';
+  const leagues = logLeagueKeys(row).slice().sort().join('|');
+  return `${season}|${leagues}`;
+}
+
+function pitchingOuts(row) {
+  const stored = Number(row?.pitching?.outs);
+
+  if (Number.isFinite(stored) && stored >= 0) {
+    return Math.trunc(stored);
+  }
+
+  const raw = String(row?.pitching?.IP ?? '').trim();
+  const match = raw.match(/^(\d+)\.(\d)$/);
+
+  if (!match) return 0;
+
+  const innings = Number(match[1]);
+  const partial = Math.min(Number(match[2]), 2);
+
+  return innings * 3 + partial;
+}
+
+function formatPitchIp(outs) {
+  const numeric = Number(outs);
+
+  if (!Number.isFinite(numeric) || numeric < 0) return '?';
+
+  const whole = Math.floor(numeric / 3);
+  const partial = Math.trunc(numeric % 3);
+
+  return `${whole}.${partial}`;
+}
+
+function formatPitchRate(value) {
+  if (
+    value === null
+    || value === undefined
+    || !Number.isFinite(Number(value))
+  ) {
+    return '?';
+  }
+
+  return Number(value).toFixed(2);
+}
+
+function formatPitchKbb(strikeouts, walks) {
+  const k = asNumber(strikeouts);
+  const bb = asNumber(walks);
+
+  if (bb <= 0) return '?';
+
+  return (k / bb).toFixed(2);
+}
+
+function latestDisplayedEra(row) {
+  const snapshots = Array.isArray(
+    row?.pitching?.displayed_cumulative_snapshots
+  )
+    ? row.pitching.displayed_cumulative_snapshots
+    : [];
+
+  for (let index = snapshots.length - 1; index >= 0; index -= 1) {
+    const value = parseDisplayedRate(snapshots[index]?.ERA);
+
+    if (value !== null) return value;
+  }
+
+  return null;
+}
+
+
+/*
+ * BSM does not publish WHIP in the per-game cumulative snapshots.
+ * Build it from the game logs:
+ *
+ *   WHIP = (H + BB) / IP
+ *        = (H + BB) * 3 / outs
+ *
+ * State is separated by season + league scope so a career view does
+ * not accidentally carry one season/league into the next.
+ */
+export function cumulativePitchingState(logs) {
+  const ordered = [...(logs ?? [])]
+    .filter((row) => Boolean(row?.pitching))
+    .sort((a, b) => {
+      const timeDiff = timeSortValue(a?.time) - timeSortValue(b?.time);
+      if (timeDiff) return timeDiff;
+
+      return asNumber(a?.match_id) - asNumber(b?.match_id);
+    });
+
+  const scopeStates = new Map();
+  const statesByRow = new Map();
+
+  for (const row of ordered) {
+    const scope = pitchingScopeKey(row);
+
+    const state = scopeStates.get(scope) ?? {
+      outs: 0,
+      h: 0,
+      bb: 0,
+      k: 0,
+    };
+
+    state.outs += pitchingOuts(row);
+    state.h += asNumber(row?.pitching?.H);
+    state.bb += asNumber(row?.pitching?.BB);
+    state.k += asNumber(row?.pitching?.K);
+
+    scopeStates.set(scope, state);
+
+    statesByRow.set(row, {
+      ...state,
+      era: latestDisplayedEra(row),
+      whip: state.outs > 0
+        ? ((state.h + state.bb) * 3) / state.outs
+        : null,
+    });
+  }
+
+  return statesByRow;
+}
+
+
+export function monthlyPitchingSeries(logs, season) {
+  const year = normalizedSeason(season) ?? season;
+  const cumulative = cumulativePitchingState(logs);
+  const byMonth = new Map();
+
+  for (const row of logs ?? []) {
+    if (!row?.pitching) continue;
+
+    const month = gameMonth(row?.time, year);
+    if (!month) continue;
+
+    const state = cumulative.get(row);
+    if (!state) continue;
+
+    const sortValue = timeSortValue(row?.time);
+    const current = byMonth.get(month);
+
+    if (!current || sortValue > current.sortValue) {
+      byMonth.set(month, {
+        era: state.era,
+        whip: state.whip,
+        outs: state.outs,
+        h: state.h,
+        bb: state.bb,
+        k: state.k,
+        sortValue,
+        matchId: row?.match_id ?? null,
+        date: row?.time ?? null,
+      });
+    }
+  }
+
+  return MONTHS_DE.map(([shortLabel, fullLabel], index) => {
+    const month = index + 1;
+    const current = byMonth.get(month);
+
+    return {
+      month,
+      shortLabel,
+      fullLabel,
+      era: current?.era ?? null,
+      whip: current?.whip ?? null,
+      outs: current?.outs ?? null,
+      h: current?.h ?? null,
+      bb: current?.bb ?? null,
+      k: current?.k ?? null,
+      matchId: current?.matchId ?? null,
+      date: current?.date ?? null,
+    };
+  });
+}
+
+
+function pitchingMetricChartSvg(series, metric, season) {
+  const valid = series.filter(
+    (item) => item?.[metric] !== null
+      && Number.isFinite(Number(item?.[metric])),
+  );
+
+  if (!valid.length) return '';
+
+  const firstMonth = valid[0].month;
+  const lastMonth = valid.at(-1).month;
+
+  const visible = series.filter(
+    (item) => item.month >= firstMonth && item.month <= lastMonth,
+  );
+
+  const width = 760;
+  const height = 230;
+
+  const padLeft = 52;
+  const padRight = 22;
+  const padTop = 24;
+  const padBottom = 42;
+
+  const chartWidth = width - padLeft - padRight;
+  const chartHeight = height - padTop - padBottom;
+
+  const values = valid.map((item) => Number(item[metric]));
+
+  const rawMin = Math.min(...values);
+  const rawMax = Math.max(...values);
+
+  const minimumSpread = metric === 'era' ? 1.00 : 0.25;
+  const spread = Math.max(rawMax - rawMin, minimumSpread);
+
+  const minValue = Math.max(0, rawMin - spread * 0.18);
+  const maxValue = rawMax + spread * 0.18;
+  const ySpan = Math.max(maxValue - minValue, 0.001);
+
+  const xFor = (month) => {
+    if (lastMonth === firstMonth) {
+      return padLeft + chartWidth / 2;
+    }
+
+    return padLeft
+      + ((month - firstMonth) / (lastMonth - firstMonth)) * chartWidth;
+  };
+
+  const yFor = (value) =>
+    padTop + ((maxValue - value) / ySpan) * chartHeight;
+
+  const gridLines = [0, 0.5, 1].map((ratio) => {
+    const y = padTop + ratio * chartHeight;
+    const value = maxValue - ratio * ySpan;
+
+    return `<g class="ops-chart-grid">
+      <line
+        x1="${padLeft}"
+        y1="${y.toFixed(1)}"
+        x2="${width - padRight}"
+        y2="${y.toFixed(1)}">
+      </line>
+      <text
+        x="${padLeft - 9}"
+        y="${(y + 4).toFixed(1)}"
+        text-anchor="end">
+        ${escapeHtml(formatPitchRate(value))}
+      </text>
+    </g>`;
+  }).join('');
+
+  const monthLabels = visible.map((item) => {
+    const x = xFor(item.month);
+
+    return `<text
+      class="ops-chart-month"
+      x="${x.toFixed(1)}"
+      y="${height - 14}"
+      text-anchor="middle">
+      ${escapeHtml(item.shortLabel)}
+    </text>`;
+  }).join('');
+
+  // Missing months do NOT break the line.
+  const linePoints = valid.map((item) =>
+    `${xFor(item.month).toFixed(1)},${yFor(Number(item[metric])).toFixed(1)}`
+  );
+
+  const line = linePoints.length > 1
+    ? `<polyline
+        class="ops-chart-line"
+        points="${linePoints.join(' ')}">
+       </polyline>`
+    : '';
+
+  const circles = valid.map((item) => {
+    const x = xFor(item.month);
+    const y = yFor(Number(item[metric]));
+
+    return `<g class="ops-chart-point">
+      <circle
+        cx="${x.toFixed(1)}"
+        cy="${y.toFixed(1)}"
+        r="5">
+      </circle>
+      <text
+        x="${x.toFixed(1)}"
+        y="${(y - 11).toFixed(1)}"
+        text-anchor="middle">
+        ${escapeHtml(formatPitchRate(item[metric]))}
+      </text>
+    </g>`;
+  }).join('');
+
+  const label = metric === 'era' ? 'ERA' : 'WHIP';
+
+  return `<svg
+    class="ops-chart"
+    viewBox="0 0 ${width} ${height}"
+    role="img"
+    aria-label="Kumulativer ${escapeHtml(label)}-Verlauf ${escapeHtml(season)}">
+      ${gridLines}
+      ${line}
+      ${circles}
+      ${monthLabels}
+    </svg>`;
+}
+
+
+function pitchingSummaryHtml(series) {
+  const final = [...series]
+    .reverse()
+    .find((item) =>
+      item.outs !== null
+      || item.era !== null
+      || item.whip !== null
+    );
+
+  if (!final) return '';
+
+  const metrics = [
+    ['IP', formatPitchIp(final.outs)],
+    ['ERA', formatPitchRate(final.era)],
+    ['WHIP', formatPitchRate(final.whip)],
+    ['SO', final.k ?? '?'],
+    ['BB', final.bb ?? '?'],
+    ['K/BB', formatPitchKbb(final.k, final.bb)],
+  ];
+
+  return `
+    <div class="pitch-summary-grid">
+      ${metrics.map(([label, value]) => `
+        <div class="pitch-summary-item">
+          <span>${escapeHtml(label)}</span>
+          <strong>${escapeHtml(value)}</strong>
+        </div>
+      `).join('')}
+    </div>`;
+}
+
+
+export function monthlyPitchingTrendHtml(logs, season) {
+  const year = normalizedSeason(season) ?? season;
+  const series = monthlyPitchingSeries(logs, year);
+
+  const valid = series.filter(
+    (item) => item.era !== null || item.whip !== null,
+  );
+
+  if (!valid.length) {
+    return `
+      <section class="ops-trend-panel pitch-trend-panel">
+        <div class="ops-trend-heading">
+          <div>
+            <h2>Kumulativer ERA-/WHIP-Verlauf ${escapeHtml(year)}</h2>
+            <p>ERA aus dem ver?ffentlichten BSM-Snapshot, WHIP aus H, BB und Outs.</p>
+          </div>
+        </div>
+        <div class="empty-state ops-trend-empty">
+          Keine kumulativen Wurf-Snapshots verf?gbar.
+        </div>
+      </section>`;
+  }
+
+  const firstMonth = valid[0].month;
+  const lastMonth = valid.at(-1).month;
+
+  const visible = series.filter(
+    (item) => item.month >= firstMonth && item.month <= lastMonth,
+  );
+
+  const rows = visible.map((item) => `
+    <tr>
+      <td class="left">${escapeHtml(item.fullLabel)}</td>
+      <td class="ops-value">${escapeHtml(formatPitchRate(item.era))}</td>
+      <td class="ops-value">${escapeHtml(formatPitchRate(item.whip))}</td>
+    </tr>
+  `).join('');
+
+  const token = String(year).replace(/[^0-9a-z_-]/gi, '');
+  const eraId = `pitch-metric-era-${token}`;
+  const whipId = `pitch-metric-whip-${token}`;
+
+  return `
+    <section class="ops-trend-panel pitch-trend-panel">
+
+      <input
+        class="pitch-metric-radio pitch-metric-era"
+        type="radio"
+        name="pitch-metric-${token}"
+        id="${eraId}"
+        checked>
+
+      <input
+        class="pitch-metric-radio pitch-metric-whip"
+        type="radio"
+        name="pitch-metric-${token}"
+        id="${whipId}">
+
+      <div class="ops-trend-heading">
+        <div>
+          <h2>Kumulativer ERA-/WHIP-Verlauf ${escapeHtml(year)}</h2>
+          <p>
+            ERA aus dem zuletzt ver?ffentlichten BSM-Snapshot;
+            WHIP kumulativ aus H, BB und Outs.
+          </p>
+        </div>
+
+        <div class="pitch-metric-toggle" aria-label="Wurfkennzahl ausw?hlen">
+          <label for="${eraId}" data-pitch-metric="era">ERA</label>
+          <label for="${whipId}" data-pitch-metric="whip">WHIP</label>
+        </div>
+      </div>
+
+      ${pitchingSummaryHtml(series)}
+
+      <div class="ops-trend-layout">
+        <div class="ops-chart-wrap">
+
+          <div class="pitch-chart-pane pitch-chart-era">
+            ${pitchingMetricChartSvg(series, 'era', year)}
+          </div>
+
+          <div class="pitch-chart-pane pitch-chart-whip">
+            ${pitchingMetricChartSvg(series, 'whip', year)}
+          </div>
+
+        </div>
+
+        <div class="table-scroll ops-month-table-wrap">
+          <table class="stats-table ops-month-table">
+            <thead>
+              <tr>
+                <th class="left">Monat</th>
+                <th>ERA</th>
+                <th>WHIP</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="ops-trend-note">
+        ERA verwendet den kumulativen BSM-Wert.
+        WHIP = (H + BB) ? 3 / Outs.
+        Monate ohne ver?ffentlichten Wert werden als ??? gezeigt;
+        die Kurve verbindet die vorhandenen Monatsst?nde.
+      </p>
+
     </section>`;
 }
 
