@@ -1,0 +1,1406 @@
+{
+  "generated_at": "2026-08-26T14:08:17.168480+00:00",
+  "season": 2026,
+  "source_files": {
+    "candidate_leagues": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\tests\\bsm_season_data\\2026_discovery_v2\\candidate_leagues.json",
+    "candidate_matches": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\tests\\bsm_season_data\\2026_discovery_v2\\candidate_matches.json"
+  },
+  "scope": {
+    "local": "local_bsvbb",
+    "overregional": "overregional_candidate"
+  },
+  "selected_groups": [
+    {
+      "id": 6205,
+      "name": "Verbandsliga Baseball",
+      "acronym": "VLBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 30,
+      "seed_match_count": 30,
+      "bsvbb_club_count": 4,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "verbandsliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "verbandsliga",
+        "regular",
+        "verbandsliga baseball"
+      ]
+    },
+    {
+      "id": 6222,
+      "name": "Verbandsliga Softball",
+      "acronym": "VLSB",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 40,
+      "seed_match_count": 40,
+      "bsvbb_club_count": 5,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "verbandsliga",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "local_bsvbb",
+        "verbandsliga",
+        "regular",
+        "verbandsliga softball"
+      ]
+    },
+    {
+      "id": 6208,
+      "name": "Landesliga Baseball",
+      "acronym": "LLBBDivA",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 45,
+      "seed_match_count": 45,
+      "bsvbb_club_count": 10,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
+      ],
+      "linked_group_ids": [
+        6209
+      ],
+      "level": "landesliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "landesliga",
+        "regular",
+        "landesliga baseball"
+      ]
+    },
+    {
+      "id": 6209,
+      "name": "Landesliga Baseball",
+      "acronym": "LLBBDivB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league",
+        "second_league"
+      ],
+      "match_count": 45,
+      "seed_match_count": 45,
+      "bsvbb_club_count": 10,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
+      ],
+      "linked_group_ids": [
+        6208
+      ],
+      "level": "landesliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "landesliga",
+        "regular",
+        "landesliga baseball"
+      ]
+    },
+    {
+      "id": 6212,
+      "name": "Juniorenliga Baseball",
+      "acronym": "JunBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 12,
+      "seed_match_count": 12,
+      "bsvbb_club_count": 4,
+      "bsvbb_clubs": [
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "junioren",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "junioren",
+        "regular",
+        "juniorenliga baseball"
+      ]
+    },
+    {
+      "id": 6224,
+      "name": "Junorinnenliga Softball",
+      "acronym": "JunSB",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 5,
+      "seed_match_count": 5,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "juniorinnen",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "local_bsvbb",
+        "juniorinnen",
+        "regular",
+        "junorinnenliga softball"
+      ]
+    },
+    {
+      "id": 6214,
+      "name": "Jugend-Landesliga Baseball",
+      "acronym": "JugLLBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 42,
+      "seed_match_count": 42,
+      "bsvbb_club_count": 9,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "jugend",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "jugend",
+        "regular",
+        "jugend-landesliga baseball"
+      ]
+    },
+    {
+      "id": 6218,
+      "name": "Schülerliga Baseball",
+      "acronym": "SchVLBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 24,
+      "seed_match_count": 24,
+      "bsvbb_club_count": 4,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "schueler",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "schueler",
+        "regular",
+        "schuelerliga baseball"
+      ]
+    },
+    {
+      "id": 6293,
+      "name": "Schüler-Landesliga Baseball",
+      "acronym": "SchLLBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 30,
+      "seed_match_count": 30,
+      "bsvbb_club_count": 6,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "schueler",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "schueler",
+        "regular",
+        "schueler-landesliga baseball"
+      ]
+    },
+    {
+      "id": 6220,
+      "name": "Coach Pitch",
+      "acronym": "CoPi",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 42,
+      "seed_match_count": 42,
+      "bsvbb_club_count": 6,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "coach-pitch",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "coach-pitch",
+        "regular",
+        "coach pitch"
+      ]
+    },
+    {
+      "id": 6137,
+      "name": "2. Baseball-Bundesliga Nordost",
+      "acronym": "2BLHNO",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 60,
+      "seed_match_count": 54,
+      "bsvbb_club_count": 3,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "2-bundesliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "2-bundesliga",
+        "regular",
+        "2. baseball-bundesliga nordost"
+      ]
+    },
+    {
+      "id": 6142,
+      "name": "2. Baseball-Bundesliga Nord Play-offs",
+      "acronym": "2BLHPON",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 21,
+      "seed_match_count": 3,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "2-bundesliga",
+      "stage": "postseason",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "2-bundesliga",
+        "postseason",
+        "2. baseball-bundesliga nord play-offs"
+      ]
+    },
+    {
+      "id": 6131,
+      "name": "Softball-Bundesliga Nord",
+      "acronym": "BLDN",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 84,
+      "seed_match_count": 44,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "bundesliga",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "overregional_candidate",
+        "bundesliga",
+        "regular",
+        "softball-bundesliga nord"
+      ]
+    },
+    {
+      "id": 6133,
+      "name": "Softball-Bundesliga Play-offs",
+      "acronym": "BLDPO",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 27,
+      "seed_match_count": 3,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "bundesliga",
+      "stage": "postseason",
+      "family_key": [
+        "softball_fastpitch_female",
+        "overregional_candidate",
+        "bundesliga",
+        "postseason",
+        "softball-bundesliga play-offs"
+      ]
+    },
+    {
+      "id": 6431,
+      "name": "DM Coach Pitch U10 Gruppe A",
+      "acronym": "CPDM_GR_A",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 3,
+      "seed_match_count": 2,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "dm",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "dm",
+        "regular",
+        "dm coach pitch u10"
+      ]
+    },
+    {
+      "id": 6435,
+      "name": "DM Coach Pitch U10 Play-offs",
+      "acronym": "CPDM_PO",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 18,
+      "seed_match_count": 3,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "dm",
+      "stage": "postseason",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "dm",
+        "postseason",
+        "dm coach pitch u10 play-offs"
+      ]
+    },
+    {
+      "id": 6337,
+      "name": "U13SB Gruppe B",
+      "acronym": "U13_GR_B",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 3,
+      "seed_match_count": 2,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "other",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "overregional_candidate",
+        "other",
+        "regular",
+        "u13sb"
+      ]
+    },
+    {
+      "id": 6338,
+      "name": "U13SB Play-offs",
+      "acronym": "U13_PO",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 5,
+      "seed_match_count": 1,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "other",
+      "stage": "postseason",
+      "family_key": [
+        "softball_fastpitch_female",
+        "overregional_candidate",
+        "other",
+        "postseason",
+        "u13sb play-offs"
+      ]
+    }
+  ],
+  "logical_leagues": [
+    {
+      "key": "baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball",
+      "name": "Verbandsliga Baseball",
+      "level": "verbandsliga",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6205,
+          "name": "Verbandsliga Baseball",
+          "acronym": "VLBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 30,
+          "seed_match_count": 30,
+          "bsvbb_club_count": 4,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-local-bsvbb-verbandsliga-regular-verbandsliga-softball",
+      "name": "Verbandsliga Softball",
+      "level": "verbandsliga",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6222,
+          "name": "Verbandsliga Softball",
+          "acronym": "VLSB",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "local_bsvbb",
+          "match_count": 40,
+          "seed_match_count": 40,
+          "bsvbb_club_count": 5,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball",
+      "name": "Landesliga Baseball",
+      "level": "landesliga",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": true,
+      "source_groups": [
+        {
+          "id": 6208,
+          "name": "Landesliga Baseball",
+          "acronym": "LLBBDivA",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 45,
+          "seed_match_count": 45,
+          "bsvbb_club_count": 10,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": [
+            6209
+          ]
+        },
+        {
+          "id": 6209,
+          "name": "Landesliga Baseball",
+          "acronym": "LLBBDivB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 45,
+          "seed_match_count": 45,
+          "bsvbb_club_count": 10,
+          "source_fields": [
+            "league",
+            "second_league"
+          ],
+          "linked_group_ids": [
+            6208
+          ]
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball",
+      "name": "Juniorenliga Baseball",
+      "level": "junioren",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6212,
+          "name": "Juniorenliga Baseball",
+          "acronym": "JunBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 12,
+          "seed_match_count": 12,
+          "bsvbb_club_count": 4,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-local-bsvbb-juniorinnen-regular-junorinnenliga-softball",
+      "name": "Junorinnenliga Softball",
+      "level": "juniorinnen",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6224,
+          "name": "Junorinnenliga Softball",
+          "acronym": "JunSB",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "local_bsvbb",
+          "match_count": 5,
+          "seed_match_count": 5,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-jugend-regular-jugend-landesliga-baseball",
+      "name": "Jugend-Landesliga Baseball",
+      "level": "jugend",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6214,
+          "name": "Jugend-Landesliga Baseball",
+          "acronym": "JugLLBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 42,
+          "seed_match_count": 42,
+          "bsvbb_club_count": 9,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-schueler-regular-schueler-landesliga-baseball",
+      "name": "Schüler-Landesliga Baseball",
+      "level": "schueler",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6293,
+          "name": "Schüler-Landesliga Baseball",
+          "acronym": "SchLLBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 30,
+          "seed_match_count": 30,
+          "bsvbb_club_count": 6,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-schueler-regular-schuelerliga-baseball",
+      "name": "Schülerliga Baseball",
+      "level": "schueler",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6218,
+          "name": "Schülerliga Baseball",
+          "acronym": "SchVLBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 24,
+          "seed_match_count": 24,
+          "bsvbb_club_count": 4,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-coach-pitch-regular-coach-pitch",
+      "name": "Coach Pitch",
+      "level": "coach-pitch",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6220,
+          "name": "Coach Pitch",
+          "acronym": "CoPi",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 42,
+          "seed_match_count": 42,
+          "bsvbb_club_count": 6,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-2-bundesliga-regular-2-baseball-bundesliga-nordost",
+      "name": "2. Baseball-Bundesliga Nordost",
+      "level": "2-bundesliga",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6137,
+          "name": "2. Baseball-Bundesliga Nordost",
+          "acronym": "2BLHNO",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 60,
+          "seed_match_count": 54,
+          "bsvbb_club_count": 3,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-play-offs",
+      "name": "2. Baseball-Bundesliga Nord Play-offs",
+      "level": "2-bundesliga",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6142,
+          "name": "2. Baseball-Bundesliga Nord Play-offs",
+          "acronym": "2BLHPON",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 21,
+          "seed_match_count": 3,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-overregional-candidate-bundesliga-regular-softball-bundesliga-nord",
+      "name": "Softball-Bundesliga Nord",
+      "level": "bundesliga",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6131,
+          "name": "Softball-Bundesliga Nord",
+          "acronym": "BLDN",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "overregional_candidate",
+          "match_count": 84,
+          "seed_match_count": 44,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-overregional-candidate-bundesliga-postseason-softball-bundesliga-play-offs",
+      "name": "Softball-Bundesliga Play-offs",
+      "level": "bundesliga",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6133,
+          "name": "Softball-Bundesliga Play-offs",
+          "acronym": "BLDPO",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "overregional_candidate",
+          "match_count": 27,
+          "seed_match_count": 3,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-dm-regular-dm-coach-pitch-u10-gruppe-a",
+      "name": "DM Coach Pitch U10 Gruppe A",
+      "level": "dm",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6431,
+          "name": "DM Coach Pitch U10 Gruppe A",
+          "acronym": "CPDM_GR_A",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 3,
+          "seed_match_count": 2,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-dm-postseason-dm-coach-pitch-u10-play-offs",
+      "name": "DM Coach Pitch U10 Play-offs",
+      "level": "dm",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6435,
+          "name": "DM Coach Pitch U10 Play-offs",
+          "acronym": "CPDM_PO",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 18,
+          "seed_match_count": 3,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-overregional-candidate-other-regular-u13sb-gruppe-b",
+      "name": "U13SB Gruppe B",
+      "level": "other",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6337,
+          "name": "U13SB Gruppe B",
+          "acronym": "U13_GR_B",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "overregional_candidate",
+          "match_count": 3,
+          "seed_match_count": 2,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-overregional-candidate-other-postseason-u13sb-play-offs",
+      "name": "U13SB Play-offs",
+      "level": "other",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6338,
+          "name": "U13SB Play-offs",
+          "acronym": "U13_PO",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "overregional_candidate",
+          "match_count": 5,
+          "seed_match_count": 1,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    }
+  ]
+}
