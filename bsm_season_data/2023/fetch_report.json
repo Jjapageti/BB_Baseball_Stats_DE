@@ -1,96 +1,105 @@
 {
-  "generated_at": "2026-08-05T09:23:49.737072+00:00",
+  "generated_at": "2026-08-18T10:54:45.659998+00:00",
   "season": 2023,
-  "target_club": {
-    "id": 492,
-    "name": "Berlin Sluggers"
-  },
-  "season_match_count": 5194,
   "selected_groups": [
     {
-      "id": 5458,
-      "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
-      "acronym": "2BLHNNOPD",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 42,
-      "target_match_count": 12,
-      "target_match_ids": [
-        45517,
-        45518,
-        45525,
-        45526,
-        45531,
-        45532,
-        45539,
-        45540,
-        45545,
-        45546,
-        45549,
-        45550
-      ],
-      "federation_ids": [],
+      "id": 5433,
+      "name": "Verbandsliga Softball",
+      "acronym": "VLSB",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [
-        "league"
+      "match_count": 36,
+      "seed_match_count": 36,
+      "bsvbb_club_count": 5,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
       ],
       "linked_group_ids": [],
+      "level": "verbandsliga",
+      "stage": "regular",
       "family_key": [
-        [],
-        "2-bundesliga",
-        "postseason",
-        "2. baseball-bundesliga nord-nordost play-downs"
+        "softball_fastpitch_female",
+        "local_bsvbb",
+        "verbandsliga",
+        "regular",
+        "verbandsliga softball"
       ]
     },
     {
-      "id": 5356,
-      "name": "2. Baseball-Bundesliga Nord-Nordost",
-      "acronym": "2BLHNNO",
+      "id": 5434,
+      "name": "Verbandsliga Baseball",
+      "acronym": "VLBB",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "regular",
-      "match_count": 110,
-      "target_match_count": 20,
-      "target_match_ids": [
-        40760,
-        40762,
-        40767,
-        40770,
-        40778,
-        40780,
-        40792,
-        40794,
-        40803,
-        40806,
-        40816,
-        40818,
-        40820,
-        40822,
-        40827,
-        40828,
-        40841,
-        40843,
-        40855,
-        40857
-      ],
-      "federation_ids": [],
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [
-        "league"
+      "match_count": 51,
+      "seed_match_count": 51,
+      "bsvbb_club_count": 3,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        }
       ],
       "linked_group_ids": [],
+      "level": "verbandsliga",
+      "stage": "regular",
       "family_key": [
-        [],
-        "2-bundesliga",
+        "baseball_male",
+        "local_bsvbb",
+        "verbandsliga",
         "regular",
-        "2. baseball-bundesliga nord-nordost"
+        "verbandsliga baseball"
       ]
     },
     {
@@ -99,49 +108,2982 @@
       "acronym": "LLBB",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 56,
-      "target_match_count": 14,
-      "target_match_ids": [
-        44253,
-        44257,
-        44260,
-        44265,
-        44270,
-        44273,
-        44277,
-        44282,
-        44286,
-        44288,
-        44291,
-        44296,
-        44300,
-        44306
-      ],
-      "federation_ids": [],
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [
-        "league"
+      "match_count": 56,
+      "seed_match_count": 56,
+      "bsvbb_club_count": 7,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
       ],
       "linked_group_ids": [],
+      "level": "landesliga",
+      "stage": "regular",
       "family_key": [
-        [],
+        "baseball_male",
+        "local_bsvbb",
         "landesliga",
         "regular",
         "landesliga baseball"
+      ]
+    },
+    {
+      "id": 5436,
+      "name": "Bezirksliga Baseball",
+      "acronym": "BzLBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 24,
+      "seed_match_count": 24,
+      "bsvbb_club_count": 4,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "bezirksliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "bezirksliga",
+        "regular",
+        "bezirksliga baseball"
+      ]
+    },
+    {
+      "id": 5437,
+      "name": "Juniorenliga Baseball",
+      "acronym": "JunBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 12,
+      "seed_match_count": 12,
+      "bsvbb_club_count": 3,
+      "bsvbb_clubs": [
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "junioren",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "junioren",
+        "regular",
+        "juniorenliga baseball"
+      ]
+    },
+    {
+      "id": 5443,
+      "name": "Junorinnenliga Softball",
+      "acronym": "JunSB",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 5,
+      "seed_match_count": 5,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "juniorinnen",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "local_bsvbb",
+        "juniorinnen",
+        "regular",
+        "junorinnenliga softball"
+      ]
+    },
+    {
+      "id": 5438,
+      "name": "Jugendaufbauliga Baseball",
+      "acronym": "JugABB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 42,
+      "seed_match_count": 42,
+      "bsvbb_club_count": 7,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "jugend",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "jugend",
+        "regular",
+        "jugendaufbauliga baseball"
+      ]
+    },
+    {
+      "id": 5439,
+      "name": "Jugendliga Baseball",
+      "acronym": "JugBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 12,
+      "seed_match_count": 12,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "jugend",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "jugend",
+        "regular",
+        "jugendliga baseball"
+      ]
+    },
+    {
+      "id": 5440,
+      "name": "Schülerliga Baseball",
+      "acronym": "SchBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 56,
+      "seed_match_count": 56,
+      "bsvbb_club_count": 8,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "schueler",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "schueler",
+        "regular",
+        "schuelerliga baseball"
+      ]
+    },
+    {
+      "id": 5441,
+      "name": "Kinderliga Baseball",
+      "acronym": "KindBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 5,
+      "seed_match_count": 5,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "kinder",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "kinder",
+        "regular",
+        "kinderliga baseball"
+      ]
+    },
+    {
+      "id": 5442,
+      "name": "Tossball Baseball",
+      "acronym": "TossBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 4,
+      "seed_match_count": 4,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "tossball",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "tossball",
+        "regular",
+        "tossball baseball"
+      ]
+    },
+    {
+      "id": 5350,
+      "name": "1. Baseball-Bundesliga Nord",
+      "acronym": "1BLHN",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 90,
+      "seed_match_count": 30,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "1-bundesliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "1-bundesliga",
+        "regular",
+        "1. baseball-bundesliga nord"
+      ]
+    },
+    {
+      "id": 5353,
+      "name": "1. Baseball-Bundesliga Play-downs Nord",
+      "acronym": "1BLHPDN",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 7,
+      "seed_match_count": 7,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "1-bundesliga",
+      "stage": "postseason",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "1-bundesliga",
+        "postseason",
+        "1. baseball-bundesliga play-downs nord"
+      ]
+    },
+    {
+      "id": 5356,
+      "name": "2. Baseball-Bundesliga Nord-Nordost",
+      "acronym": "2BLHNNO",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 110,
+      "seed_match_count": 38,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "2-bundesliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "2-bundesliga",
+        "regular",
+        "2. baseball-bundesliga nord-nordost"
+      ]
+    },
+    {
+      "id": 5458,
+      "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
+      "acronym": "2BLHNNOPD",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 42,
+      "seed_match_count": 22,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "2-bundesliga",
+      "stage": "postseason",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "2-bundesliga",
+        "postseason",
+        "2. baseball-bundesliga nord-nordost play-downs"
+      ]
+    },
+    {
+      "id": 5367,
+      "name": "Softball Verbandsliga NORD - A-Pool",
+      "acronym": "SBVL-N-A",
+      "sport": "softball_fastpitch_mixed",
+      "human_sport": "Softball Fastpitch Mixed",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 24,
+      "seed_match_count": 16,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "verbandsliga",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_mixed",
+        "overregional_candidate",
+        "verbandsliga",
+        "regular",
+        "softball verbandsliga nord - a-pool"
+      ]
+    },
+    {
+      "id": 5496,
+      "name": "Softball Final 4 2023",
+      "acronym": "Final 4",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 7,
+      "seed_match_count": 6,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "other",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "overregional_candidate",
+        "other",
+        "regular",
+        "softball final 4 2023"
       ]
     }
   ],
   "leagues": [
     {
       "league": {
-        "key": "2-bundesliga-regular-2-baseball-bundesliga-nord-nordost",
+        "key": "baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball",
+        "name": "Verbandsliga Baseball",
+        "level": "verbandsliga",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5434,
+            "name": "Verbandsliga Baseball",
+            "acronym": "VLBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 51,
+            "seed_match_count": 51,
+            "bsvbb_club_count": 3,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 4,
+          "matches": 51,
+          "played_matches": 49,
+          "batters": 80,
+          "pitchers": 26
+        }
+      },
+      "groups": [
+        {
+          "id": 5434,
+          "acronym": "VLBB",
+          "teams": 4,
+          "matches": 51,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41152,
+          "team": "Challengers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41152/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 17,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41152,
+          "team": "Challengers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41152/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 3,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41155,
+          "team": "Dukes",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41155/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 21,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41155,
+          "team": "Dukes",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41155/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 8,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41153,
+          "team": "Skylarks",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41153/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 18,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41153,
+          "team": "Skylarks",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41153/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 6,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41154,
+          "team": "Wizards",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41154/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 24,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41154,
+          "team": "Wizards",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41154/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 9,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "softball-fastpitch-female-local-bsvbb-verbandsliga-regular-verbandsliga-softball",
+        "name": "Verbandsliga Softball",
+        "level": "verbandsliga",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "softball_fastpitch_female",
+        "human_sport": "Softball Fastpitch weiblich",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5433,
+            "name": "Verbandsliga Softball",
+            "acronym": "VLSB",
+            "sport": "softball_fastpitch_female",
+            "human_sport": "Softball Fastpitch weiblich",
+            "scope": "local_bsvbb",
+            "match_count": 36,
+            "seed_match_count": 36,
+            "bsvbb_club_count": 5,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 4,
+          "matches": 36,
+          "played_matches": 35,
+          "batters": 22,
+          "pitchers": 6
+        }
+      },
+      "groups": [
+        {
+          "id": 5433,
+          "acronym": "VLSB",
+          "teams": 4,
+          "matches": 36,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41151,
+          "team": "Challengers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41151/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41151,
+          "team": "Challengers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41151/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41150,
+          "team": "Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41150/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 12,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41150,
+          "team": "Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41150/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 3,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41148,
+          "team": "Ravens",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41148/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 10,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41148,
+          "team": "Ravens",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41148/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 3,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41149,
+          "team": "SG Porcupines/Skylarks",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41149/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41149,
+          "team": "SG Porcupines/Skylarks",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41149/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball",
+        "name": "Landesliga Baseball",
+        "level": "landesliga",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5435,
+            "name": "Landesliga Baseball",
+            "acronym": "LLBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 56,
+            "seed_match_count": 56,
+            "bsvbb_club_count": 7,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 8,
+          "matches": 56,
+          "played_matches": 53,
+          "batters": 107,
+          "pitchers": 27
+        }
+      },
+      "groups": [
+        {
+          "id": 5435,
+          "acronym": "LLBB",
+          "teams": 8,
+          "matches": 56,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41160,
+          "team": "Dragons",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41160/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 11,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41160,
+          "team": "Dragons",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41160/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 2,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41159,
+          "team": "Eagles",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41159/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 14,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41159,
+          "team": "Eagles",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41159/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 3,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41163,
+          "team": "Flamingos 2",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41163/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 15,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41163,
+          "team": "Flamingos 2",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41163/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 7,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41156,
+          "team": "Porcupines",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41156/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 14,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41156,
+          "team": "Porcupines",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41156/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 4,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41161,
+          "team": "Roosters",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41161/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41161,
+          "team": "Roosters",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41161/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 2,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41162,
+          "team": "Skylarks 2",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41162/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41162,
+          "team": "Skylarks 2",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41162/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 5,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41157,
+          "team": "Sliders",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41157/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 10,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41157,
+          "team": "Sliders",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41157/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 2,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41158,
+          "team": "Sluggers 2",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41158/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 11,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41158,
+          "team": "Sluggers 2",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41158/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 2,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-bezirksliga-regular-bezirksliga-baseball",
+        "name": "Bezirksliga Baseball",
+        "level": "bezirksliga",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5436,
+            "name": "Bezirksliga Baseball",
+            "acronym": "BzLBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 24,
+            "seed_match_count": 24,
+            "bsvbb_club_count": 4,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 4,
+          "matches": 24,
+          "played_matches": 23,
+          "batters": 0,
+          "pitchers": 0
+        }
+      },
+      "groups": [
+        {
+          "id": 5436,
+          "acronym": "BzLBB",
+          "teams": 4,
+          "matches": 24,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41165,
+          "team": "Challengers 2",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41165/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41165,
+          "team": "Challengers 2",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41165/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41167,
+          "team": "Flamingos 3",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41167/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41167,
+          "team": "Flamingos 3",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41167/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41164,
+          "team": "Roadrunners 2",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41164/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41164,
+          "team": "Roadrunners 2",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41164/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41166,
+          "team": "Skylarks 3",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41166/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41166,
+          "team": "Skylarks 3",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41166/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball",
+        "name": "Juniorenliga Baseball",
+        "level": "junioren",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5437,
+            "name": "Juniorenliga Baseball",
+            "acronym": "JunBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 12,
+            "seed_match_count": 12,
+            "bsvbb_club_count": 3,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 3,
+          "matches": 12,
+          "played_matches": 11,
+          "batters": 56,
+          "pitchers": 20
+        }
+      },
+      "groups": [
+        {
+          "id": 5437,
+          "acronym": "JunBB",
+          "teams": 3,
+          "matches": 12,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41170,
+          "team": "Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41170/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 17,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41170,
+          "team": "Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41170/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 5,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41168,
+          "team": "Roadrunners",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41168/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 20,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41168,
+          "team": "Roadrunners",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41168/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 5,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41169,
+          "team": "Sluggers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41169/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 19,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41169,
+          "team": "Sluggers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41169/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 10,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "softball-fastpitch-female-local-bsvbb-juniorinnen-regular-junorinnenliga-softball",
+        "name": "Junorinnenliga Softball",
+        "level": "juniorinnen",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "softball_fastpitch_female",
+        "human_sport": "Softball Fastpitch weiblich",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5443,
+            "name": "Junorinnenliga Softball",
+            "acronym": "JunSB",
+            "sport": "softball_fastpitch_female",
+            "human_sport": "Softball Fastpitch weiblich",
+            "scope": "local_bsvbb",
+            "match_count": 5,
+            "seed_match_count": 5,
+            "bsvbb_club_count": 2,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 2,
+          "matches": 5,
+          "played_matches": 5,
+          "batters": 0,
+          "pitchers": 0
+        }
+      },
+      "groups": [
+        {
+          "id": 5443,
+          "acronym": "JunSB",
+          "teams": 2,
+          "matches": 5,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41195,
+          "team": "Challengers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41195/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41195,
+          "team": "Challengers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41195/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41194,
+          "team": "Ravens",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41194/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41194,
+          "team": "Ravens",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41194/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-jugend-regular-jugendaufbauliga-baseball",
+        "name": "Jugendaufbauliga Baseball",
+        "level": "jugend",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5438,
+            "name": "Jugendaufbauliga Baseball",
+            "acronym": "JugABB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 42,
+            "seed_match_count": 42,
+            "bsvbb_club_count": 7,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 7,
+          "matches": 42,
+          "played_matches": 41,
+          "batters": 18,
+          "pitchers": 4
+        }
+      },
+      "groups": [
+        {
+          "id": 5438,
+          "acronym": "JugABB",
+          "teams": 7,
+          "matches": 42,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41173,
+          "team": "Eagles",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41173/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 9,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41173,
+          "team": "Eagles",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41173/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 2,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41177,
+          "team": "Flamingos 2",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41177/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 9,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41177,
+          "team": "Flamingos 2",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41177/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 2,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41171,
+          "team": "Porcupines",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41171/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41171,
+          "team": "Porcupines",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41171/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41174,
+          "team": "R´s",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41174/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41174,
+          "team": "R´s",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41174/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41175,
+          "team": "Skylarks",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41175/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41175,
+          "team": "Skylarks",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41175/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41172,
+          "team": "Sluggers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41172/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41172,
+          "team": "Sluggers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41172/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41176,
+          "team": "Wizards",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41176/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41176,
+          "team": "Wizards",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41176/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-jugend-regular-jugendliga-baseball",
+        "name": "Jugendliga Baseball",
+        "level": "jugend",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5439,
+            "name": "Jugendliga Baseball",
+            "acronym": "JugBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 12,
+            "seed_match_count": 12,
+            "bsvbb_club_count": 2,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 3,
+          "matches": 12,
+          "played_matches": 12,
+          "batters": 21,
+          "pitchers": 7
+        }
+      },
+      "groups": [
+        {
+          "id": 5439,
+          "acronym": "JugBB",
+          "teams": 3,
+          "matches": 12,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41180,
+          "team": "Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41180/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41180,
+          "team": "Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41180/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41179,
+          "team": "Rams",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41179/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 10,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41179,
+          "team": "Rams",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41179/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 4,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41178,
+          "team": "Roadrunners",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41178/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 11,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41178,
+          "team": "Roadrunners",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41178/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 3,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-schueler-regular-schuelerliga-baseball",
+        "name": "Schülerliga Baseball",
+        "level": "schueler",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5440,
+            "name": "Schülerliga Baseball",
+            "acronym": "SchBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 56,
+            "seed_match_count": 56,
+            "bsvbb_club_count": 8,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 8,
+          "matches": 56,
+          "played_matches": 54,
+          "batters": 132,
+          "pitchers": 49
+        }
+      },
+      "groups": [
+        {
+          "id": 5440,
+          "acronym": "SchBB",
+          "teams": 8,
+          "matches": 56,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41182,
+          "team": "Challengers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41182/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41182,
+          "team": "Challengers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41182/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 6,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41185,
+          "team": "Eagles",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41185/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 15,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41185,
+          "team": "Eagles",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41185/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 4,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41188,
+          "team": "Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41188/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41188,
+          "team": "Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41188/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 5,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41181,
+          "team": "Roadrunners",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41181/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 21,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41181,
+          "team": "Roadrunners",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41181/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 6,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41186,
+          "team": "Skylarks",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41186/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41186,
+          "team": "Skylarks",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41186/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 10,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41183,
+          "team": "Sliders",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41183/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41183,
+          "team": "Sliders",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41183/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 5,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41184,
+          "team": "Sluggers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41184/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41184,
+          "team": "Sluggers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41184/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 7,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41187,
+          "team": "Wizards",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41187/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 16,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41187,
+          "team": "Wizards",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41187/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 6,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-kinder-regular-kinderliga-baseball",
+        "name": "Kinderliga Baseball",
+        "level": "kinder",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5441,
+            "name": "Kinderliga Baseball",
+            "acronym": "KindBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 5,
+            "seed_match_count": 5,
+            "bsvbb_club_count": 2,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 2,
+          "matches": 5,
+          "played_matches": 5,
+          "batters": 0,
+          "pitchers": 0
+        }
+      },
+      "groups": [
+        {
+          "id": 5441,
+          "acronym": "KindBB",
+          "teams": 2,
+          "matches": 5,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41190,
+          "team": "Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41190/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41190,
+          "team": "Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41190/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41189,
+          "team": "Roadrunners",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41189/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41189,
+          "team": "Roadrunners",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41189/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-local-bsvbb-tossball-regular-tossball-baseball",
+        "name": "Tossball Baseball",
+        "level": "tossball",
+        "stage": "regular",
+        "scope": "local_bsvbb",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5442,
+            "name": "Tossball Baseball",
+            "acronym": "TossBB",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "local_bsvbb",
+            "match_count": 4,
+            "seed_match_count": 4,
+            "bsvbb_club_count": 2,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 3,
+          "matches": 4,
+          "played_matches": 4,
+          "batters": 0,
+          "pitchers": 0
+        }
+      },
+      "groups": [
+        {
+          "id": 5442,
+          "acronym": "TossBB",
+          "teams": 3,
+          "matches": 4,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41192,
+          "team": "Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41192/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41192,
+          "team": "Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41192/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41280,
+          "team": "League Entry 41280",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41280/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41280,
+          "team": "League Entry 41280",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41280/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41193,
+          "team": "Skylarks",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41193/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41193,
+          "team": "Skylarks",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41193/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-overregional-candidate-1-bundesliga-regular-1-baseball-bundesliga-nord",
+        "name": "1. Baseball-Bundesliga Nord",
+        "level": "1-bundesliga",
+        "stage": "regular",
+        "scope": "overregional_candidate",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5350,
+            "name": "1. Baseball-Bundesliga Nord",
+            "acronym": "1BLHN",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "overregional_candidate",
+            "match_count": 90,
+            "seed_match_count": 30,
+            "bsvbb_club_count": 1,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 6,
+          "matches": 90,
+          "played_matches": 90,
+          "batters": 0,
+          "pitchers": 0
+        }
+      },
+      "groups": [
+        {
+          "id": 5350,
+          "acronym": "1BLHN",
+          "teams": 6,
+          "matches": 90,
+          "failures": []
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 40224,
+          "team": "Berlin Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40224/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40224,
+          "team": "Berlin Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40224/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40225,
+          "team": "Bonn Capitals",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40225/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40225,
+          "team": "Bonn Capitals",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40225/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40226,
+          "team": "Cologne Cardinals",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40226/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40226,
+          "team": "Cologne Cardinals",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40226/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40227,
+          "team": "Dohren Wild Farmers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40227/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40227,
+          "team": "Dohren Wild Farmers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40227/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40228,
+          "team": "Hamburg Stealers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40228/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40228,
+          "team": "Hamburg Stealers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40228/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40229,
+          "team": "Untouchables Paderborn",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40229/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40229,
+          "team": "Untouchables Paderborn",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40229/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-overregional-candidate-1-bundesliga-postseason-1-baseball-bundesliga-play-downs-nord",
+        "name": "1. Baseball-Bundesliga Play-downs Nord",
+        "level": "1-bundesliga",
+        "stage": "postseason",
+        "scope": "overregional_candidate",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5353,
+            "name": "1. Baseball-Bundesliga Play-downs Nord",
+            "acronym": "1BLHPDN",
+            "sport": "baseball_male",
+            "human_sport": "Baseball",
+            "scope": "overregional_candidate",
+            "match_count": 7,
+            "seed_match_count": 7,
+            "bsvbb_club_count": 1,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 2,
+          "matches": 7,
+          "played_matches": 7,
+          "batters": 0,
+          "pitchers": 0
+        }
+      },
+      "groups": [
+        {
+          "id": 5353,
+          "acronym": "1BLHPDN",
+          "teams": 2,
+          "matches": 7,
+          "failures": [
+            {
+              "label": "group_table",
+              "url": "https://bsm.baseball-softball.de/league_groups/5353/table.json",
+              "ok": false,
+              "status": null,
+              "error": "HTTP 404: Not Found; body=''"
+            }
+          ]
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41355,
+          "team": "Berlin Flamingos",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41355/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41355,
+          "team": "Berlin Flamingos",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41355/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41356,
+          "team": "Cologne Cardinals",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41356/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41356,
+          "team": "Cologne Cardinals",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41356/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "baseball-male-overregional-candidate-2-bundesliga-regular-2-baseball-bundesliga-nord-nordost",
         "name": "2. Baseball-Bundesliga Nord-Nordost",
         "level": "2-bundesliga",
         "stage": "regular",
+        "scope": "overregional_candidate",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
         "merged": false,
         "source_groups": [
           {
@@ -149,32 +3091,12 @@
             "name": "2. Baseball-Bundesliga Nord-Nordost",
             "acronym": "2BLHNNO",
             "sport": "baseball_male",
-            "federation_ids": [],
+            "human_sport": "Baseball",
+            "scope": "overregional_candidate",
             "match_count": 110,
-            "target_match_count": 20,
-            "target_match_ids": [
-              40760,
-              40762,
-              40767,
-              40770,
-              40778,
-              40780,
-              40792,
-              40794,
-              40803,
-              40806,
-              40816,
-              40818,
-              40820,
-              40822,
-              40827,
-              40828,
-              40841,
-              40843,
-              40855,
-              40857
-            ],
-            "target_source_fields": [
+            "seed_match_count": 38,
+            "bsvbb_club_count": 2,
+            "source_fields": [
               "league"
             ],
             "linked_group_ids": []
@@ -532,10 +3454,13 @@
     },
     {
       "league": {
-        "key": "2-bundesliga-postseason-2-baseball-bundesliga-nord-nordost-play-downs",
+        "key": "baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-nordost-play-downs",
         "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
         "level": "2-bundesliga",
         "stage": "postseason",
+        "scope": "overregional_candidate",
+        "sport": "baseball_male",
+        "human_sport": "Baseball",
         "merged": false,
         "source_groups": [
           {
@@ -543,24 +3468,12 @@
             "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
             "acronym": "2BLHNNOPD",
             "sport": "baseball_male",
-            "federation_ids": [],
+            "human_sport": "Baseball",
+            "scope": "overregional_candidate",
             "match_count": 42,
-            "target_match_count": 12,
-            "target_match_ids": [
-              45517,
-              45518,
-              45525,
-              45526,
-              45531,
-              45532,
-              45539,
-              45540,
-              45545,
-              45546,
-              45549,
-              45550
-            ],
-            "target_source_fields": [
+            "seed_match_count": 22,
+            "bsvbb_club_count": 2,
+            "source_fields": [
               "league"
             ],
             "linked_group_ids": []
@@ -1008,69 +3921,58 @@
     },
     {
       "league": {
-        "key": "landesliga-regular-landesliga-baseball",
-        "name": "Landesliga Baseball",
-        "level": "landesliga",
+        "key": "softball-fastpitch-mixed-overregional-candidate-verbandsliga-regular-softball-verbandsliga-nord-a-pool",
+        "name": "Softball Verbandsliga NORD - A-Pool",
+        "level": "verbandsliga",
         "stage": "regular",
+        "scope": "overregional_candidate",
+        "sport": "softball_fastpitch_mixed",
+        "human_sport": "Softball Fastpitch Mixed",
         "merged": false,
         "source_groups": [
           {
-            "id": 5435,
-            "name": "Landesliga Baseball",
-            "acronym": "LLBB",
-            "sport": "baseball_male",
-            "federation_ids": [],
-            "match_count": 56,
-            "target_match_count": 14,
-            "target_match_ids": [
-              44253,
-              44257,
-              44260,
-              44265,
-              44270,
-              44273,
-              44277,
-              44282,
-              44286,
-              44288,
-              44291,
-              44296,
-              44300,
-              44306
-            ],
-            "target_source_fields": [
+            "id": 5367,
+            "name": "Softball Verbandsliga NORD - A-Pool",
+            "acronym": "SBVL-N-A",
+            "sport": "softball_fastpitch_mixed",
+            "human_sport": "Softball Fastpitch Mixed",
+            "scope": "overregional_candidate",
+            "match_count": 24,
+            "seed_match_count": 16,
+            "bsvbb_club_count": 2,
+            "source_fields": [
               "league"
             ],
             "linked_group_ids": []
           }
         ],
         "counts": {
-          "teams": 8,
-          "matches": 56,
-          "played_matches": 53,
-          "batters": 107,
-          "pitchers": 27
+          "teams": 6,
+          "matches": 24,
+          "played_matches": 20,
+          "batters": 18,
+          "pitchers": 3
         }
       },
       "groups": [
         {
-          "id": 5435,
-          "acronym": "LLBB",
-          "teams": 8,
-          "matches": 56,
+          "id": 5367,
+          "acronym": "SBVL-N-A",
+          "teams": 6,
+          "matches": 24,
           "failures": []
         }
       ],
       "team_fetches": [
         {
-          "league_entry_id": 41160,
-          "team": "Dragons",
+          "league_entry_id": 40930,
+          "team": "Challengers",
           "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41160/statistics/batting.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/40930/statistics/batting.json",
           "ok": true,
           "status": 200,
           "error": null,
-          "rows": 11,
+          "rows": 0,
           "top_level_keys": [
             "data",
             "league_entry",
@@ -1078,10 +3980,160 @@
           ]
         },
         {
-          "league_entry_id": 41160,
-          "team": "Dragons",
+          "league_entry_id": 40930,
+          "team": "Challengers",
           "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41160/statistics/pitching.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/40930/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40837,
+          "team": "Hamburg Knights 2",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40837/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 9,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40837,
+          "team": "Hamburg Knights 2",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40837/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 1,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40839,
+          "team": "Hannover Regents",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40839/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40839,
+          "team": "Hannover Regents",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40839/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40835,
+          "team": "Holm Westend 69'ers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40835/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40835,
+          "team": "Holm Westend 69'ers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40835/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40836,
+          "team": "NSF Berlin Ravens",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40836/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40836,
+          "team": "NSF Berlin Ravens",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40836/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 0,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40838,
+          "team": "SG Bremen/Dohren",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/40838/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 9,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 40838,
+          "team": "SG Bremen/Dohren",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/40838/statistics/pitching.json",
           "ok": true,
           "status": 200,
           "error": null,
@@ -1091,16 +4143,71 @@
             "league_entry",
             "summaries"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "league": {
+        "key": "softball-fastpitch-female-overregional-candidate-other-regular-softball-final-4-2023",
+        "name": "Softball Final 4 2023",
+        "level": "other",
+        "stage": "regular",
+        "scope": "overregional_candidate",
+        "sport": "softball_fastpitch_female",
+        "human_sport": "Softball Fastpitch weiblich",
+        "merged": false,
+        "source_groups": [
+          {
+            "id": 5496,
+            "name": "Softball Final 4 2023",
+            "acronym": "Final 4",
+            "sport": "softball_fastpitch_female",
+            "human_sport": "Softball Fastpitch weiblich",
+            "scope": "overregional_candidate",
+            "match_count": 7,
+            "seed_match_count": 6,
+            "bsvbb_club_count": 2,
+            "source_fields": [
+              "league"
+            ],
+            "linked_group_ids": []
+          }
+        ],
+        "counts": {
+          "teams": 4,
+          "matches": 7,
+          "played_matches": 7,
+          "batters": 50,
+          "pitchers": 11
+        }
+      },
+      "groups": [
         {
-          "league_entry_id": 41159,
-          "team": "Eagles",
+          "id": 5496,
+          "acronym": "Final 4",
+          "teams": 4,
+          "matches": 7,
+          "failures": [
+            {
+              "label": "group_table",
+              "url": "https://bsm.baseball-softball.de/league_groups/5496/table.json",
+              "ok": false,
+              "status": null,
+              "error": "HTTP 404: Not Found; body=''"
+            }
+          ]
+        }
+      ],
+      "team_fetches": [
+        {
+          "league_entry_id": 41541,
+          "team": "Holm Westend 69'ers",
           "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41159/statistics/batting.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/41541/statistics/batting.json",
           "ok": true,
           "status": 200,
           "error": null,
-          "rows": 14,
+          "rows": 13,
           "top_level_keys": [
             "data",
             "league_entry",
@@ -1108,70 +4215,10 @@
           ]
         },
         {
-          "league_entry_id": 41159,
-          "team": "Eagles",
+          "league_entry_id": 41541,
+          "team": "Holm Westend 69'ers",
           "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41159/statistics/pitching.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 3,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41163,
-          "team": "Flamingos 2",
-          "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41163/statistics/batting.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 15,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41163,
-          "team": "Flamingos 2",
-          "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41163/statistics/pitching.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 7,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41156,
-          "team": "Porcupines",
-          "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41156/statistics/batting.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 14,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41156,
-          "team": "Porcupines",
-          "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41156/statistics/pitching.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/41541/statistics/pitching.json",
           "ok": true,
           "status": 200,
           "error": null,
@@ -1183,14 +4230,14 @@
           ]
         },
         {
-          "league_entry_id": 41161,
-          "team": "Roosters",
+          "league_entry_id": 41540,
+          "team": "NSF Berlin Ravens",
           "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41161/statistics/batting.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/41540/statistics/batting.json",
           "ok": true,
           "status": 200,
           "error": null,
-          "rows": 16,
+          "rows": 12,
           "top_level_keys": [
             "data",
             "league_entry",
@@ -1198,10 +4245,40 @@
           ]
         },
         {
-          "league_entry_id": 41161,
-          "team": "Roosters",
+          "league_entry_id": 41540,
+          "team": "NSF Berlin Ravens",
           "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41161/statistics/pitching.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/41540/statistics/pitching.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 3,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41539,
+          "team": "SCC Challengers",
+          "dataset": "batting",
+          "url": "https://bsm.baseball-softball.de/league_entries/41539/statistics/batting.json",
+          "ok": true,
+          "status": 200,
+          "error": null,
+          "rows": 13,
+          "top_level_keys": [
+            "data",
+            "league_entry",
+            "summaries"
+          ]
+        },
+        {
+          "league_entry_id": 41539,
+          "team": "SCC Challengers",
+          "dataset": "pitching",
+          "url": "https://bsm.baseball-softball.de/league_entries/41539/statistics/pitching.json",
           "ok": true,
           "status": 200,
           "error": null,
@@ -1213,14 +4290,14 @@
           ]
         },
         {
-          "league_entry_id": 41162,
-          "team": "Skylarks 2",
+          "league_entry_id": 41542,
+          "team": "Team NBSV",
           "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41162/statistics/batting.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/41542/statistics/batting.json",
           "ok": true,
           "status": 200,
           "error": null,
-          "rows": 16,
+          "rows": 12,
           "top_level_keys": [
             "data",
             "league_entry",
@@ -1228,70 +4305,10 @@
           ]
         },
         {
-          "league_entry_id": 41162,
-          "team": "Skylarks 2",
+          "league_entry_id": 41542,
+          "team": "Team NBSV",
           "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41162/statistics/pitching.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 5,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41157,
-          "team": "Sliders",
-          "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41157/statistics/batting.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 10,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41157,
-          "team": "Sliders",
-          "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41157/statistics/pitching.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 2,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41158,
-          "team": "Sluggers 2",
-          "dataset": "batting",
-          "url": "https://bsm.baseball-softball.de/league_entries/41158/statistics/batting.json",
-          "ok": true,
-          "status": 200,
-          "error": null,
-          "rows": 11,
-          "top_level_keys": [
-            "data",
-            "league_entry",
-            "summaries"
-          ]
-        },
-        {
-          "league_entry_id": 41158,
-          "team": "Sluggers 2",
-          "dataset": "pitching",
-          "url": "https://bsm.baseball-softball.de/league_entries/41158/statistics/pitching.json",
+          "url": "https://bsm.baseball-softball.de/league_entries/41542/statistics/pitching.json",
           "ok": true,
           "status": 200,
           "error": null,

@@ -1,21 +1,49 @@
-BSM SEASON 2023 ADULT BASEBALL FETCH REPORT
+BSM SEASON 2023 BSVBB FULL FETCH REPORT
 ==================================================================================
-Erstellt          : 2026-08-05T09:23:49.737072+00:00
+Erstellt          : 2026-08-18T10:54:45.659998+00:00
 Saison            : 2023
-Zielverein        : Berlin Sluggers (Club-ID 492)
-Saisonspiele      : 5194
-Erkannte Ligen    : 3 Quellgruppen
-Gespeicherte Ligen: 3
+Discovery-Ligen   : 17 Quellgruppen
+Gespeicherte Ligen: 17
 
 [AUSGEWÄHLTE QUELLGRUPPEN]
-- 2BLHNNOPD        id=5458   level=2-bundesliga    stage=postseason matches=42   Sluggers-Matches=12  name=2. Baseball-Bundesliga Nord-Nordost Play-downs
-- 2BLHNNO          id=5356   level=2-bundesliga    stage=regular    matches=110  Sluggers-Matches=20  name=2. Baseball-Bundesliga Nord-Nordost
-- LLBB             id=5435   level=landesliga      stage=regular    matches=56   Sluggers-Matches=14  name=Landesliga Baseball
+- VLSB             id=5433   scope=local_bsvbb              level=verbandsliga       stage=regular    matches=36   name=Verbandsliga Softball
+- VLBB             id=5434   scope=local_bsvbb              level=verbandsliga       stage=regular    matches=51   name=Verbandsliga Baseball
+- LLBB             id=5435   scope=local_bsvbb              level=landesliga         stage=regular    matches=56   name=Landesliga Baseball
+- BzLBB            id=5436   scope=local_bsvbb              level=bezirksliga        stage=regular    matches=24   name=Bezirksliga Baseball
+- JunBB            id=5437   scope=local_bsvbb              level=junioren           stage=regular    matches=12   name=Juniorenliga Baseball
+- JunSB            id=5443   scope=local_bsvbb              level=juniorinnen        stage=regular    matches=5    name=Junorinnenliga Softball
+- JugABB           id=5438   scope=local_bsvbb              level=jugend             stage=regular    matches=42   name=Jugendaufbauliga Baseball
+- JugBB            id=5439   scope=local_bsvbb              level=jugend             stage=regular    matches=12   name=Jugendliga Baseball
+- SchBB            id=5440   scope=local_bsvbb              level=schueler           stage=regular    matches=56   name=Schülerliga Baseball
+- KindBB           id=5441   scope=local_bsvbb              level=kinder             stage=regular    matches=5    name=Kinderliga Baseball
+- TossBB           id=5442   scope=local_bsvbb              level=tossball           stage=regular    matches=4    name=Tossball Baseball
+- 1BLHN            id=5350   scope=overregional_candidate   level=1-bundesliga       stage=regular    matches=90   name=1. Baseball-Bundesliga Nord
+- 1BLHPDN          id=5353   scope=overregional_candidate   level=1-bundesliga       stage=postseason matches=7    name=1. Baseball-Bundesliga Play-downs Nord
+- 2BLHNNO          id=5356   scope=overregional_candidate   level=2-bundesliga       stage=regular    matches=110  name=2. Baseball-Bundesliga Nord-Nordost
+- 2BLHNNOPD        id=5458   scope=overregional_candidate   level=2-bundesliga       stage=postseason matches=42   name=2. Baseball-Bundesliga Nord-Nordost Play-downs
+- SBVL-N-A         id=5367   scope=overregional_candidate   level=verbandsliga       stage=regular    matches=24   name=Softball Verbandsliga NORD - A-Pool
+- Final 4          id=5496   scope=overregional_candidate   level=other              stage=regular    matches=7    name=Softball Final 4 2023
 
 [GESPEICHERTE LIGEN]
-- 2. Baseball-Bundesliga Nord-Nordost | key=2-bundesliga-regular-2-baseball-bundesliga-nord-nordost | source=5356 | teams=11 matches=110 batters=234 pitchers=98
-- 2. Baseball-Bundesliga Nord-Nordost Play-downs | key=2-bundesliga-postseason-2-baseball-bundesliga-nord-nordost-play-downs | source=5458 | teams=14 matches=84 batters=275 pitchers=102
-- Landesliga Baseball | key=landesliga-regular-landesliga-baseball | source=5435 | teams=8 matches=56 batters=107 pitchers=27
+- Verbandsliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball | source=5434 | teams=4 matches=51 batters=80 pitchers=26
+- Verbandsliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-verbandsliga-regular-verbandsliga-softball | source=5433 | teams=4 matches=36 batters=22 pitchers=6
+- Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball | source=5435 | teams=8 matches=56 batters=107 pitchers=27
+- Bezirksliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-bezirksliga-regular-bezirksliga-baseball | source=5436 | teams=4 matches=24 batters=0 pitchers=0
+- Juniorenliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball | source=5437 | teams=3 matches=12 batters=56 pitchers=20
+- Junorinnenliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-juniorinnen-regular-junorinnenliga-softball | source=5443 | teams=2 matches=5 batters=0 pitchers=0
+- Jugendaufbauliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugendaufbauliga-baseball | source=5438 | teams=7 matches=42 batters=18 pitchers=4
+- Jugendliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugendliga-baseball | source=5439 | teams=3 matches=12 batters=21 pitchers=7
+- Schülerliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-schueler-regular-schuelerliga-baseball | source=5440 | teams=8 matches=56 batters=132 pitchers=49
+- Kinderliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-kinder-regular-kinderliga-baseball | source=5441 | teams=2 matches=5 batters=0 pitchers=0
+- Tossball Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-tossball-regular-tossball-baseball | source=5442 | teams=3 matches=4 batters=0 pitchers=0
+- 1. Baseball-Bundesliga Nord | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-1-bundesliga-regular-1-baseball-bundesliga-nord | source=5350 | teams=6 matches=90 batters=0 pitchers=0
+- 1. Baseball-Bundesliga Play-downs Nord | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-1-bundesliga-postseason-1-baseball-bundesliga-play-downs-nord | source=5353 | teams=2 matches=7 batters=0 pitchers=0
+    [FAIL] 1BLHPDN group_table: HTTP 404: Not Found; body=''
+- 2. Baseball-Bundesliga Nord-Nordost | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-regular-2-baseball-bundesliga-nord-nordost | source=5356 | teams=11 matches=110 batters=234 pitchers=98
+- 2. Baseball-Bundesliga Nord-Nordost Play-downs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-nordost-play-downs | source=5458 | teams=14 matches=84 batters=275 pitchers=102
+- Softball Verbandsliga NORD - A-Pool | scope=overregional_candidate | sport=softball_fastpitch_mixed | key=softball-fastpitch-mixed-overregional-candidate-verbandsliga-regular-softball-verbandsliga-nord-a-pool | source=5367 | teams=6 matches=24 batters=18 pitchers=3
+- Softball Final 4 2023 | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-other-regular-softball-final-4-2023 | source=5496 | teams=4 matches=7 batters=50 pitchers=11
+    [FAIL] Final 4 group_table: HTTP 404: Not Found; body=''
 
 [AUSGABE]
 - C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2023\season_2023.json
@@ -24,4 +52,4 @@ Gespeicherte Ligen: 3
 - C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2023\fetch_report.txt
 - C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\data\seasons\2023.json
 
-season_2023.json enthält alle erkannten Erwachsenenligen der Berlin Sluggers.
+season_2023.json enthält BSVBB lokale Ligen plus ausgewählte überregionale Ligen.

@@ -1,600 +1,69 @@
 {
-  "generated_at": "2026-08-05T09:23:25.947152+00:00",
+  "generated_at": "2026-08-18T10:53:24.233762+00:00",
   "season": 2023,
-  "source_url": "https://bsm.baseball-softball.de/matches.json?compact=true&show_all=true&filters%5Bseasons%5D%5B%5D=2023",
-  "target_club": {
-    "id": 492,
-    "name": "Berlin Sluggers"
+  "source_files": {
+    "candidate_leagues": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\tests\\bsm_season_data\\2023_discovery_v2\\candidate_leagues.json",
+    "candidate_matches": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\tests\\bsm_season_data\\2023_discovery_v2\\candidate_matches.json"
   },
-  "all_adult_groups": [
+  "scope": {
+    "local": "local_bsvbb",
+    "overregional": "overregional_candidate"
+  },
+  "selected_groups": [
     {
-      "id": 5352,
-      "name": "1. Baseball-Bundesliga Play-offs",
-      "acronym": "1BLHPO",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "1-bundesliga",
-      "stage": "postseason",
-      "match_count": 29,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
+      "id": 5433,
+      "name": "Verbandsliga Softball",
+      "acronym": "VLSB",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "1-bundesliga",
-        "postseason",
-        "1. baseball-bundesliga play-offs"
-      ]
-    },
-    {
-      "id": 5353,
-      "name": "1. Baseball-Bundesliga Play-downs Nord",
-      "acronym": "1BLHPDN",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "1-bundesliga",
-      "stage": "postseason",
-      "match_count": 7,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "1-bundesliga",
-        "postseason",
-        "1. baseball-bundesliga play-downs nord"
-      ]
-    },
-    {
-      "id": 5354,
-      "name": "1. Baseball-Bundesliga Play-downs Süd",
-      "acronym": "1BLHPDS",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "1-bundesliga",
-      "stage": "postseason",
-      "match_count": 12,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "1-bundesliga",
-        "postseason",
-        "1. baseball-bundesliga play-downs sued"
-      ]
-    },
-    {
-      "id": 5486,
-      "name": "Relegation 1. Baseball-Bundesliga",
-      "acronym": "REL1BL",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "1-bundesliga",
-      "stage": "postseason",
-      "match_count": 6,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "1-bundesliga",
-        "postseason",
-        "relegation 1. baseball-bundesliga"
-      ]
-    },
-    {
-      "id": 5350,
-      "name": "1. Baseball-Bundesliga Nord",
-      "acronym": "1BLHN",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "1-bundesliga",
-      "stage": "regular",
-      "match_count": 90,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "1-bundesliga",
-        "regular",
-        "1. baseball-bundesliga nord"
-      ]
-    },
-    {
-      "id": 5351,
-      "name": "1. Baseball-Bundesliga Süd",
-      "acronym": "1BLHS",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "1-bundesliga",
-      "stage": "regular",
-      "match_count": 84,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "1-bundesliga",
-        "regular",
-        "1. baseball-bundesliga sued"
-      ]
-    },
-    {
-      "id": 5456,
-      "name": "2. Baseball-Bundesliga Nord Play-offs",
-      "acronym": "2BLHPON",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 32,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "postseason",
-        "2. baseball-bundesliga nord play-offs"
-      ]
-    },
-    {
-      "id": 5457,
-      "name": "2. Baseball-Bundesliga Süd Play-offs",
-      "acronym": "2BLHPOS",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 28,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "postseason",
-        "2. baseball-bundesliga sued play-offs"
-      ]
-    },
-    {
-      "id": 5458,
-      "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
-      "acronym": "2BLHNNOPD",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 42,
-      "target_match_count": 12,
-      "target_match_ids": [
-        45517,
-        45518,
-        45525,
-        45526,
-        45531,
-        45532,
-        45539,
-        45540,
-        45545,
-        45546,
-        45549,
-        45550
-      ],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [
-        "league"
+      "match_count": 36,
+      "seed_match_count": 36,
+      "bsvbb_club_count": 5,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
       ],
       "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "postseason",
-        "2. baseball-bundesliga nord-nordost play-downs"
-      ]
-    },
-    {
-      "id": 5459,
-      "name": "2. Baseball-Bundesliga Nordwest Play-downs",
-      "acronym": "2BLHNWPD",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 40,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "postseason",
-        "2. baseball-bundesliga nordwest play-downs"
-      ]
-    },
-    {
-      "id": 5460,
-      "name": "2. Baseball-Bundesliga Südwest Play-downs",
-      "acronym": "2BLHSWPD",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 40,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "postseason",
-        "2. baseball-bundesliga suedwest play-downs"
-      ]
-    },
-    {
-      "id": 5461,
-      "name": "2. Baseball-Bundesliga Süd-Südost Play-downs",
-      "acronym": "2BLHSSOPD",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 56,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "postseason",
-        "2. baseball-bundesliga sued-suedost play-downs"
-      ]
-    },
-    {
-      "id": 5356,
-      "name": "2. Baseball-Bundesliga Nord-Nordost",
-      "acronym": "2BLHNNO",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "regular",
-      "match_count": 110,
-      "target_match_count": 20,
-      "target_match_ids": [
-        40760,
-        40762,
-        40767,
-        40770,
-        40778,
-        40780,
-        40792,
-        40794,
-        40803,
-        40806,
-        40816,
-        40818,
-        40820,
-        40822,
-        40827,
-        40828,
-        40841,
-        40843,
-        40855,
-        40857
-      ],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [
-        "league"
-      ],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "regular",
-        "2. baseball-bundesliga nord-nordost"
-      ]
-    },
-    {
-      "id": 5357,
-      "name": "2. Baseball-Bundesliga Nordwest",
-      "acronym": "2BLHNW",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "regular",
-      "match_count": 72,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "regular",
-        "2. baseball-bundesliga nordwest"
-      ]
-    },
-    {
-      "id": 5358,
-      "name": "2. Baseball-Bundesliga Süd-Südost",
-      "acronym": "2BLHSSO",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "regular",
-      "match_count": 132,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "regular",
-        "2. baseball-bundesliga sued-suedost"
-      ]
-    },
-    {
-      "id": 5359,
-      "name": "2. Baseball-Bundesliga Südwest",
-      "acronym": "2BLHSW",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "regular",
-      "match_count": 72,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "2-bundesliga",
-        "regular",
-        "2. baseball-bundesliga suedwest"
-      ]
-    },
-    {
-      "id": 5484,
-      "name": "Mitteldeutsche Verbandsliga Baseball Playoffs",
-      "acronym": "MDLBPO",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "postseason",
-      "match_count": 4,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "verbandsliga",
-        "postseason",
-        "mitteldeutsche verbandsliga baseball playoffs"
-      ]
-    },
-    {
-      "id": 5247,
-      "name": "Baseball Verbandsliga",
-      "acronym": "BBVL",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
       "level": "verbandsliga",
       "stage": "regular",
-      "match_count": 24,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
       "family_key": [
-        [],
+        "softball_fastpitch_female",
+        "local_bsvbb",
         "verbandsliga",
         "regular",
-        "baseball verbandsliga"
-      ]
-    },
-    {
-      "id": 5303,
-      "name": "Verbandsliga Baseball",
-      "acronym": "VLBB",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "regular",
-      "match_count": 12,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "verbandsliga",
-        "regular",
-        "verbandsliga baseball"
-      ]
-    },
-    {
-      "id": 5315,
-      "name": "Verbandsliga Herren",
-      "acronym": "VLH",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "regular",
-      "match_count": 56,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "verbandsliga",
-        "regular",
-        "verbandsliga herren"
-      ]
-    },
-    {
-      "id": 5393,
-      "name": "NBSV Verbandsliga 2023",
-      "acronym": "VLBB2023",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "regular",
-      "match_count": 60,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "verbandsliga",
-        "regular",
-        "nbsv verbandsliga 2023"
-      ]
-    },
-    {
-      "id": 5417,
-      "name": "Verbandsliga Baseball",
-      "acronym": "VL-BB",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "regular",
-      "match_count": 30,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "verbandsliga",
-        "regular",
-        "verbandsliga baseball"
-      ]
-    },
-    {
-      "id": 5432,
-      "name": "Mitteldeutsche Verbandsliga Baseball",
-      "acronym": "MDLB",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "regular",
-      "match_count": 60,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "verbandsliga",
-        "regular",
-        "mitteldeutsche verbandsliga baseball"
+        "verbandsliga softball"
       ]
     },
     {
@@ -603,359 +72,42 @@
       "acronym": "VLBB",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "regular",
-      "match_count": 51,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [],
+      "match_count": 51,
+      "seed_match_count": 51,
+      "bsvbb_club_count": 3,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        }
+      ],
       "linked_group_ids": [],
+      "level": "verbandsliga",
+      "stage": "regular",
       "family_key": [
-        [],
+        "baseball_male",
+        "local_bsvbb",
         "verbandsliga",
         "regular",
         "verbandsliga baseball"
-      ]
-    },
-    {
-      "id": 5488,
-      "name": "NBSV Verbandsliga Finale 2023",
-      "acronym": "VLBBF23",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "verbandsliga",
-      "stage": "regular",
-      "match_count": 3,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "verbandsliga",
-        "regular",
-        "nbsv verbandsliga finale 2023"
-      ]
-    },
-    {
-      "id": 5464,
-      "name": "Landesliga Baseball Playoffs",
-      "acronym": "LLBBPO",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "postseason",
-      "match_count": 30,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "postseason",
-        "landesliga baseball playoffs"
-      ]
-    },
-    {
-      "id": 5209,
-      "name": "Landesliga Baseball Nord",
-      "acronym": "LLBBN",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 40,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga baseball nord"
-      ]
-    },
-    {
-      "id": 5210,
-      "name": "Landesliga Baseball Mitte",
-      "acronym": "LLBBM",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 60,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga baseball mitte"
-      ]
-    },
-    {
-      "id": 5211,
-      "name": "Landesliga Baseball Süd",
-      "acronym": "LLBBS",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 40,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga baseball sued"
-      ]
-    },
-    {
-      "id": 5249,
-      "name": "Baseball Landesliga",
-      "acronym": "BBLL",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 60,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "baseball landesliga"
-      ]
-    },
-    {
-      "id": 5317,
-      "name": "Landesliga Herren I",
-      "acronym": "LLH I",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 30,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga herren i"
-      ]
-    },
-    {
-      "id": 5318,
-      "name": "Landesliga Herren II",
-      "acronym": "LLH II",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 18,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga herren ii"
-      ]
-    },
-    {
-      "id": 5384,
-      "name": "Landesliga Herren I",
-      "acronym": "LLH I",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 45,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga herren i"
-      ]
-    },
-    {
-      "id": 5385,
-      "name": "Landesliga Herren II",
-      "acronym": "LLH II",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 44,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga herren ii"
-      ]
-    },
-    {
-      "id": 5395,
-      "name": "NBSV Landesliga Nord/Ost 2023",
-      "acronym": "LLBBNO2023",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 56,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league",
-        "second_league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "nbsv landesliga nord/ost 2023"
-      ]
-    },
-    {
-      "id": 5396,
-      "name": "NBSV Landesliga Nord/West 2023",
-      "acronym": "LLBBNW2023",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 56,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "nbsv landesliga nord/west 2023"
-      ]
-    },
-    {
-      "id": 5397,
-      "name": "NBSV Landesliga Süd 2023",
-      "acronym": "LLBBSü2023",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 60,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "nbsv landesliga sued 2023"
-      ]
-    },
-    {
-      "id": 5421,
-      "name": "Landesliga Baseball",
-      "acronym": "LL-BB",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 30,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga baseball"
       ]
     },
     {
@@ -964,255 +116,66 @@
       "acronym": "LLBB",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 56,
-      "target_match_count": 14,
-      "target_match_ids": [
-        44253,
-        44257,
-        44260,
-        44265,
-        44270,
-        44273,
-        44277,
-        44282,
-        44286,
-        44288,
-        44291,
-        44296,
-        44300,
-        44306
-      ],
-      "federation_ids": [],
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [
-        "league"
+      "match_count": 56,
+      "seed_match_count": 56,
+      "bsvbb_club_count": 7,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
       ],
       "linked_group_ids": [],
+      "level": "landesliga",
+      "stage": "regular",
       "family_key": [
-        [],
+        "baseball_male",
+        "local_bsvbb",
         "landesliga",
         "regular",
         "landesliga baseball"
-      ]
-    },
-    {
-      "id": 5465,
-      "name": "Landesliga Baseball Herbstrunde",
-      "acronym": "LLBBR2",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 28,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "landesliga baseball herbstrunde"
-      ]
-    },
-    {
-      "id": 5489,
-      "name": "NBSV Finale Landesliga Nord 2023",
-      "acronym": "LLBBFN2023",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 1,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "nbsv finale landesliga nord 2023"
-      ]
-    },
-    {
-      "id": 5490,
-      "name": "NBSV Landesliga Finale 2023",
-      "acronym": "LLBBF2023",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 1,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "landesliga",
-        "regular",
-        "nbsv landesliga finale 2023"
-      ]
-    },
-    {
-      "id": 5272,
-      "name": "Baseball Bezirksliga",
-      "acronym": "BBBZL",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "bezirksliga",
-      "stage": "regular",
-      "match_count": 60,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "bezirksliga",
-        "regular",
-        "baseball bezirksliga"
-      ]
-    },
-    {
-      "id": 5386,
-      "name": "Bezirksliga Herren I",
-      "acronym": "BZLH I",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "bezirksliga",
-      "stage": "regular",
-      "match_count": 30,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "bezirksliga",
-        "regular",
-        "bezirksliga herren i"
-      ]
-    },
-    {
-      "id": 5387,
-      "name": "Bezirksliga Herren II",
-      "acronym": "BZLH II",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "bezirksliga",
-      "stage": "regular",
-      "match_count": 45,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "bezirksliga",
-        "regular",
-        "bezirksliga herren ii"
-      ]
-    },
-    {
-      "id": 5388,
-      "name": "Bezirksliga Herren III",
-      "acronym": "BZLH III",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "bezirksliga",
-      "stage": "regular",
-      "match_count": 30,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "bezirksliga",
-        "regular",
-        "bezirksliga herren iii"
-      ]
-    },
-    {
-      "id": 5404,
-      "name": "Bezirksliga Herren I",
-      "acronym": "BEZLH I",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "bezirksliga",
-      "stage": "regular",
-      "match_count": 30,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "bezirksliga",
-        "regular",
-        "bezirksliga herren i"
-      ]
-    },
-    {
-      "id": 5405,
-      "name": "Bezirksliga Herren II",
-      "acronym": "BEZLH II",
-      "sport": "baseball_male",
-      "human_sport": "Baseball",
-      "level": "bezirksliga",
-      "stage": "regular",
-      "match_count": 42,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
-      "source_fields": [
-        "league"
-      ],
-      "target_source_fields": [],
-      "linked_group_ids": [],
-      "family_key": [
-        [],
-        "bezirksliga",
-        "regular",
-        "bezirksliga herren ii"
       ]
     },
     {
@@ -1221,63 +184,450 @@
       "acronym": "BzLBB",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "bezirksliga",
-      "stage": "regular",
-      "match_count": 24,
-      "target_match_count": 0,
-      "target_match_ids": [],
-      "federation_ids": [],
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [],
+      "match_count": 24,
+      "seed_match_count": 24,
+      "bsvbb_club_count": 4,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
       "linked_group_ids": [],
+      "level": "bezirksliga",
+      "stage": "regular",
       "family_key": [
-        [],
+        "baseball_male",
+        "local_bsvbb",
         "bezirksliga",
         "regular",
         "bezirksliga baseball"
       ]
-    }
-  ],
-  "selected_groups": [
+    },
     {
-      "id": 5458,
-      "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
-      "acronym": "2BLHNNOPD",
+      "id": 5437,
+      "name": "Juniorenliga Baseball",
+      "acronym": "JunBB",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "postseason",
-      "match_count": 42,
-      "target_match_count": 12,
-      "target_match_ids": [
-        45517,
-        45518,
-        45525,
-        45526,
-        45531,
-        45532,
-        45539,
-        45540,
-        45545,
-        45546,
-        45549,
-        45550
-      ],
-      "federation_ids": [],
+      "scope": "local_bsvbb",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [
-        "league"
+      "match_count": 12,
+      "seed_match_count": 12,
+      "bsvbb_club_count": 3,
+      "bsvbb_clubs": [
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
       ],
       "linked_group_ids": [],
+      "level": "junioren",
+      "stage": "regular",
       "family_key": [
-        [],
-        "2-bundesliga",
+        "baseball_male",
+        "local_bsvbb",
+        "junioren",
+        "regular",
+        "juniorenliga baseball"
+      ]
+    },
+    {
+      "id": 5443,
+      "name": "Junorinnenliga Softball",
+      "acronym": "JunSB",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 5,
+      "seed_match_count": 5,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "juniorinnen",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "local_bsvbb",
+        "juniorinnen",
+        "regular",
+        "junorinnenliga softball"
+      ]
+    },
+    {
+      "id": 5438,
+      "name": "Jugendaufbauliga Baseball",
+      "acronym": "JugABB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 42,
+      "seed_match_count": 42,
+      "bsvbb_club_count": 7,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 498,
+          "name": "Porcupines",
+          "acronym": "POT",
+          "short_name": "Potsdam Porcupines"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "jugend",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "jugend",
+        "regular",
+        "jugendaufbauliga baseball"
+      ]
+    },
+    {
+      "id": 5439,
+      "name": "Jugendliga Baseball",
+      "acronym": "JugBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 12,
+      "seed_match_count": 12,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "jugend",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "jugend",
+        "regular",
+        "jugendliga baseball"
+      ]
+    },
+    {
+      "id": 5440,
+      "name": "Schülerliga Baseball",
+      "acronym": "SchBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 56,
+      "seed_match_count": 56,
+      "bsvbb_club_count": 8,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        },
+        {
+          "id": 603,
+          "name": "Mahlow Eagles",
+          "acronym": "MEG",
+          "short_name": "Mahlow Eagles"
+        },
+        {
+          "id": 495,
+          "name": "Sliders",
+          "acronym": "SLI",
+          "short_name": "Berlin Sliders"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "schueler",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "schueler",
+        "regular",
+        "schuelerliga baseball"
+      ]
+    },
+    {
+      "id": 5441,
+      "name": "Kinderliga Baseball",
+      "acronym": "KindBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 5,
+      "seed_match_count": 5,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "kinder",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "kinder",
+        "regular",
+        "kinderliga baseball"
+      ]
+    },
+    {
+      "id": 5442,
+      "name": "Tossball Baseball",
+      "acronym": "TossBB",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "local_bsvbb",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 4,
+      "seed_match_count": 4,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 485,
+          "name": "Skylarks",
+          "acronym": "BEA",
+          "short_name": "Berlin Skylarks"
+        },
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "tossball",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "local_bsvbb",
+        "tossball",
+        "regular",
+        "tossball baseball"
+      ]
+    },
+    {
+      "id": 5350,
+      "name": "1. Baseball-Bundesliga Nord",
+      "acronym": "1BLHN",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 90,
+      "seed_match_count": 30,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "1-bundesliga",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "1-bundesliga",
+        "regular",
+        "1. baseball-bundesliga nord"
+      ]
+    },
+    {
+      "id": 5353,
+      "name": "1. Baseball-Bundesliga Play-downs Nord",
+      "acronym": "1BLHPDN",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 7,
+      "seed_match_count": 7,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 604,
+          "name": "Flamingos",
+          "acronym": "FLA",
+          "short_name": "Berlin Flamingos"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "1-bundesliga",
+      "stage": "postseason",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "1-bundesliga",
         "postseason",
-        "2. baseball-bundesliga nord-nordost play-downs"
+        "1. baseball-bundesliga play-downs nord"
       ]
     },
     {
@@ -1286,128 +636,175 @@
       "acronym": "2BLHNNO",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "2-bundesliga",
-      "stage": "regular",
-      "match_count": 110,
-      "target_match_count": 20,
-      "target_match_ids": [
-        40760,
-        40762,
-        40767,
-        40770,
-        40778,
-        40780,
-        40792,
-        40794,
-        40803,
-        40806,
-        40816,
-        40818,
-        40820,
-        40822,
-        40827,
-        40828,
-        40841,
-        40843,
-        40855,
-        40857
-      ],
-      "federation_ids": [],
+      "scope": "overregional_candidate",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [
-        "league"
+      "match_count": 110,
+      "seed_match_count": 38,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        }
       ],
       "linked_group_ids": [],
+      "level": "2-bundesliga",
+      "stage": "regular",
       "family_key": [
-        [],
+        "baseball_male",
+        "overregional_candidate",
         "2-bundesliga",
         "regular",
         "2. baseball-bundesliga nord-nordost"
       ]
     },
     {
-      "id": 5435,
-      "name": "Landesliga Baseball",
-      "acronym": "LLBB",
+      "id": 5458,
+      "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
+      "acronym": "2BLHNNOPD",
       "sport": "baseball_male",
       "human_sport": "Baseball",
-      "level": "landesliga",
-      "stage": "regular",
-      "match_count": 56,
-      "target_match_count": 14,
-      "target_match_ids": [
-        44253,
-        44257,
-        44260,
-        44265,
-        44270,
-        44273,
-        44277,
-        44282,
-        44286,
-        44288,
-        44291,
-        44296,
-        44300,
-        44306
-      ],
-      "federation_ids": [],
+      "scope": "overregional_candidate",
       "source_fields": [
         "league"
       ],
-      "target_source_fields": [
-        "league"
+      "match_count": 42,
+      "seed_match_count": 22,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 492,
+          "name": "Sluggers",
+          "acronym": "BES",
+          "short_name": "Berlin Sluggers"
+        },
+        {
+          "id": 502,
+          "name": "Roadrunners",
+          "acronym": "BWP",
+          "short_name": "Berlin Ausbau Roadrunners"
+        }
       ],
       "linked_group_ids": [],
+      "level": "2-bundesliga",
+      "stage": "postseason",
       "family_key": [
-        [],
-        "landesliga",
+        "baseball_male",
+        "overregional_candidate",
+        "2-bundesliga",
+        "postseason",
+        "2. baseball-bundesliga nord-nordost play-downs"
+      ]
+    },
+    {
+      "id": 5367,
+      "name": "Softball Verbandsliga NORD - A-Pool",
+      "acronym": "SBVL-N-A",
+      "sport": "softball_fastpitch_mixed",
+      "human_sport": "Softball Fastpitch Mixed",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 24,
+      "seed_match_count": 16,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "verbandsliga",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_mixed",
+        "overregional_candidate",
+        "verbandsliga",
         "regular",
-        "landesliga baseball"
+        "softball verbandsliga nord - a-pool"
+      ]
+    },
+    {
+      "id": 5496,
+      "name": "Softball Final 4 2023",
+      "acronym": "Final 4",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 7,
+      "seed_match_count": 6,
+      "bsvbb_club_count": 2,
+      "bsvbb_clubs": [
+        {
+          "id": 486,
+          "name": "SCC Challengers",
+          "acronym": "BEC",
+          "short_name": "SCC e.V."
+        },
+        {
+          "id": 491,
+          "name": "Ravens / Roosters",
+          "acronym": "BER",
+          "short_name": "NSF Berlin Ravens / Roosters"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "other",
+      "stage": "regular",
+      "family_key": [
+        "softball_fastpitch_female",
+        "overregional_candidate",
+        "other",
+        "regular",
+        "softball final 4 2023"
       ]
     }
   ],
   "logical_leagues": [
     {
-      "key": "2-bundesliga-regular-2-baseball-bundesliga-nord-nordost",
-      "name": "2. Baseball-Bundesliga Nord-Nordost",
-      "level": "2-bundesliga",
+      "key": "baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball",
+      "name": "Verbandsliga Baseball",
+      "level": "verbandsliga",
       "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
       "merged": false,
       "source_groups": [
         {
-          "id": 5356,
-          "name": "2. Baseball-Bundesliga Nord-Nordost",
-          "acronym": "2BLHNNO",
+          "id": 5434,
+          "name": "Verbandsliga Baseball",
+          "acronym": "VLBB",
           "sport": "baseball_male",
-          "federation_ids": [],
-          "match_count": 110,
-          "target_match_count": 20,
-          "target_match_ids": [
-            40760,
-            40762,
-            40767,
-            40770,
-            40778,
-            40780,
-            40792,
-            40794,
-            40803,
-            40806,
-            40816,
-            40818,
-            40820,
-            40822,
-            40827,
-            40828,
-            40841,
-            40843,
-            40855,
-            40857
-          ],
-          "target_source_fields": [
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 51,
+          "seed_match_count": 51,
+          "bsvbb_club_count": 3,
+          "source_fields": [
             "league"
           ],
           "linked_group_ids": []
@@ -1415,35 +812,26 @@
       ]
     },
     {
-      "key": "2-bundesliga-postseason-2-baseball-bundesliga-nord-nordost-play-downs",
-      "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
-      "level": "2-bundesliga",
-      "stage": "postseason",
+      "key": "softball-fastpitch-female-local-bsvbb-verbandsliga-regular-verbandsliga-softball",
+      "name": "Verbandsliga Softball",
+      "level": "verbandsliga",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
       "merged": false,
       "source_groups": [
         {
-          "id": 5458,
-          "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
-          "acronym": "2BLHNNOPD",
-          "sport": "baseball_male",
-          "federation_ids": [],
-          "match_count": 42,
-          "target_match_count": 12,
-          "target_match_ids": [
-            45517,
-            45518,
-            45525,
-            45526,
-            45531,
-            45532,
-            45539,
-            45540,
-            45545,
-            45546,
-            45549,
-            45550
-          ],
-          "target_source_fields": [
+          "id": 5433,
+          "name": "Verbandsliga Softball",
+          "acronym": "VLSB",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "local_bsvbb",
+          "match_count": 36,
+          "seed_match_count": 36,
+          "bsvbb_club_count": 5,
+          "source_fields": [
             "league"
           ],
           "linked_group_ids": []
@@ -1451,10 +839,13 @@
       ]
     },
     {
-      "key": "landesliga-regular-landesliga-baseball",
+      "key": "baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball",
       "name": "Landesliga Baseball",
       "level": "landesliga",
       "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
       "merged": false,
       "source_groups": [
         {
@@ -1462,26 +853,390 @@
           "name": "Landesliga Baseball",
           "acronym": "LLBB",
           "sport": "baseball_male",
-          "federation_ids": [],
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
           "match_count": 56,
-          "target_match_count": 14,
-          "target_match_ids": [
-            44253,
-            44257,
-            44260,
-            44265,
-            44270,
-            44273,
-            44277,
-            44282,
-            44286,
-            44288,
-            44291,
-            44296,
-            44300,
-            44306
+          "seed_match_count": 56,
+          "bsvbb_club_count": 7,
+          "source_fields": [
+            "league"
           ],
-          "target_source_fields": [
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-bezirksliga-regular-bezirksliga-baseball",
+      "name": "Bezirksliga Baseball",
+      "level": "bezirksliga",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5436,
+          "name": "Bezirksliga Baseball",
+          "acronym": "BzLBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 24,
+          "seed_match_count": 24,
+          "bsvbb_club_count": 4,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball",
+      "name": "Juniorenliga Baseball",
+      "level": "junioren",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5437,
+          "name": "Juniorenliga Baseball",
+          "acronym": "JunBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 12,
+          "seed_match_count": 12,
+          "bsvbb_club_count": 3,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-local-bsvbb-juniorinnen-regular-junorinnenliga-softball",
+      "name": "Junorinnenliga Softball",
+      "level": "juniorinnen",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5443,
+          "name": "Junorinnenliga Softball",
+          "acronym": "JunSB",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "local_bsvbb",
+          "match_count": 5,
+          "seed_match_count": 5,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-jugend-regular-jugendaufbauliga-baseball",
+      "name": "Jugendaufbauliga Baseball",
+      "level": "jugend",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5438,
+          "name": "Jugendaufbauliga Baseball",
+          "acronym": "JugABB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 42,
+          "seed_match_count": 42,
+          "bsvbb_club_count": 7,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-jugend-regular-jugendliga-baseball",
+      "name": "Jugendliga Baseball",
+      "level": "jugend",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5439,
+          "name": "Jugendliga Baseball",
+          "acronym": "JugBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 12,
+          "seed_match_count": 12,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-schueler-regular-schuelerliga-baseball",
+      "name": "Schülerliga Baseball",
+      "level": "schueler",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5440,
+          "name": "Schülerliga Baseball",
+          "acronym": "SchBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 56,
+          "seed_match_count": 56,
+          "bsvbb_club_count": 8,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-kinder-regular-kinderliga-baseball",
+      "name": "Kinderliga Baseball",
+      "level": "kinder",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5441,
+          "name": "Kinderliga Baseball",
+          "acronym": "KindBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 5,
+          "seed_match_count": 5,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-local-bsvbb-tossball-regular-tossball-baseball",
+      "name": "Tossball Baseball",
+      "level": "tossball",
+      "stage": "regular",
+      "scope": "local_bsvbb",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5442,
+          "name": "Tossball Baseball",
+          "acronym": "TossBB",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "local_bsvbb",
+          "match_count": 4,
+          "seed_match_count": 4,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-1-bundesliga-regular-1-baseball-bundesliga-nord",
+      "name": "1. Baseball-Bundesliga Nord",
+      "level": "1-bundesliga",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5350,
+          "name": "1. Baseball-Bundesliga Nord",
+          "acronym": "1BLHN",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 90,
+          "seed_match_count": 30,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-1-bundesliga-postseason-1-baseball-bundesliga-play-downs-nord",
+      "name": "1. Baseball-Bundesliga Play-downs Nord",
+      "level": "1-bundesliga",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5353,
+          "name": "1. Baseball-Bundesliga Play-downs Nord",
+          "acronym": "1BLHPDN",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 7,
+          "seed_match_count": 7,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-2-bundesliga-regular-2-baseball-bundesliga-nord-nordost",
+      "name": "2. Baseball-Bundesliga Nord-Nordost",
+      "level": "2-bundesliga",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5356,
+          "name": "2. Baseball-Bundesliga Nord-Nordost",
+          "acronym": "2BLHNNO",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 110,
+          "seed_match_count": 38,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-nordost-play-downs",
+      "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
+      "level": "2-bundesliga",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5458,
+          "name": "2. Baseball-Bundesliga Nord-Nordost Play-downs",
+          "acronym": "2BLHNNOPD",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 42,
+          "seed_match_count": 22,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-mixed-overregional-candidate-verbandsliga-regular-softball-verbandsliga-nord-a-pool",
+      "name": "Softball Verbandsliga NORD - A-Pool",
+      "level": "verbandsliga",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "softball_fastpitch_mixed",
+      "human_sport": "Softball Fastpitch Mixed",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5367,
+          "name": "Softball Verbandsliga NORD - A-Pool",
+          "acronym": "SBVL-N-A",
+          "sport": "softball_fastpitch_mixed",
+          "human_sport": "Softball Fastpitch Mixed",
+          "scope": "overregional_candidate",
+          "match_count": 24,
+          "seed_match_count": 16,
+          "bsvbb_club_count": 2,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "softball-fastpitch-female-overregional-candidate-other-regular-softball-final-4-2023",
+      "name": "Softball Final 4 2023",
+      "level": "other",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "softball_fastpitch_female",
+      "human_sport": "Softball Fastpitch weiblich",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 5496,
+          "name": "Softball Final 4 2023",
+          "acronym": "Final 4",
+          "sport": "softball_fastpitch_female",
+          "human_sport": "Softball Fastpitch weiblich",
+          "scope": "overregional_candidate",
+          "match_count": 7,
+          "seed_match_count": 6,
+          "bsvbb_club_count": 2,
+          "source_fields": [
             "league"
           ],
           "linked_group_ids": []
