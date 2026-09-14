@@ -4,6 +4,8 @@ import json
 import shutil
 from pathlib import Path
 
+from generate_scorekeeper_roster import generate as generate_scorekeeper_roster
+
 ROOT = Path(__file__).resolve().parent
 REQUIRED_ARRAYS = ("teams", "matches", "standings", "batting", "pitching")
 DATASETS = (
@@ -56,6 +58,9 @@ def sync_dataset(dataset: dict) -> bool:
 def main() -> None:
     print("Website-Daten werden synchronisiert …\n")
     synced = sum(sync_dataset(dataset) for dataset in DATASETS)
+    if synced:
+        roster_path = generate_scorekeeper_roster()
+        print(f"\nScorekeeper roster updated: {roster_path.name}")
     print(f"\nFertig: {synced}/{len(DATASETS)} Ligen synchronisiert.")
 
 

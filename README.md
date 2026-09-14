@@ -53,6 +53,17 @@ data/verbandsliga_2026.json
 
 Fehlt eine Liga, wird sie übersprungen und eine verständliche Meldung ausgegeben.
 
+Beim erfolgreichen Synchronisieren wird außerdem automatisch die 2026er
+Spieler-Roster-Datei für `BB_Scorekeeper_DBV_v6_1` erzeugt:
+
+```text
+BB_Scorekeeper_DBV_v6_1/data/rosters-2026.json
+```
+
+Die Datei enthält nur Team- und Spielernamen für die Scorekeeper-Autovervollständigung.
+Die nächste Scorekeeper-Sitzung lädt sie beim Start; Namen, die noch nicht in der
+BSM-Datenquelle enthalten sind, können weiterhin manuell eingegeben werden.
+
 ## Seiten
 
 - `dashboard.html`: Tabelle, Bestenlisten und Spiele
