@@ -1,9 +1,9 @@
 BSM SEASON 2026 BSVBB FULL FETCH REPORT
 ==================================================================================
-Erstellt          : 2026-09-14T12:30:07.386014+00:00
+Erstellt          : 2026-09-21T09:46:51.283069+00:00
 Saison            : 2026
-Discovery-Ligen   : 21 Quellgruppen
-Gespeicherte Ligen: 20
+Discovery-Ligen   : 25 Quellgruppen
+Gespeicherte Ligen: 24
 
 [AUSGEWÄHLTE QUELLGRUPPEN]
 - VLBB             id=6205   scope=local_bsvbb              level=verbandsliga       stage=regular    matches=30   name=Verbandsliga Baseball
@@ -22,35 +22,45 @@ Gespeicherte Ligen: 20
 - 2BLHPON          id=6142   scope=overregional_candidate   level=2-bundesliga       stage=postseason matches=20   name=2. Baseball-Bundesliga Nord Play-offs
 - BLDN             id=6131   scope=overregional_candidate   level=bundesliga         stage=regular    matches=84   name=Softball-Bundesliga Nord
 - BLDPO            id=6133   scope=overregional_candidate   level=bundesliga         stage=postseason matches=22   name=Softball-Bundesliga Play-offs
-- BLDDP            id=6134   scope=overregional_candidate   level=deutschlandpokal   stage=postseason matches=23   name=Deutschlandpokal Softball
+- BLDDP            id=6134   scope=overregional_candidate   level=deutschlandpokal   stage=postseason matches=22   name=Deutschlandpokal Softball
+- JUN_GR_A         id=6315   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Junioren Gruppe A
+- SCH_GR_B         id=6320   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Schüler Gruppe B
 - CPDM_GR_A        id=6431   scope=overregional_candidate   level=dm                 stage=regular    matches=3    name=DM Coach Pitch U10 Gruppe A
+- JUN_PO           id=6317   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Junioren Play-offs
+- SCH_PO           id=6321   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Schüler Play-offs
 - CPDM_PO          id=6435   scope=overregional_candidate   level=dm                 stage=postseason matches=18   name=DM Coach Pitch U10 Play-offs
 - U13_GR_B         id=6337   scope=overregional_candidate   level=other              stage=regular    matches=3    name=U13SB Gruppe B
 - U13_PO           id=6338   scope=overregional_candidate   level=other              stage=postseason matches=5    name=U13SB Play-offs
 
 [GESPEICHERTE LIGEN]
-- Verbandsliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball | source=6205 | teams=5 matches=30 batters=123 pitchers=41
+- Verbandsliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball | source=6205 | teams=5 matches=30 batters=123 pitchers=42
 - Verbandsliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-verbandsliga-regular-verbandsliga-softball | source=6222 | teams=5 matches=40 batters=83 pitchers=26
 - Verbandsliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-verbandsliga-postseason-verbandsliga-baseball | source=6206 | teams=5 matches=3 batters=0 pitchers=0
-- Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball | source=6208, 6209 | teams=10 matches=65 batters=224 pitchers=69
+- Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball | source=6208, 6209 | teams=10 matches=65 batters=227 pitchers=71
 - Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-landesliga-postseason-landesliga-baseball | source=6210 | teams=10 matches=6 batters=0 pitchers=0
-- Juniorenliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball | source=6212 | teams=3 matches=12 batters=51 pitchers=16
+- Juniorenliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball | source=6212 | teams=3 matches=12 batters=54 pitchers=17
 - Junorinnenliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-juniorinnen-regular-junorinnenliga-softball | source=6224 | teams=2 matches=5 batters=0 pitchers=0
-- Jugend-Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugend-landesliga-baseball | source=6214 | teams=7 matches=42 batters=123 pitchers=42
+- Jugend-Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugend-landesliga-baseball | source=6214 | teams=7 matches=42 batters=128 pitchers=42
 - Schüler-Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-schueler-regular-schueler-landesliga-baseball | source=6293 | teams=5 matches=30 batters=0 pitchers=0
 - Schülerliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-schueler-regular-schuelerliga-baseball | source=6218 | teams=4 matches=24 batters=71 pitchers=27
 - Coach Pitch | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-coach-pitch-regular-coach-pitch | source=6220 | teams=7 matches=42 batters=0 pitchers=0
 - 2. Baseball-Bundesliga Nordost | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-regular-2-baseball-bundesliga-nordost | source=6137 | teams=5 matches=60 batters=121 pitchers=47
-- 2. Baseball-Bundesliga Nord Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-play-offs | source=6142 | teams=8 matches=20 batters=93 pitchers=26
+- 2. Baseball-Bundesliga Nord Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-play-offs | source=6142 | teams=8 matches=20 batters=104 pitchers=31
     [FAIL] 2BLHPON group_table: HTTP 404: Not Found; body=''
 - Softball-Bundesliga Nord | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-bundesliga-regular-softball-bundesliga-nord | source=6131 | teams=7 matches=84 batters=135 pitchers=43
-- Softball-Bundesliga Play-offs | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-bundesliga-postseason-softball-bundesliga-play-offs | source=6133 | teams=8 matches=22 batters=102 pitchers=27
+- Softball-Bundesliga Play-offs | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-bundesliga-postseason-softball-bundesliga-play-offs | source=6133 | teams=8 matches=22 batters=103 pitchers=27
     [FAIL] BLDPO group_table: HTTP 404: Not Found; body=''
-- Deutschlandpokal Softball | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-deutschlandpokal-postseason-deutschlandpokal-softball | source=6134 | teams=12 matches=23 batters=91 pitchers=22
+- Deutschlandpokal Softball | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-deutschlandpokal-postseason-deutschlandpokal-softball | source=6134 | teams=12 matches=22 batters=120 pitchers=29
     [FAIL] BLDDP group_table: HTTP 404: Not Found; body=''
 - DM Coach Pitch U10 Gruppe A | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-coach-pitch-u10-gruppe-a | source=6431 | teams=3 matches=3 batters=0 pitchers=0
+- DM Junioren Gruppe A | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-junioren-gruppe-a | source=6315 | teams=4 matches=6 batters=59 pitchers=28
+- DM Schüler Gruppe B | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-schueler-gruppe-b | source=6320 | teams=4 matches=6 batters=48 pitchers=24
 - DM Coach Pitch U10 Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-coach-pitch-u10-play-offs | source=6435 | teams=12 matches=18 batters=0 pitchers=0
     [FAIL] CPDM_PO group_table: HTTP 404: Not Found; body=''
+- DM Junioren Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-junioren-play-offs | source=6317 | teams=8 matches=6 batters=74 pitchers=20
+    [FAIL] JUN_PO group_table: HTTP 404: Not Found; body=''
+- DM Schüler Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-schueler-play-offs | source=6321 | teams=8 matches=6 batters=88 pitchers=25
+    [FAIL] SCH_PO group_table: HTTP 404: Not Found; body=''
 - U13SB Gruppe B | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-other-regular-u13sb-gruppe-b | source=6337 | teams=3 matches=3 batters=36 pitchers=12
 - U13SB Play-offs | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-other-postseason-u13sb-play-offs | source=6338 | teams=6 matches=5 batters=68 pitchers=14
     [FAIL] U13_PO group_table: HTTP 404: Not Found; body=''

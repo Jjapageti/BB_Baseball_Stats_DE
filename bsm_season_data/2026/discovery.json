@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:28:25.887058+00:00",
+  "generated_at": "2026-09-21T09:44:49.088234+00:00",
   "season": 2026,
   "source_files": {
     "candidate_leagues": "C:\\Users\\Seokhyun.Choi\\Desktop\\개인\\BB_Baseball_Stats_DE\\tests\\bsm_season_data\\2026_discovery_v2\\candidate_leagues.json",
@@ -879,7 +879,7 @@
       "source_fields": [
         "league"
       ],
-      "match_count": 23,
+      "match_count": 22,
       "seed_match_count": 5,
       "bsvbb_club_count": 1,
       "bsvbb_clubs": [
@@ -899,6 +899,70 @@
         "deutschlandpokal",
         "postseason",
         "deutschlandpokal softball"
+      ]
+    },
+    {
+      "id": 6315,
+      "name": "DM Junioren Gruppe A",
+      "acronym": "JUN_GR_A",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 6,
+      "seed_match_count": 3,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "dm",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "dm",
+        "regular",
+        "dm junioren"
+      ]
+    },
+    {
+      "id": 6320,
+      "name": "DM Schüler Gruppe B",
+      "acronym": "SCH_GR_B",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 6,
+      "seed_match_count": 3,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "dm",
+      "stage": "regular",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "dm",
+        "regular",
+        "dm schueler"
       ]
     },
     {
@@ -931,6 +995,70 @@
         "dm",
         "regular",
         "dm coach pitch u10"
+      ]
+    },
+    {
+      "id": 6317,
+      "name": "DM Junioren Play-offs",
+      "acronym": "JUN_PO",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 6,
+      "seed_match_count": 1,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "dm",
+      "stage": "postseason",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "dm",
+        "postseason",
+        "dm junioren play-offs"
+      ]
+    },
+    {
+      "id": 6321,
+      "name": "DM Schüler Play-offs",
+      "acronym": "SCH_PO",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "scope": "overregional_candidate",
+      "source_fields": [
+        "league"
+      ],
+      "match_count": 6,
+      "seed_match_count": 1,
+      "bsvbb_club_count": 1,
+      "bsvbb_clubs": [
+        {
+          "id": 494,
+          "name": "Wizards",
+          "acronym": "BEW",
+          "short_name": "Berlin Wizards"
+        }
+      ],
+      "linked_group_ids": [],
+      "level": "dm",
+      "stage": "postseason",
+      "family_key": [
+        "baseball_male",
+        "overregional_candidate",
+        "dm",
+        "postseason",
+        "dm schueler play-offs"
       ]
     },
     {
@@ -1485,7 +1613,7 @@
           "sport": "softball_fastpitch_female",
           "human_sport": "Softball Fastpitch weiblich",
           "scope": "overregional_candidate",
-          "match_count": 23,
+          "match_count": 22,
           "seed_match_count": 5,
           "bsvbb_club_count": 1,
           "source_fields": [
@@ -1523,6 +1651,60 @@
       ]
     },
     {
+      "key": "baseball-male-overregional-candidate-dm-regular-dm-junioren-gruppe-a",
+      "name": "DM Junioren Gruppe A",
+      "level": "dm",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6315,
+          "name": "DM Junioren Gruppe A",
+          "acronym": "JUN_GR_A",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 6,
+          "seed_match_count": 3,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-dm-regular-dm-schueler-gruppe-b",
+      "name": "DM Schüler Gruppe B",
+      "level": "dm",
+      "stage": "regular",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6320,
+          "name": "DM Schüler Gruppe B",
+          "acronym": "SCH_GR_B",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 6,
+          "seed_match_count": 3,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
       "key": "baseball-male-overregional-candidate-dm-postseason-dm-coach-pitch-u10-play-offs",
       "name": "DM Coach Pitch U10 Play-offs",
       "level": "dm",
@@ -1541,6 +1723,60 @@
           "scope": "overregional_candidate",
           "match_count": 18,
           "seed_match_count": 3,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-dm-postseason-dm-junioren-play-offs",
+      "name": "DM Junioren Play-offs",
+      "level": "dm",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6317,
+          "name": "DM Junioren Play-offs",
+          "acronym": "JUN_PO",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 6,
+          "seed_match_count": 1,
+          "bsvbb_club_count": 1,
+          "source_fields": [
+            "league"
+          ],
+          "linked_group_ids": []
+        }
+      ]
+    },
+    {
+      "key": "baseball-male-overregional-candidate-dm-postseason-dm-schueler-play-offs",
+      "name": "DM Schüler Play-offs",
+      "level": "dm",
+      "stage": "postseason",
+      "scope": "overregional_candidate",
+      "sport": "baseball_male",
+      "human_sport": "Baseball",
+      "merged": false,
+      "source_groups": [
+        {
+          "id": 6321,
+          "name": "DM Schüler Play-offs",
+          "acronym": "SCH_PO",
+          "sport": "baseball_male",
+          "human_sport": "Baseball",
+          "scope": "overregional_candidate",
+          "match_count": 6,
+          "seed_match_count": 1,
           "bsvbb_club_count": 1,
           "source_fields": [
             "league"
