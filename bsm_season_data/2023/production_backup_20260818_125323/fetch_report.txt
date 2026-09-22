@@ -1,0 +1,27 @@
+BSM SEASON 2023 ADULT BASEBALL FETCH REPORT
+==================================================================================
+Erstellt          : 2026-08-05T09:23:49.737072+00:00
+Saison            : 2023
+Zielverein        : Berlin Sluggers (Club-ID 492)
+Saisonspiele      : 5194
+Erkannte Ligen    : 3 Quellgruppen
+Gespeicherte Ligen: 3
+
+[AUSGEWÄHLTE QUELLGRUPPEN]
+- 2BLHNNOPD        id=5458   level=2-bundesliga    stage=postseason matches=42   Sluggers-Matches=12  name=2. Baseball-Bundesliga Nord-Nordost Play-downs
+- 2BLHNNO          id=5356   level=2-bundesliga    stage=regular    matches=110  Sluggers-Matches=20  name=2. Baseball-Bundesliga Nord-Nordost
+- LLBB             id=5435   level=landesliga      stage=regular    matches=56   Sluggers-Matches=14  name=Landesliga Baseball
+
+[GESPEICHERTE LIGEN]
+- 2. Baseball-Bundesliga Nord-Nordost | key=2-bundesliga-regular-2-baseball-bundesliga-nord-nordost | source=5356 | teams=11 matches=110 batters=234 pitchers=98
+- 2. Baseball-Bundesliga Nord-Nordost Play-downs | key=2-bundesliga-postseason-2-baseball-bundesliga-nord-nordost-play-downs | source=5458 | teams=14 matches=84 batters=275 pitchers=102
+- Landesliga Baseball | key=landesliga-regular-landesliga-baseball | source=5435 | teams=8 matches=56 batters=107 pitchers=27
+
+[AUSGABE]
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2023\season_2023.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2023\discovery.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2023\fetch_report.json
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2023\fetch_report.txt
+- C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\data\seasons\2023.json
+
+season_2023.json enthält alle erkannten Erwachsenenligen der Berlin Sluggers.

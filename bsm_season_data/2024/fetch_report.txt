@@ -1,20 +1,66 @@
-BSM SEASON 2024 ADULT BASEBALL FETCH REPORT
+BSM SEASON 2024 BSVBB FULL FETCH REPORT
 ==================================================================================
-Erstellt          : 2026-08-05T09:26:48.357391+00:00
+Erstellt          : 2026-08-17T14:52:24.813578+00:00
 Saison            : 2024
-Zielverein        : Berlin Sluggers (Club-ID 492)
-Saisonspiele      : 5824
-Erkannte Ligen    : 3 Quellgruppen
-Gespeicherte Ligen: 2
+Discovery-Ligen   : 24 Quellgruppen
+Gespeicherte Ligen: 23
 
 [AUSGEWÄHLTE QUELLGRUPPEN]
-- 2BLHN            id=5652   level=2-bundesliga    stage=regular    matches=132  Sluggers-Matches=12  name=2. Baseball-Bundesliga Nord
-- 2BLHNO           id=5661   level=2-bundesliga    stage=regular    matches=132  Sluggers-Matches=32  name=2. Baseball-Bundesliga Nord-Nordost
-- VLBB             id=5732   level=verbandsliga    stage=regular    matches=75   Sluggers-Matches=16  name=Verbandsliga Baseball
+- VLSB             id=5696   scope=local_bsvbb              level=verbandsliga       stage=regular    matches=24   name=Verbandsliga Softball
+- VLBB             id=5732   scope=local_bsvbb              level=verbandsliga       stage=regular    matches=75   name=Verbandsliga Baseball
+- LLBB             id=5690   scope=local_bsvbb              level=landesliga         stage=regular    matches=42   name=Landesliga Baseball
+- JunBB            id=5691   scope=local_bsvbb              level=junioren           stage=regular    matches=24   name=Juniorenliga Baseball
+- JunSB            id=5697   scope=local_bsvbb              level=juniorinnen        stage=regular    matches=5    name=Junorinnenliga Softball
+- JugABB           id=5692   scope=local_bsvbb              level=jugend             stage=regular    matches=42   name=Jugendaufbauliga Baseball
+- JugBB            id=5693   scope=local_bsvbb              level=jugend             stage=regular    matches=23   name=Jugendliga Baseball
+- SchBB            id=5694   scope=local_bsvbb              level=schueler           stage=regular    matches=57   name=Schülerliga Baseball
+- TossBB           id=5695   scope=local_bsvbb              level=other              stage=regular    matches=12   name=Tossball Baseball
+- 2BLHN            id=5652   scope=overregional_candidate   level=2-bundesliga       stage=regular    matches=132  name=2. Baseball-Bundesliga Nord
+- 2BLHNO           id=5661   scope=overregional_candidate   level=2-bundesliga       stage=regular    matches=132  name=2. Baseball-Bundesliga Nord-Nordost
+- 2BLHPON          id=5740   scope=overregional_candidate   level=2-bundesliga       stage=postseason matches=17   name=2. Baseball-Bundesliga Nord Play-offs
+- BLDN             id=5657   scope=overregional_candidate   level=bundesliga         stage=regular    matches=84   name=Softball-Bundesliga Nord
+- BLDDP            id=5660   scope=overregional_candidate   level=deutschlandpokal   stage=postseason matches=22   name=Deutschlandpokal Softball
+- SBVL-N-A         id=5501   scope=overregional_candidate   level=verbandsliga       stage=regular    matches=20   name=Softball Verbandsliga NORD - A-Pool
+- SCH GR C         id=5777   scope=overregional_candidate   level=dm                 stage=regular    matches=3    name=DM Schüler Gruppe C
+- SCH ZW2          id=5779   scope=overregional_candidate   level=dm                 stage=regular    matches=3    name=DM Schüler Zwischenrunde 2
+- JUN GR B         id=5783   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Junioren Gruppe B
+- JUG GR A         id=5787   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Jugend BB Gruppe A
+- JUGSB GR C       id=5807   scope=overregional_candidate   level=dm                 stage=regular    matches=6    name=DM Jugend SB Gruppe C
+- SCH PO           id=5781   scope=overregional_candidate   level=dm                 stage=postseason matches=5    name=DM Schüler Play-offs
+- JUN PO           id=5784   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Junioren Play-offs
+- JUG PO           id=5789   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Jugend BB Play-offs
+- JUGSB PO         id=5809   scope=overregional_candidate   level=dm                 stage=postseason matches=6    name=DM Jugend SB Play-offs
 
 [GESPEICHERTE LIGEN]
-- 2. Baseball-Bundesliga Nord | key=2-bundesliga-regular-2-baseball-bundesliga-nord | source=5652, 5661 | teams=12 matches=192 batters=295 pitchers=135
-- Verbandsliga Baseball | key=verbandsliga-regular-verbandsliga-baseball | source=5732 | teams=9 matches=75 batters=217 pitchers=66
+- Verbandsliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-verbandsliga-regular-verbandsliga-baseball | source=5732 | teams=9 matches=75 batters=217 pitchers=66
+- Verbandsliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-verbandsliga-regular-verbandsliga-softball | source=5696 | teams=4 matches=24 batters=87 pitchers=29
+- Landesliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-landesliga-regular-landesliga-baseball | source=5690 | teams=7 matches=42 batters=148 pitchers=39
+- Juniorenliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-junioren-regular-juniorenliga-baseball | source=5691 | teams=4 matches=24 batters=79 pitchers=35
+- Junorinnenliga Softball | scope=local_bsvbb | sport=softball_fastpitch_female | key=softball-fastpitch-female-local-bsvbb-juniorinnen-regular-junorinnenliga-softball | source=5697 | teams=2 matches=5 batters=0 pitchers=0
+- Jugendaufbauliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugendaufbauliga-baseball | source=5692 | teams=7 matches=42 batters=0 pitchers=0
+- Jugendliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-jugend-regular-jugendliga-baseball | source=5693 | teams=4 matches=23 batters=71 pitchers=26
+- Schülerliga Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-schueler-regular-schuelerliga-baseball | source=5694 | teams=8 matches=57 batters=22 pitchers=6
+- Tossball Baseball | scope=local_bsvbb | sport=baseball_male | key=baseball-male-local-bsvbb-other-regular-tossball-baseball | source=5695 | teams=3 matches=12 batters=0 pitchers=0
+- 2. Baseball-Bundesliga Nord | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-regular-2-baseball-bundesliga-nord | source=5652, 5661 | teams=12 matches=192 batters=295 pitchers=135
+- 2. Baseball-Bundesliga Nord Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-2-bundesliga-postseason-2-baseball-bundesliga-nord-play-offs | source=5740 | teams=8 matches=17 batters=114 pitchers=34
+    [FAIL] 2BLHPON group_table: HTTP 404: Not Found; body=''
+- Softball-Bundesliga Nord | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-bundesliga-regular-softball-bundesliga-nord | source=5657 | teams=7 matches=84 batters=134 pitchers=45
+- Deutschlandpokal Softball | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-deutschlandpokal-postseason-deutschlandpokal-softball | source=5660 | teams=12 matches=22 batters=137 pitchers=34
+    [FAIL] BLDDP group_table: HTTP 404: Not Found; body=''
+- Softball Verbandsliga NORD - A-Pool | scope=overregional_candidate | sport=softball_fastpitch_mixed | key=softball-fastpitch-mixed-overregional-candidate-verbandsliga-regular-softball-verbandsliga-nord-a-pool | source=5501 | teams=5 matches=20 batters=70 pitchers=15
+- DM Jugend BB Gruppe A | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-jugend-bb-gruppe-a | source=5787 | teams=4 matches=6 batters=0 pitchers=0
+- DM Jugend SB Gruppe C | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-dm-regular-dm-jugend-sb-gruppe-c | source=5807 | teams=4 matches=6 batters=0 pitchers=0
+- DM Junioren Gruppe B | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-junioren-gruppe-b | source=5783 | teams=4 matches=6 batters=55 pitchers=30
+- DM Schüler Gruppe C | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-schueler-gruppe-c | source=5777 | teams=3 matches=3 batters=0 pitchers=0
+- DM Schüler Zwischenrunde 2 | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-regular-dm-schueler-zwischenrunde-2 | source=5779 | teams=3 matches=3 batters=0 pitchers=0
+- DM Jugend BB Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-jugend-bb-play-offs | source=5789 | teams=8 matches=6 batters=0 pitchers=0
+    [FAIL] JUG PO group_table: HTTP 404: Not Found; body=''
+- DM Jugend SB Play-offs | scope=overregional_candidate | sport=softball_fastpitch_female | key=softball-fastpitch-female-overregional-candidate-dm-postseason-dm-jugend-sb-play-offs | source=5809 | teams=8 matches=6 batters=0 pitchers=0
+    [FAIL] JUGSB PO group_table: HTTP 404: Not Found; body=''
+- DM Junioren Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-junioren-play-offs | source=5784 | teams=8 matches=6 batters=72 pitchers=23
+    [FAIL] JUN PO group_table: HTTP 404: Not Found; body=''
+- DM Schüler Play-offs | scope=overregional_candidate | sport=baseball_male | key=baseball-male-overregional-candidate-dm-postseason-dm-schueler-play-offs | source=5781 | teams=6 matches=5 batters=0 pitchers=0
+    [FAIL] SCH PO group_table: HTTP 404: Not Found; body=''
 
 [AUSGABE]
 - C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2024\season_2024.json
@@ -23,4 +69,4 @@ Gespeicherte Ligen: 2
 - C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\bsm_season_data\2024\fetch_report.txt
 - C:\Users\Seokhyun.Choi\Desktop\개인\BB_Baseball_Stats_DE\data\seasons\2024.json
 
-season_2024.json enthält alle erkannten Erwachsenenligen der Berlin Sluggers.
+season_2024.json enthält BSVBB lokale Ligen plus ausgewählte überregionale Ligen.
